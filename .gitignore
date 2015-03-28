@@ -10,3 +10,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/SA/GarageSA/nbproject/private/
+/SA/AgencySA/nbproject/private/
+/SA/scaSA/nbproject/private/
+/SA/test/nbproject/private/
+/WS/GarageWS/nbproject/private/
+/WS/AgencyWS/nbproject/private/
+/SA/garageSA/nbproject/private/
+/SA/agencySA/nbproject/private/
+/SA/garageWS/nbproject/private/
+/WS/agencyWS/nbproject/private/
+/WS/garageWS/nbproject/private/
+/WS/scaWS/nbproject/private/
