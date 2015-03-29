@@ -5,6 +5,8 @@
  */
 package ch.comem.transport;
 
+import ch.comem.model.ExampleModel;
+
 /**
  * Permet de convertir des objets fournis par les services applicatifs en objets transportable (sur le web).
  * Cette classe permet de faire les actions suivantes:
@@ -41,7 +43,7 @@ public class Convertisseurs {
     public static ExampleModel exampleTransportToExample (ExampleTransport et) {
         ExampleModel example = null;
         if (et != null) {
-            example = new ExampleModel(et.getChain(),et.getCollection());
+            example = new ExampleModel(et.getChain());
         }
         return example;   
     }
