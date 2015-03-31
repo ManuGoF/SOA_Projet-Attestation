@@ -2,16 +2,16 @@
     ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 4001, INCREMENT BY 1),
     TEXT VARCHAR(100) NOT NULL,
     WORKER_ID INTEGER NOT NULL,
-    CERTIFICATE_ID INTEGER NOT NULL,
+    CERTIFICATE_NUMBER VARCHAR(50) NOT NULL,
     PRIMARY KEY (ID)
 );
 
-INSERT INTO Comments (TEXT, WORKER_ID, CERTIFICATE_ID)
+INSERT INTO Comments (TEXT, WORKER_ID, CERTIFICATE_NUMBER)
     VALUES
-    ('Commentaire numéro 1', 3001, 1001),
-    ('Commentaire numéro 2', 3002, 1002),
-    ('Commentaire numéro 3', 3003, 1003),
-    ('Commentaire numéro 4', 3004, 1004),
-    ('Commentaire numéro 5', 3005, 1005);
+    ('Commentaire numéro 1', 3001, 'ASS10 5000 1001'),
+    ('Commentaire numéro 2', 3002, 'ASS10 5000 2002'),
+    ('Commentaire numéro 3', 3003, 'ASS10 5000 3003'),
+    ('Commentaire numéro 4', 3004, 'ASS10 5000 4004'),
+    ('Commentaire numéro 5', 3005, 'ASS10 5000 5005');
 
 

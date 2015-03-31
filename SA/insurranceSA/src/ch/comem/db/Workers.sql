@@ -5,16 +5,16 @@
     EMAIL VARCHAR(80) NOT NULL,
     POSITION VARCHAR(20) NOT NULL,
     CHECK (POSITION IN ('garage', 'agence', 'siege', 'direction')),
-    CERTIFICATE_ID INTEGER NOT NULL, 
+    CERTIFICATE_NUMBER VARCHAR(50) NOT NULL, 
     PRIMARY KEY (ID)
 );
 
-INSERT INTO Workers (LASTNAME, FIRSTNAME, EMAIL, POSITION, CERTIFICATE_ID)
+INSERT INTO Workers (LASTNAME, FIRSTNAME, EMAIL, POSITION, CERTIFICATE_NUMBER)
     VALUES
-    ('Mavic', 'Arnold', 'mavic.arnold@gmail.com', 'garage', 1001),
-    ('Bateau', 'Jean', 'bateau.jean@gmail.com', 'garage', 1002),
-    ('Rochat', 'Loic', 'rochat.loic@gmail.com', 'garage', 1003),
-    ('Mayer', 'Justin', 'mayer.justin@gmail.com', 'garage', 1004),
-    ('Wenger', 'Eric', 'wenger.eric@gmail.com', 'garage', 1005);
+    ('Mavic', 'Arnold', 'mavic.arnold@gmail.com', 'garage', 'ASS10 5000 1001'),
+    ('Bateau', 'Jean', 'bateau.jean@gmail.com', 'garage', 'ASS10 5000 2002'),
+    ('Rochat', 'Loic', 'rochat.loic@gmail.com', 'garage', 'ASS10 5000 3003'),
+    ('Mayer', 'Justin', 'mayer.justin@gmail.com', 'garage', 'ASS10 5000 4004'),
+    ('Wenger', 'Eric', 'wenger.eric@gmail.com', 'garage', 'ASS10 5000 5005');
 
 
