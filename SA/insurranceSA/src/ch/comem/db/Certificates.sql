@@ -1,7 +1,7 @@
     CREATE TABLE Certificates (
     ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1001, INCREMENT BY 1),
     STATE VARCHAR(20) NOT NULL,
-    CHECK (STATE IN ('en attente', 'acceptée', 'refusée', 'non conforme')),
+    CHECK (STATE IN ('en attente', 'acceptée', 'refusée')),
     CREATION_DATE DATE NOT NULL,
     CAR_SERIAL_NUMBER INTEGER NOT NULL, 
     WORKER_ID INTEGER NOT NULL, 
