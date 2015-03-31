@@ -20,9 +20,10 @@ import java.util.ResourceBundle;
  * Permet de gérer des clients qui on les paramètres suivants:
  * lastname, firstname, email, birthday, licence_type, licence_date
  * Ce controlleur permet de faire les actions suivantes:
- * - création d'un client dans la BD
- * - 
- * - brécupérer un client de la BD (à partir d'un id).
+ * - création d'un client dans la BD.
+ * - récupération d'un client de la BD à l'aide de son ID.
+ * - suppression d'un client dans la BD et les objets liés en cascade à l'aide de son ID.
+ * - récupération d'une liste de clé->valeur de tous les clients (ID->Client).
  * @author Groupe Manu et Cédric
  */
 public class ClientController {
