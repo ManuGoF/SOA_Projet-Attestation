@@ -1,5 +1,5 @@
 [Ivy]
-[>Created: Tue Mar 31 12:18:49 CEST 2015]
+[>Created: Tue Mar 31 11:44:42 CEST 2015]
 14C6E9A6DE157EC4 3.17 #module
 >Proto >Proto Collection #zClass
 Ac0 AttestationVhc Big #zClass
@@ -91,6 +91,7 @@ Ac0 @PushWFArc f80 '' #zField
 Ac0 @PushWFArc f21 '' #zField
 Ac0 @PushWFArc f43 '' #zField
 Ac0 @PushWFArc f51 '' #zField
+Ac0 @PushWFArc f24 '' #zField
 Ac0 @WSElement f81 '' #zField
 Ac0 @PushWFArc f82 '' #zField
 Ac0 @PushWFArc f83 '' #zField
@@ -103,7 +104,6 @@ Ac0 @PushWFArc f88 '' #zField
 Ac0 @WSElement f64 '' #zField
 Ac0 @PushWFArc f89 '' #zField
 Ac0 @PushWFArc f90 '' #zField
-Ac0 @PushWFArc f91 '' #zField
 >Proto Ac0 Ac0 AttestationVhc #zField
 Ac0 f0 outLink start.ivp #txt
 Ac0 f0 type projetAttestationVhc.Data #txt
@@ -174,13 +174,13 @@ Ac0 f4 returningObjectList '[]' #txt
 Ac0 f4 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <elementInfo>
     <language>
-        <name>WSAssurance : creation certificat provisoire [en attente]</name>
-        <nameStyle>57
+        <name>WSAssurance : creation certificat provisoire [accepté]</name>
+        <nameStyle>54
 </nameStyle>
     </language>
 </elementInfo>
 ' #txt
-Ac0 f4 360 234 304 44 -149 -8 #rect
+Ac0 f4 360 234 304 44 -144 -8 #rect
 Ac0 f4 @|WebServiceIcon #fIcon
 Ac0 f5 expr in #txt
 Ac0 f5 512 176 512 234 #arcP
@@ -1280,6 +1280,8 @@ Ac0 f43 expr in #txt
 Ac0 f43 1908 980 688 542 #arcP
 Ac0 f51 expr out #txt
 Ac0 f51 688 542 512 618 #arcP
+Ac0 f24 expr out #txt
+Ac0 f24 512 278 512 618 #arcP
 Ac0 f81 type projetAttestationVhc.Data #txt
 Ac0 f81 actionDecl 'projetAttestationVhc.Data out;
 ' #txt
@@ -1424,8 +1426,6 @@ Ac0 f89 expr in #txt
 Ac0 f89 2728 1240 2728 1206 #arcP
 Ac0 f90 expr out #txt
 Ac0 f90 2728 1162 2728 1134 #arcP
-Ac0 f91 expr out #txt
-Ac0 f91 512 278 688 498 #arcP
 >Proto Ac0 .type projetAttestationVhc.Data #txt
 >Proto Ac0 .processKind NORMAL #txt
 >Proto Ac0 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -1540,6 +1540,8 @@ Ac0 f43 head f79 mainIn #connect
 Ac0 f46 out f72 tail #connect
 Ac0 f79 mainOut f51 tail #connect
 Ac0 f51 head f23 mainIn #connect
+Ac0 f4 mainOut f24 tail #connect
+Ac0 f24 head f23 mainIn #connect
 Ac0 f75 mainOut f82 tail #connect
 Ac0 f82 head f81 mainIn #connect
 Ac0 f81 mainOut f83 tail #connect
@@ -1556,5 +1558,3 @@ Ac0 f59 out f89 tail #connect
 Ac0 f89 head f64 mainIn #connect
 Ac0 f64 mainOut f90 tail #connect
 Ac0 f90 head f63 mainIn #connect
-Ac0 f4 mainOut f91 tail #connect
-Ac0 f91 head f79 mainIn #connect
