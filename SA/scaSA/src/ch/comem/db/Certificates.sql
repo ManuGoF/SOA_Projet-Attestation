@@ -4,19 +4,15 @@
     CHECK (STATE IN ('en attente', 'acceptée', 'refusée', 'non conforme')),
     CREATION_DATE DATE NOT NULL,
     CAR_SERIAL_NUMBER INTEGER NOT NULL, 
-    WORKER_ID INTEGER NOT NULL, 
     PRIMARY KEY (ID)
 );
 
-INSERT INTO Certificates (STATE, CREATION_DATE, CAR_SERIAL_NUMBER, WORKER_ID)
+/*INSERT INTO Certificates (STATE, CREATION_DATE, CAR_SERIAL_NUMBER, WORKER_ID)
     VALUES
     ('en attente', '2015-03-27', 100000001, 3001),
     ('en attente', '2015-03-28', 100000002, 3002),
     ('en attente', '2015-03-29', 100000003, 3003),
     ('en attente', '2015-03-30', 100000004, 3004),
-    ('en attente', '2015-03-31', 100000005, 3005);
-
-/*ALTER TABLE Peoples
-ADD FOREIGN KEY (AUTO_ID) REFERENCES Autos(SERIAL_NUMBER);*/
+    ('en attente', '2015-03-31', 100000005, 3005);*/
 
 

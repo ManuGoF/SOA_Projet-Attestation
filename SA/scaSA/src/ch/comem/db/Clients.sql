@@ -9,15 +9,13 @@
     PRIMARY KEY (ID)
 );
 
-INSERT INTO Clients (LASTNAME, FIRSTNAME, EMAIL, BIRTHDAY, LICENCE_TYPE, LICENCE_DATE)
+/*INSERT INTO Clients (LASTNAME, FIRSTNAME, EMAIL, BIRTHDAY, LICENCE_TYPE, LICENCE_DATE)
     VALUES
     ('Richir', 'Alexandre', 'richir.alexandre@gmail.com', '1991-04-25', 'B2', '2010-03-22'),
     ('Pojet', 'John', 'pojet.john@gmail.com', '1984-11-18', 'B2', '2007-01-10'),
     ('Rochat', 'Frédéric', 'rochat.frederic@gmail.com', '1989-10-12', 'B2', '2010-11-11'),
     ('Bezencon', 'Manu', 'bezencon.manu', '1990-01-02', 'B2, C2, D1', '2008-08-21'),
-    ('Djarno', 'Luca', 'djarno.luca@gmail.com', '1994-03-09', 'B2, D1', '2013-12-25');
+    ('Djarno', 'Luca', 'djarno.luca@gmail.com', '1994-03-09', 'B2, D1', '2013-12-25');*/
 
-/*ALTER TABLE Peoples
-ADD FOREIGN KEY (AUTO_ID) REFERENCES Autos(SERIAL_NUMBER);*/
 
 
