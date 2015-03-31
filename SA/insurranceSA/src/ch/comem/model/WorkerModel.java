@@ -44,6 +44,7 @@ public class WorkerModel {
      * Attention renvoie une exception si la position est différente que les valeurs admises.
      */
     public WorkerModel(String lastname, String firstname, String email, String position) {
+        System.out.println(email.length());
         if (lastname == null || firstname == null || email == null || position == null) {
             throw new RuntimeException("Worker parameters not define");
         }
@@ -53,8 +54,8 @@ public class WorkerModel {
         if (email.length() > 80) {
             throw new RuntimeException("Email is longer than expected");
         }
-        if (position.equalsIgnoreCase("garage") || position.equalsIgnoreCase("agence") || position.equalsIgnoreCase("siege") || position.equalsIgnoreCase("direction")) {
-            throw new RuntimeException("Email is longer than expected");
+        if (!position.equalsIgnoreCase("garage") || !position.equalsIgnoreCase("agence") || !position.equalsIgnoreCase("siege") || !position.equalsIgnoreCase("direction")) {
+            throw new RuntimeException("Position doesn't exist");
         }
 
         this.lastname = lastname;

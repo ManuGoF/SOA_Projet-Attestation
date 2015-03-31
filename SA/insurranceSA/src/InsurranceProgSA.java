@@ -17,7 +17,7 @@ public class InsurranceProgSA {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "cliengme@gmail.com", "garage");
+        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
         System.out.println(worker);
     }
     

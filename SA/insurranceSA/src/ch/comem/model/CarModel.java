@@ -5,7 +5,8 @@
  */
 package ch.comem.model;
 
-import com.sun.security.ntlm.Client;
+
+
 
 /**
  * Permet de définir l'objet Car.
@@ -46,7 +47,7 @@ public class CarModel {
     /**
      * Client propriétaire du véhicule.
      */
-    public final Client client;
+    public final ClientModel client;
     
     /**
      * Crée l'élément Car.
@@ -61,7 +62,7 @@ public class CarModel {
      * Attention : Lance une exception si certains paramètres String sont plus élevé que 50 caractères.
      * Attention : Lance une exception si certains paramètre String sont plus élevé que 20 caractères.
      */
-    public CarModel(String serial_number, String brand, String model, String type, String color, Double price, Client client) {
+    public CarModel(String serial_number, String brand, String model, String type, String color, Double price, ClientModel client) {
         // Contrôle si les paramètres d'entrée sont fournis
         if (serial_number == null || brand == null || model == null || type == null || color == null || price == 0 || client == null) throw new RuntimeException("Car parameters not define");
         // Contrôle de la longueur des paramètres String fournis
