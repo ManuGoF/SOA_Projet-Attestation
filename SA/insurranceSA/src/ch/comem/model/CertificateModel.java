@@ -21,7 +21,7 @@ public class CertificateModel {
     /**
      * Date de création du certificat.
      */
-    public final Date creation_date;
+    public final String creation_date;
 
     /**
      * Voiture concernée par le certificat.
@@ -38,8 +38,8 @@ public class CertificateModel {
      *
      * @param number de type String correspondant au numero du certificat.
      * @param state de type String correspondant a l'état du certificat.
-     * @param creation_date de type Date correspondant à la date de création du
-     * certificat.
+     * @param creation_date de type String correspondant à la date de création du
+     * certificat ("2015-02-10").
      * @param car de type CarModel correspondant à la voiture concernée.
      * @param worker de type WorkerModel correspondant à l'employé ayant crée le
      * cerficat. Attention : Lance une exception si le paramètre String number
@@ -48,7 +48,7 @@ public class CertificateModel {
      * Lance une exception si le paramètre String state est différent que les
      * valeurs admises ("en attente" | "acceptée" | "refusée").
      */
-    public CertificateModel(String number, String state, Date creation_date, CarModel car, WorkerModel worker) {
+    public CertificateModel(String number, String state, String creation_date, CarModel car, WorkerModel worker) {
         // Contrôle si les paramètres d'entrée sont fournis
         if (number == null || state == null || creation_date == null || car == null || worker == null) {
             throw new RuntimeException("Certificate parameters not define");
