@@ -1,5 +1,7 @@
 
 import ch.comem.controller.CertificateController;
+import ch.comem.controller.WorkerController;
+import ch.comem.model.WorkerModel;
 
 
 
@@ -29,9 +31,15 @@ public class InsurranceProgSA {
 //        System.out.println(CertificateController.createCertificate(certificat).message);
 //  
         
-        System.out.println(CertificateController.readAllCertificates().get(1).car.client.lastname);
-        System.out.println(CertificateController.updateState("ASS10 5000 1001", "acceptée").message);
+//        System.out.println(CertificateController.readAllCertificates().get(1).car.client.lastname);
+//        System.out.println(CertificateController.updateState("ASS10 5000 1001", "acceptée").message);
         
+        
+//        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "cliengme@gmail.com", "direction");
+//        System.out.println(WorkerController.createWorker(worker).message);
+        
+//        System.out.println(CertificateController.readCertificate("ASS10 5000 1001").car.brand);
+        System.out.println(WorkerController.readAllWorkers());
 
     }
 

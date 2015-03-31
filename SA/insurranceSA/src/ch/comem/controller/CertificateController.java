@@ -131,6 +131,39 @@ public class CertificateController {
         }
         return certificates;
     }
+    
+        /**
+     * La methode readBoatsHavingKits() permet de récuper tous les bateaux ayant
+     * un kit attribué
+     *
+     * @return boats - une hash map de bateaux disposant d'un kit
+     * (Map<Integer, Boat>)
+     */
+    public static CertificateModel readCertificate(String number) {
+        Connection con = null;
+        CertificateModel certificate = null;
+        ResourceBundle r = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+
+        try {
+            con = DriverManager.getConnection(r.getString("BDurl"), r.getString("username"), r.getString("password"));
+            Statement requete = con.createStatement();
+            ResultSet ensembleResultats = requete.executeQuery("select * from certificates inner join cars on certificates.car_serial_number = cars.serial_number inner join workers on certificates.worker_id = workers.id inner join clients on cars.client_id = clients.id where certificates.number='"+number+"'");
+            ensembleResultats.next();
+                ClientModel client = new ClientModel(ensembleResultats.getString(19), ensembleResultats.getString(20), ensembleResultats.getString(21), ensembleResultats.getString(22), ensembleResultats.getString(23), ensembleResultats.getString(24));
+                CarModel car = new CarModel(ensembleResultats.getString(6), ensembleResultats.getString(7), ensembleResultats.getString(8), ensembleResultats.getString(9), ensembleResultats.getString(10), ensembleResultats.getDouble(11), client);
+                WorkerModel worker = new WorkerModel(ensembleResultats.getString(14), ensembleResultats.getString(15), ensembleResultats.getString(16), ensembleResultats.getString(17));
+                certificate = new CertificateModel(ensembleResultats.getString(1), ensembleResultats.getString(2), ensembleResultats.getString(3), car, worker);
+            
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return certificate;
+    }
 
     /**
      * La methode removeKitFromBoat permet de retirer un kit a un bateau si le

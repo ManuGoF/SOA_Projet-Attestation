@@ -1,3 +1,5 @@
 NOTEBOOK_PAGE=true
+PALETTE_STATE=4
+PALETTE_WIDTH=125
 SWING_LOOKANDFEEL=de.javasoft.plaf.synthetica.SyntheticaSkyMetallicLookAndFeel
 eclipse.preferences.version=1

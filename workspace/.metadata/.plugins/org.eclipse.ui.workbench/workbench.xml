@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="56" version="2.0">
+<workbench progressCount="67" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="60" y="60">
 <fastViewData fastViewLocation="1024"/>
@@ -14,6 +14,7 @@
 <coolItem id="ch.ivyteam.ivy.designer.ui.preferences.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -21,17 +22,20 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" itemType="typePlaceholder" x="307" y="22"/>
+<coolItem id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1427784702803" focus="true" label="Workspace - Process Model">
+<page aggregateWorkingSetId="Aggregate for window 1427784702803" focus="true" label="Workspace - Rich Dialog">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -39,15 +43,28 @@
 <editor activePart="true" focus="true" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc" partName="AttestationVhc.mod" path="C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" title="AttestationVhc.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
 </editor>
+<editor id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="Data.ivyClass" partName="Data" path="C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" title="Data" tooltip="ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+</editor>
 </editors>
 <views>
 <view id="ch.ivyteam.ivy.designer.project.ui.ProjectView" partName="Axon.ivy Projects">
 <viewState ch.ivyteam.ivy.designer.project.ui.internal.IvyProjectTreeView.linkedWithEditor="1"/>
 </view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" partName="Event Mappings"/>
+<view id="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" partName="Java Beans">
+<viewState/>
+</view>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" partName="Axon.ivy Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -57,8 +74,11 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart" partName="CMS"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" partName="Widget Configuration"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" partName="Data Bindings"/>
 </views>
-<perspectives activePart="ch.ivyteam.ivy.designer.project.ui.ProjectView" activePerspective="ch.ivyteam.ivy.designer.process.ui.processPerspective">
+<perspectives activePart="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" activePerspective="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="ch.ivyteam.ivy.designer.process.ui.ProcessPerspective" id="ch.ivyteam.ivy.designer.process.ui.processPerspective" label="Process Model"/>
 <alwaysOnActionSet id="ivy"/>
@@ -125,9 +145,120 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.8" ratioLeft="508" ratioRight="127" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@55a32e05" ratio="0.81978023" ratioLeft="746" ratioRight="164" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogPerspective" id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogPerspective" label="Rich Dialog"/>
+<alwaysOnActionSet id="ivy"/>
+<alwaysOnActionSet id="ch.ivyteam.ivy.designer.ui.preferences.actionset"/>
+<alwaysOnActionSet id="ch.ivyteam.ivy.designer.search"/>
+<alwaysOnActionSet id="ch.ivyteam.ivy.designer.richdialog.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="ch.ivyteam.ivy.designer.engine.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="ch.ivyteam.ivy.designer.project.ui.ProjectView"/>
+<show_view_action id="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart"/>
+<show_view_action id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view"/>
+<show_view_action id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view"/>
+<show_view_action id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView"/>
+<show_view_action id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.project.ui.wizard.NewIvyProjectWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.process.ui.wizard.NewIvyProcessGroupWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.process.ui.wizard.NewIvyProcessWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.richdialog.ui.wizard.NewHtmlDialogWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.richdialog.ui.wizard.NewRichDialogWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.dialog.jsf.ui.NewJsfViewWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.dataClasses.ui.wizard.NewIvyDataClassWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.dataClasses.ui.wizard.NewIvyEntityClassWizard"/>
+<new_wizard_action id="ch.ivyteam.ivy.designer.override.ui.wizard.NewOverrideWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="ch.ivyteam.ivy.designer.engine.ui.processDevelopmentPerspective"/>
+<perspective_action id="ch.ivyteam.ivy.designer.process.ui.processPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="ch.ivyteam.ivy.designer.project.ui.ProjectView"/>
+<view id="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart"/>
+<view id="org.eclipse.ve.internal.java.codegen.editorpart.BeansList"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="ch.ivyteam.ivy.designer.project.ui.ProjectView" appearance="2" expanded="2">
+<page content="ch.ivyteam.ivy.designer.project.ui.ProjectView" label="Axon.ivy Projects"/>
+<page content="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart" label="CMS"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.65936476" ratioLeft="602" ratioRight="311" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" label="Event Mappings"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" label="Data Bindings"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" label="Widget Configuration"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" appearance="2" expanded="2">
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" label="Axon.ivy Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.49945235" ratioLeft="456" ratioRight="457" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" appearance="2" expanded="2">
+<page content="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" label="Java Beans"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -141,7 +272,87 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java"/>
 </editors>
+<item historyLabel="AttestationVhc.mod" index="0"/>
+<item historyLabel="Data" index="1"/>
+<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
+<position info="not_deleted" x="1015" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
+<position info="not_deleted" x="952" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
+<position info="not_deleted" x="1015" y="0"/>
+</item>
+<item historyLabel="Data" index="1"/>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="Data" index="1"/>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="922" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1339" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="922" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
+<position info="not_deleted" x="1372" y="0"/>
+</item>
+<item historyLabel="Data" index="1"/>
 <item active="true" historyLabel="AttestationVhc.mod" index="0"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -156,11 +367,19 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="SaisieAttestationVhcPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="SaisieAttestationVehiculePanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="Data.ivyClass" tooltip="ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass">
+<persistable path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod">
 <persistable path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
 </file>
