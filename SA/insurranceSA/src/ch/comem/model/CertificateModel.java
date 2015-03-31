@@ -59,7 +59,7 @@ public class CertificateModel {
         if (number.length() > 50 || state.length() > 20) {
             throw new RuntimeException("One or more parameters are longer than expected");
         }
-        if (!state.equalsIgnoreCase("en attente") || !state.equalsIgnoreCase("acceptée") || !state.equalsIgnoreCase("refusée")) {
+        if (!state.equalsIgnoreCase("en attente") && !state.equalsIgnoreCase("acceptée") && !state.equalsIgnoreCase("refusée")) {
             throw new RuntimeException("This state doesn't exist");
         }
         this.number = number;

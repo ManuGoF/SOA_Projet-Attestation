@@ -1,18 +1,7 @@
 
-<<<<<<< HEAD
-import ch.comem.model.CarModel;
-import ch.comem.model.ClientModel;
-import ch.comem.model.WorkerModel;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-=======
-import ch.comem.controller.ClientController;
-import ch.comem.model.ClientModel;
-import ch.comem.model.WorkerModel;
-import java.sql.Date;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
->>>>>>> 79a379e935493a9ad4e8398ce77c82147a6e87b1
+import ch.comem.controller.CertificateController;
+
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -30,10 +19,19 @@ public class InsurranceProgSA {
      */
     public static void main(String[] args) {
        
-        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
-        System.out.println(worker);
-        ClientModel client = new ClientModel("Liengme", "Cedric", "cliengme@gmail.com", new Date(""), "B", new Date(""));
-//        CarModel car = new CarModel("VF7 X2R FVF 7200 5199", "Opel", "Agila", "Break", "BLACK", 89890.0, 2006);
+//        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
+//        System.out.println(worker);
+//        ClientModel client = new ClientModel("Liengme", "Cedric", "cliengme@gmail.com", "1988-02-22", "B", "2015-03-31");
+//        System.out.println(client);
+//        CarModel car = new CarModel("VF7 X2R FVF 7200 5199", "Opel", "Agila", "Break", "BLACK", 89890.0, client);
+//        CertificateModel certificat = new CertificateModel("ASS10 5000 5006", "en attente", "2015-03-31", car, worker);
+//        
+//        System.out.println(CertificateController.createCertificate(certificat).message);
+//  
+        
+        System.out.println(CertificateController.readAllCertificates().get(1).car.client.lastname);
+        System.out.println(CertificateController.updateState("ASS10 5000 1001", "acceptée").message);
+        
 
     }
 
