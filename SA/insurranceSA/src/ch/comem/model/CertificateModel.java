@@ -53,6 +53,9 @@ public class CertificateModel {
         if (number == null || state == null || creation_date == null || car == null || worker == null) {
             throw new RuntimeException("Certificate parameters not define");
         }
+        if (creation_date.length() > 10) {
+            throw new RuntimeException("Date is longer than expected");
+        }
         if (number.length() > 50 || state.length() > 20) {
             throw new RuntimeException("One or more parameters are longer than expected");
         }
