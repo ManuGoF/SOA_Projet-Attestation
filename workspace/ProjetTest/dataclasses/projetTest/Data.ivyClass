@@ -1,0 +1,12 @@
+Data #class
+projetTest #namespace
+prenom String #field
+prenom PERSISTENT #fieldModifier
+raison String #field
+raison PERSISTENT #fieldModifier
+prix Number #field
+prix PERSISTENT #fieldModifier
+listeBoatTransport List<ch.comem.ws.BoatTransport> #field
+listeBoatTransport PERSISTENT #fieldModifier
+boatTransport ch.comem.ws.BoatTransport #field
+boatTransport PERSISTENT #fieldModifier

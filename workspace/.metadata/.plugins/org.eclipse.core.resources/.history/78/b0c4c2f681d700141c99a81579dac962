@@ -1,0 +1,366 @@
+[Ivy]
+[>Created: Tue Mar 31 10:19:03 CEST 2015]
+14C6E9A6DE157EC4 3.17 #module
+>Proto >Proto Collection #zClass
+Ac0 AttestationVhc Big #zClass
+Ac0 B #cInfo
+Ac0 #process
+Ac0 @TextInP .resExport .resExport #zField
+Ac0 @TextInP .type .type #zField
+Ac0 @TextInP .processKind .processKind #zField
+Ac0 @AnnotationInP-0n ai ai #zField
+Ac0 @MessageFlowInP-0n messageIn messageIn #zField
+Ac0 @MessageFlowOutP-0n messageOut messageOut #zField
+Ac0 @TextInP .xml .xml #zField
+Ac0 @TextInP .responsibility .responsibility #zField
+Ac0 @StartRequest f0 '' #zField
+Ac0 @RichDialog f1 '' #zField
+Ac0 @PushWFArc f2 '' #zField
+Ac0 @Alternative f3 '' #zField
+Ac0 @WSElement f4 '' #zField
+Ac0 @PushWFArc f5 '' #zField
+Ac0 @PushWFArc f6 '' #zField
+Ac0 @RichDialog f7 '' #zField
+Ac0 @PushWFArc f8 '' #zField
+Ac0 @Alternative f9 '' #zField
+Ac0 @EndTask f10 '' #zField
+Ac0 @PushWFArc f11 '' #zField
+Ac0 @PushWFArc f12 '' #zField
+Ac0 @TaskSwitchSimple f13 '' #zField
+Ac0 @TkArc f14 '' #zField
+Ac0 @RichDialog f15 '' #zField
+Ac0 @PushWFArc f16 '' #zField
+Ac0 @Alternative f17 '' #zField
+Ac0 @PushWFArc f18 '' #zField
+Ac0 @Alternative f19 '' #zField
+Ac0 @PushWFArc f20 '' #zField
+Ac0 @WSElement f21 '' #zField
+Ac0 @PushWFArc f22 '' #zField
+>Proto Ac0 Ac0 AttestationVhc #zField
+Ac0 f0 outLink start.ivp #txt
+Ac0 f0 type projetAttestationVhc.Data #txt
+Ac0 f0 inParamDecl '<> param;' #txt
+Ac0 f0 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f0 guid 14C6E9A6E757D29F #txt
+Ac0 f0 requestEnabled true #txt
+Ac0 f0 triggerEnabled false #txt
+Ac0 f0 callSignature start() #txt
+Ac0 f0 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>start.ivp</name>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f0 @C|.responsibility Everybody #txt
+Ac0 f0 81 49 30 30 -21 17 #rect
+Ac0 f0 @|StartRequestIcon #fIcon
+Ac0 f1 targetWindow NEW:card: #txt
+Ac0 f1 targetDisplay TOP #txt
+Ac0 f1 startMethod start() #txt
+Ac0 f1 type projetAttestationVhc.Data #txt
+Ac0 f1 requestActionDecl '<> param;' #txt
+Ac0 f1 responseActionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f1 responseMappingAction 'out=in;
+' #txt
+Ac0 f1 windowConfiguration '* ' #txt
+Ac0 f1 isAsynch false #txt
+Ac0 f1 isInnerRd false #txt
+Ac0 f1 userContext '* ' #txt
+Ac0 f1 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Saisie attestation provisoire</name>
+        <nameStyle>29
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f1 216 28 160 72 -76 -8 #rect
+Ac0 f1 @|RichDialogIcon #fIcon
+Ac0 f2 expr out #txt
+Ac0 f2 111 64 216 64 #arcP
+Ac0 f3 type projetAttestationVhc.Data #txt
+Ac0 f3 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Prix &lt; 30000</name>
+        <nameStyle>12
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f3 496 48 32 32 -34 18 #rect
+Ac0 f3 @|AlternativeIcon #fIcon
+Ac0 f4 type projetAttestationVhc.Data #txt
+Ac0 f4 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f4 actionTable 'out=in;
+' #txt
+Ac0 f4 cache '{/cache false /invalidation false /scope 0 /groupname ""/lifetime_group "0"/invalidation_time_group ""/identifier ""/lifetime_entry "0"/invalidation_time_entry ""}' #txt
+Ac0 f4 timeout 0 #txt
+Ac0 f4 beanConfig "" #txt
+Ac0 f4 returningObjectList '[]' #txt
+Ac0 f4 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>WSAssurance : creation certificat provisoire</name>
+        <nameStyle>44
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f4 392 138 240 44 -117 -8 #rect
+Ac0 f4 @|WebServiceIcon #fIcon
+Ac0 f5 expr in #txt
+Ac0 f5 512 80 512 138 #arcP
+Ac0 f6 expr out #txt
+Ac0 f6 376 64 496 64 #arcP
+Ac0 f7 targetWindow NEW:card: #txt
+Ac0 f7 targetDisplay TOP #txt
+Ac0 f7 startMethod start() #txt
+Ac0 f7 type projetAttestationVhc.Data #txt
+Ac0 f7 requestActionDecl '<> param;' #txt
+Ac0 f7 responseActionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f7 responseMappingAction 'out=in;
+' #txt
+Ac0 f7 windowConfiguration '* ' #txt
+Ac0 f7 isAsynch false #txt
+Ac0 f7 isInnerRd false #txt
+Ac0 f7 userContext '* ' #txt
+Ac0 f7 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Demande retrait attestation</name>
+        <nameStyle>27
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f7 656 28 160 72 -74 -8 #rect
+Ac0 f7 @|RichDialogIcon #fIcon
+Ac0 f8 expr in #txt
+Ac0 f8 528 64 656 64 #arcP
+Ac0 f9 type projetAttestationVhc.Data #txt
+Ac0 f9 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Demande retirée</name>
+        <nameStyle>15
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f9 888 48 32 32 -46 18 #rect
+Ac0 f9 @|AlternativeIcon #fIcon
+Ac0 f10 type projetAttestationVhc.Data #txt
+Ac0 f10 985 49 30 30 0 15 #rect
+Ac0 f10 @|EndIcon #fIcon
+Ac0 f11 expr out #txt
+Ac0 f11 816 64 888 64 #arcP
+Ac0 f12 expr in #txt
+Ac0 f12 920 64 985 64 #arcP
+Ac0 f13 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f13 actionTable 'out=in1;
+' #txt
+Ac0 f13 outTypes "projetAttestationVhc.Data" #txt
+Ac0 f13 outLinks "TaskA.ivp" #txt
+Ac0 f13 caseData '#
+#Tue Mar 31 10:12:05 CEST 2015
+businessCalendarName=
+businessCreator.user=
+businessMilestone.timestamp=
+businessObject.code=
+businessObject.docDb.code=
+businessObject.folder.id=
+businessObject.name=
+businessPriority=
+businessStart.timestamp=
+case.description=
+case.name=
+correspondent.id=
+mainContact.docDb.code=
+mainContact.folder.id=
+mainContact.id=
+mainContact.name=
+mainContact.type=
+process.code=
+process.name=
+processCategory.code=
+processCategory.name=
+subType.code=
+subType.name=
+type.code=
+type.name=
+' #txt
+Ac0 f13 taskData '#
+#Tue Mar 31 10:12:05 CEST 2015
+' #txt
+Ac0 f13 taskAction 'import ch.ivyteam.ivy.workflow.TaskDefinition;
+List<TaskDefinition> taskDefinitions;
+TaskDefinition taskDef;import ch.ivyteam.ivy.request.impl.DefaultCalendarProxy;
+DefaultCalendarProxy calendarProxy = ivy.cal as DefaultCalendarProxy;
+taskDef = new TaskDefinition();
+taskDef.setStartRequestPath("TaskA.ivp");
+taskDef.setAutoStartTask(false);
+taskDef.setActivator("Everybody");
+taskDef.setPriority(ch.ivyteam.ivy.workflow.WorkflowPriority.valueOf(2));
+taskDef.setExpiryActivator("Everybody");
+taskDef.setExpiryPriority(ch.ivyteam.ivy.workflow.WorkflowPriority.valueOf(2));
+taskDefinitions.add(taskDef);
+' #txt
+Ac0 f13 type projetAttestationVhc.Data #txt
+Ac0 f13 template "" #txt
+Ac0 f13 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Analyse de la demande</name>
+        <nameStyle>21
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f13 889 273 30 30 -64 17 #rect
+Ac0 f13 @|TaskSwitchSimpleIcon #fIcon
+Ac0 f14 expr in #txt
+Ac0 f14 type projetAttestationVhc.Data #txt
+Ac0 f14 var in1 #txt
+Ac0 f14 904 80 904 273 #arcP
+Ac0 f15 targetWindow NEW:card: #txt
+Ac0 f15 targetDisplay TOP #txt
+Ac0 f15 type projetAttestationVhc.Data #txt
+Ac0 f15 requestActionDecl '<> param;' #txt
+Ac0 f15 responseActionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f15 responseMappingAction 'out=in;
+' #txt
+Ac0 f15 windowConfiguration '* ' #txt
+Ac0 f15 isAsynch false #txt
+Ac0 f15 isInnerRd false #txt
+Ac0 f15 userContext '* ' #txt
+Ac0 f15 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Analyse de la demande</name>
+        <nameStyle>21
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f15 1000 266 144 44 -64 -8 #rect
+Ac0 f15 @|RichDialogIcon #fIcon
+Ac0 f16 expr data #txt
+Ac0 f16 outCond ivp=="TaskA.ivp" #txt
+Ac0 f16 919 288 1000 288 #arcP
+Ac0 f17 type projetAttestationVhc.Data #txt
+Ac0 f17 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Elements non couverts</name>
+        <nameStyle>21
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f17 1200 272 32 32 -63 18 #rect
+Ac0 f17 @|AlternativeIcon #fIcon
+Ac0 f18 expr out #txt
+Ac0 f18 1144 288 1200 288 #arcP
+Ac0 f19 type projetAttestationVhc.Data #txt
+Ac0 f19 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Prix &lt; 60000</name>
+        <nameStyle>12
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f19 1200 384 32 32 -34 18 #rect
+Ac0 f19 @|AlternativeIcon #fIcon
+Ac0 f20 expr in #txt
+Ac0 f20 1216 304 1216 384 #arcP
+Ac0 f21 type projetAttestationVhc.Data #txt
+Ac0 f21 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f21 actionTable 'out=in;
+' #txt
+Ac0 f21 cache '{/cache false /invalidation false /scope 0 /groupname ""/lifetime_group "0"/invalidation_time_group ""/identifier ""/lifetime_entry "0"/invalidation_time_entry ""}' #txt
+Ac0 f21 timeout 0 #txt
+Ac0 f21 beanConfig "" #txt
+Ac0 f21 returningObjectList '[]' #txt
+Ac0 f21 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>WSSCA : creation certificat provisoire</name>
+        <nameStyle>38
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f21 1352 378 208 44 -100 -8 #rect
+Ac0 f21 @|WebServiceIcon #fIcon
+Ac0 f22 expr in #txt
+Ac0 f22 1232 400 1352 400 #arcP
+>Proto Ac0 .type projetAttestationVhc.Data #txt
+>Proto Ac0 .processKind NORMAL #txt
+>Proto Ac0 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <swimlaneLabel>Garagiste</swimlaneLabel>
+        <swimlaneLabel>Assurance (Agence)</swimlaneLabel>
+        <swimlaneLabel>Assurance (Siège)</swimlaneLabel>
+        <swimlaneLabel>Assurance (Direction)</swimlaneLabel>
+        <swimlaneLabel>SCA</swimlaneLabel>
+    </language>
+    <swimlaneOrientation>false</swimlaneOrientation>
+    <swimlaneSize>192</swimlaneSize>
+    <swimlaneSize>288</swimlaneSize>
+    <swimlaneSize>192</swimlaneSize>
+    <swimlaneSize>192</swimlaneSize>
+    <swimlaneSize>192</swimlaneSize>
+    <swimlaneColor gradient="false">-3355444</swimlaneColor>
+    <swimlaneColor gradient="false">-3355393</swimlaneColor>
+    <swimlaneColor gradient="false">-3355393</swimlaneColor>
+    <swimlaneColor gradient="false">-3355393</swimlaneColor>
+    <swimlaneColor gradient="false">-13108</swimlaneColor>
+    <swimlaneType>LANE</swimlaneType>
+    <swimlaneType>LANE</swimlaneType>
+    <swimlaneType>LANE</swimlaneType>
+    <swimlaneType>LANE</swimlaneType>
+    <swimlaneType>LANE</swimlaneType>
+    <swimlaneSpaceBefore>0</swimlaneSpaceBefore>
+    <swimlaneSpaceBefore>0</swimlaneSpaceBefore>
+    <swimlaneSpaceBefore>0</swimlaneSpaceBefore>
+    <swimlaneSpaceBefore>0</swimlaneSpaceBefore>
+    <swimlaneSpaceBefore>0</swimlaneSpaceBefore>
+</elementInfo>
+' #txt
+>Proto Ac0 0 0 32 24 18 0 #rect
+>Proto Ac0 @|BIcon #fIcon
+Ac0 f0 mainOut f2 tail #connect
+Ac0 f2 head f1 mainIn #connect
+Ac0 f3 out f5 tail #connect
+Ac0 f5 head f4 mainIn #connect
+Ac0 f1 mainOut f6 tail #connect
+Ac0 f6 head f3 in #connect
+Ac0 f3 out f8 tail #connect
+Ac0 f8 head f7 mainIn #connect
+Ac0 f7 mainOut f11 tail #connect
+Ac0 f11 head f9 in #connect
+Ac0 f9 out f12 tail #connect
+Ac0 f12 head f10 mainIn #connect
+Ac0 f9 out f14 tail #connect
+Ac0 f14 head f13 in #connect
+Ac0 f13 out f16 tail #connect
+Ac0 f16 head f15 mainIn #connect
+Ac0 f15 mainOut f18 tail #connect
+Ac0 f18 head f17 in #connect
+Ac0 f17 out f20 tail #connect
+Ac0 f20 head f19 in #connect
+Ac0 f19 out f22 tail #connect
+Ac0 f22 head f21 mainIn #connect

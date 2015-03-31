@@ -1,0 +1,3 @@
+RIAtest2Data #class
+projetTest.RIAtest2 #namespace
+listeBoatTransport List<ch.comem.ws.BoatTransport> #field

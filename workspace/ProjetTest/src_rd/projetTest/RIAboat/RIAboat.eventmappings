@@ -1,0 +1,4 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-03-30 15:02:34 | 5.1.4.48243 | 1.0
+~.Button@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C6A9F742EB75A5/14C6AA63AA06376D # RIAboatProcess.mod/UD_Event_Start1
+~@RD_METHODCALL[start()]--->ch.ivyteam.ivy.process.ProcessStart:14C6A9F742EB75A5/14C6A9F749363032

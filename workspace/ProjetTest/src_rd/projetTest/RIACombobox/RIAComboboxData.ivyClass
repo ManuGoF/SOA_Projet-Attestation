@@ -1,0 +1,3 @@
+RIAComboboxData #class
+projetTest.RIACombobox #namespace
+listeBoatTransport List<ch.comem.ws.BoatTransport> #field

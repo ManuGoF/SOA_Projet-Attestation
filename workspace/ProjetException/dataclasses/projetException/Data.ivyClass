@@ -1,0 +1,4 @@
+Data #class
+projetException #namespace
+montantDot Number #field
+montantDot PERSISTENT #fieldModifier

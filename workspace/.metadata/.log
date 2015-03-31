@@ -1,0 +1,426 @@
+!SESSION 2015-03-31 10:10:22.201 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.365
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.391
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.391
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.392
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.393
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.394
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.395
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.395
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.396
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.396
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.397
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.397
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.398
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.398
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.399
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.399
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.399
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.400
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.400
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.401
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.401
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.402
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.402
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.403
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.404
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.404
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.404
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.405
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.405
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.406
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.406
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.407
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.407
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.408
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.408
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.409
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.409
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.409
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.410
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.410
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.411
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.411
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.411
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.412
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.412
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.413
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.413
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.414
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.414
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.415
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.415
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.416
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.416
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.416
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.417
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.418
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.418
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.418
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.419
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.419
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.420
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.420
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.421
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.421
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.421
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.422
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.422
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.423
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.423
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.424
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.424
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.425
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.425
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.426
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.426
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.427
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.427
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.428
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.428
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.429
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.429
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.430
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.430
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.431
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.431
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.432
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.432
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.432
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.433
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.433
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.434
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.434
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.435
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.435
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.436
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.436
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.437
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.437
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.438
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.438
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.439
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.439
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.440
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.440
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.441
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.442
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.442
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.443
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.443
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.444
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.444
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.445
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.445
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.446
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.446
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.447
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.447
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.448
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.448
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.449
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.449
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.450
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.450
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.451
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.451
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.452
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2015-03-31 10:57:47.452
+!MESSAGE Required attribute "label" missing from "topic" element in "/ch.ivyteam.ivy.designer.help/generatedContext.xml" (skipping element)
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.841
+!MESSAGE NLS unused message: TextAdvisor_OK in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.842
+!MESSAGE NLS unused message: TextAdvisor_YES in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.843
+!MESSAGE NLS unused message: TextAdvisor_NO in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.844
+!MESSAGE NLS unused message: TextAdvisor_CANCEL in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.845
+!MESSAGE NLS unused message: ErrorDialog_FatalError in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.845
+!MESSAGE NLS unused message: ErrorDialog_Error in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.846
+!MESSAGE NLS unused message: ErrorDialog_Exit in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.847
+!MESSAGE NLS unused message: ErrorDialog_Close in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.848
+!MESSAGE NLS unused message: ErrorDialog_Copy in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.848
+!MESSAGE NLS unused message: ErrorDialog_Help in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.849
+!MESSAGE NLS unused message: ErrorDialog_Reason in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.850
+!MESSAGE NLS unused message: ErrorDialog_More in: ch.ivyteam.swt.dialogs.textres
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-31 11:16:56.851
+!MESSAGE NLS unused message: ErrorDialog_Less in: ch.ivyteam.swt.dialogs.textres

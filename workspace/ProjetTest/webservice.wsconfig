@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webServiceConfigurationNode>
+    <id>14C69F0869CB2FBA</id>
+    <webServiceConfig>
+        <name>WsBoatTransport</name>
+        <id>14C69EDF14641525</id>
+        <description></description>
+        <wsdlUrl>http://localhost:8080/BoatWS/BoatWS?WSDL</wsdlUrl>
+        <transportSession>false</transportSession>
+        <sessionHandlingMode>0</sessionHandlingMode>
+        <wsdlGeneratedInfo>
+            <axisLocatorClassname></axisLocatorClassname>
+            <axisNamespacesNew>http\://ws.comem.ch/=ch.comem.ws</axisNamespacesNew>
+            <axisOperationsToPort>BoatWSPort=&quot;deleteBoat&quot;,&quot;deleteKit&quot;,&quot;createKit&quot;,&quot;createBoat&quot;,&quot;attributeKitToBoat&quot;,&quot;removeKitFromBoat&quot;,&quot;readBoatsHavingKits&quot;</axisOperationsToPort>
+            <axisEndPointForPortType>BoatWSPort=http\://localhost\:8080/BoatWS/BoatWS</axisEndPointForPortType>
+            <axisParameterProperties>BoatWSPortreadBoatsHavingKits=&quot;arg0__@@__ch.comem.ws.ReadBoatsHavingKitsE__@@__&quot;
+BoatWSPortdeleteBoat=&quot;arg0__@@__ch.comem.ws.DeleteBoatE__@@__&quot;
+BoatWSPortcreateBoat=&quot;arg0__@@__ch.comem.ws.CreateBoatE__@@__&quot;
+BoatWSPortremoveKitFromBoat=&quot;arg0__@@__ch.comem.ws.RemoveKitFromBoatE__@@__&quot;
+BoatWSPortattributeKitToBoat=&quot;arg0__@@__ch.comem.ws.AttributeKitToBoatE__@@__&quot;
+BoatWSPortdeleteKit=&quot;arg0__@@__ch.comem.ws.DeleteKitE__@@__&quot;
+BoatWSPortcreateKit=&quot;arg0__@@__ch.comem.ws.CreateKitE__@@__&quot;</axisParameterProperties>
+            <axisPortList>BoatWSPort</axisPortList>
+            <axisStubClassnameList>ch.comem.ws.BoatWSStub</axisStubClassnameList>
+            <axisReturnTypes>BoatWSPortreadBoatsHavingKits=ch.comem.ws.ReadBoatsHavingKitsResponseE
+BoatWSPortdeleteBoat=ch.comem.ws.DeleteBoatResponseE
+BoatWSPortcreateBoat=ch.comem.ws.CreateBoatResponseE
+BoatWSPortremoveKitFromBoat=ch.comem.ws.RemoveKitFromBoatResponseE
+BoatWSPortattributeKitToBoat=ch.comem.ws.AttributeKitToBoatResponseE
+BoatWSPortdeleteKit=ch.comem.ws.DeleteKitResponseE
+BoatWSPortcreateKit=ch.comem.ws.CreateKitResponseE</axisReturnTypes>
+            <axisServiceClassname>ch.comem.ws.BoatWS</axisServiceClassname>
+            <axisUsedJavaclasses>&quot;ch\\comem\\ws\\AttributeKitToBoat.java&quot;,&quot;ch\\comem\\ws\\AttributeKitToBoatE.java&quot;,&quot;ch\\comem\\ws\\AttributeKitToBoatResponse.java&quot;,&quot;ch\\comem\\ws\\AttributeKitToBoatResponseE.java&quot;,&quot;ch\\comem\\ws\\BoatTransport.java&quot;,&quot;ch\\comem\\ws\\BoatWS.java&quot;,&quot;ch\\comem\\ws\\BoatWSStub.java&quot;,&quot;ch\\comem\\ws\\CreateBoat.java&quot;,&quot;ch\\comem\\ws\\CreateBoatE.java&quot;,&quot;ch\\comem\\ws\\CreateBoatResponse.java&quot;,&quot;ch\\comem\\ws\\CreateBoatResponseE.java&quot;,&quot;ch\\comem\\ws\\CreateKit.java&quot;,&quot;ch\\comem\\ws\\CreateKitE.java&quot;,&quot;ch\\comem\\ws\\CreateKitResponse.java&quot;,&quot;ch\\comem\\ws\\CreateKitResponseE.java&quot;,&quot;ch\\comem\\ws\\DeleteBoat.java&quot;,&quot;ch\\comem\\ws\\DeleteBoatE.java&quot;,&quot;ch\\comem\\ws\\DeleteBoatResponse.java&quot;,&quot;ch\\comem\\ws\\DeleteBoatResponseE.java&quot;,&quot;ch\\comem\\ws\\DeleteKit.java&quot;,&quot;ch\\comem\\ws\\DeleteKitE.java&quot;,&quot;ch\\comem\\ws\\DeleteKitResponse.java&quot;,&quot;ch\\comem\\ws\\DeleteKitResponseE.java&quot;,&quot;ch\\comem\\ws\\ExtensionMapper.java&quot;,&quot;ch\\comem\\ws\\KitTransport.java&quot;,&quot;ch\\comem\\ws\\ReadBoatsHavingKits.java&quot;,&quot;ch\\comem\\ws\\ReadBoatsHavingKitsE.java&quot;,&quot;ch\\comem\\ws\\ReadBoatsHavingKitsResponse.java&quot;,&quot;ch\\comem\\ws\\ReadBoatsHavingKitsResponseE.java&quot;,&quot;ch\\comem\\ws\\RemoveKitFromBoat.java&quot;,&quot;ch\\comem\\ws\\RemoveKitFromBoatE.java&quot;,&quot;ch\\comem\\ws\\RemoveKitFromBoatResponse.java&quot;,&quot;ch\\comem\\ws\\RemoveKitFromBoatResponseE.java&quot;,&quot;ch\\comem\\ws\\ResponseTransport.java&quot;</axisUsedJavaclasses>
+            <codeGenerationTimestamp>1427706477202</codeGenerationTimestamp>
+            <wsdlWebserviceName>BoatWS</wsdlWebserviceName>
+            <wsClassGenerationImplementationUsed>AXIS_2_0</wsClassGenerationImplementationUsed>
+            <jarPacked>true</jarPacked>
+        </wsdlGeneratedInfo>
+        <webServiceVersion/>
+    </webServiceConfig>
+</webServiceConfigurationNode>

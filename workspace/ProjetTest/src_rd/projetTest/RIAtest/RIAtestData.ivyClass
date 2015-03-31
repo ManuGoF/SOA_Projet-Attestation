@@ -1,0 +1,6 @@
+RIAtestData #class
+projetTest.RIAtest #namespace
+prenomRIA String #field
+prixRIA Number #field
+boatTransportRIA ch.comem.ws.BoatTransport #field
+boatTransportRIA PERSISTENT #fieldModifier

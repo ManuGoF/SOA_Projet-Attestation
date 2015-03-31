@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ch.ivyteam.ivy.designer.process.ui.inscriptionMasks.InscriptionDialog#0">
+		<item value="640" key="DIALOG_WIDTH"/>
+		<item value="311" key="DIALOG_Y_ORIGIN"/>
+		<item value="730" key="DIALOG_HEIGHT"/>
+		<item value="1041" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ch.ivyteam.ivy.designer.richdialog.ui.wizard.NewRichDialogWizard">
+		<item value="ULC" key="ViewTechnology"/>
+	</section>
+</section>

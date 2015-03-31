@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userConfig>
+    <user>
+        <username>Cedric</username>
+        <password>1234</password>
+        <fullName>Cedric Liengme</fullName>
+        <emailAddress>cliengme@gmail.com</emailAddress>
+        <role>Garage</role>
+    </user>
+</userConfig>
