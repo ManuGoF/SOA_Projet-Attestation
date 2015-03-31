@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmi:id="ChangeDescription_1427801156067">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801156067" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#Color">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156067" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156067" referenceValues="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.util.Color.override.xmi#BasePropertyDecorator_1427801156067"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator" xmi:id="BasePropertyDecorator_1427801156067" labelProviderClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.BeanCellRenderer:com.canoo.ulc.visualeditor.beaninfo.ColorEditor" cellEditorClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.BeanFeatureEditor:com.canoo.ulc.visualeditor.beaninfo.ColorEditor"/>
+</change:ChangeDescription>

@@ -1,0 +1,54 @@
+package projetAttestationVhc.SaisieAttestationVhc;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogGridBagPanel;
+import ch.ivyteam.ivy.richdialog.widgets.components.RTextField;
+
+/**
+ * <p>SaisieAttestationVhcPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class SaisieAttestationVhcPanel extends RichDialogGridBagPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RTextField TextField = null;
+  
+  /**
+   * Create a new instance of SaisieAttestationVhcPanel
+   */
+  public SaisieAttestationVhcPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes SaisieAttestationVhcPanel
+   * @return void
+   */
+  private void initialize()
+  {
+        this.setPreferredSize(new com.ulcjava.base.application.util.Dimension(708,495));
+        this.add(getTextField(), new com.ulcjava.base.application.GridBagConstraints(0, 0, 1, 2, -1, -1, com.ulcjava.base.application.GridBagConstraints.CENTER, com.ulcjava.base.application.GridBagConstraints.NONE, new com.ulcjava.base.application.util.Insets(0,0,0,0), 0, 0));
+  }
+
+/**
+ * This method initializes TextField	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getTextField() {
+	if (TextField == null) {
+		TextField = new RTextField();
+		TextField.setText("TextField");
+		TextField.setName("TextField");
+	}
+	return TextField;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

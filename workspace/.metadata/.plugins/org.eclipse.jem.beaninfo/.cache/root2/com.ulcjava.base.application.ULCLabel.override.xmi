@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmi:id="ChangeDescription_1427801626458">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801626458" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCLabel">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801626458" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801626458" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCLabel.override.xmi#ClassDescriptorDecorator_1427801626458"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801626459" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801626459" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCLabel.override.xmi#EReference_1427801626458"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427801626458" graphViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.graphical.ULCComponentGraphicalEditPart:true" modelAdapterClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.propertysheet.ULCComponentConstraintAndContainmentHandler" labelProviderClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.DefaultLabelProviderWithNameAndAttribute:text">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427801626458" resourceName="platform:/plugin/org.eclipse.ve.jfc/icons/full/clcl16/label_obj.gif"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801626458" name="displayedMnemonic" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator" xmi:id="BasePropertyDecorator_1427801626458" labelProviderClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.BeanCellRenderer:com.canoo.ulc.visualeditor.beaninfo.MnemonicEditor" cellEditorClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.BeanFeatureEditor:com.canoo.ulc.visualeditor.beaninfo.MnemonicEditor"/>
+  </objectsToAttach>
+</change:ChangeDescription>

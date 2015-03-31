@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmi:id="ChangeDescription_1427801156334">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801156334" key="org.eclipse.jem.java:JavaClass java:/java.lang#Integer">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156334" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156334" referenceValues="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.Integer.override.xmi#BasePropertyDecorator_1427801156334"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator" xmi:id="BasePropertyDecorator_1427801156334" labelProviderClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.NumberJavaLabelProvider" cellEditorClassname="org.eclipse.ve.java.core/org.eclipse.ve.internal.java.core.NumberJavaCellEditor:java.lang.Integer"/>
+</change:ChangeDescription>

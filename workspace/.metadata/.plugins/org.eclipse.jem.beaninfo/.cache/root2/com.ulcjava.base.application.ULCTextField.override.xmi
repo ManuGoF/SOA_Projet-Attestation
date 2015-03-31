@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427801156162">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801156162" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCTextField">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156163" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156163" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTextField.override.xmi#ClassDescriptorDecorator_1427801156163"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156164" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTextField.override.xmi#BeanDecorator_1427801156163"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427801156163" graphViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.graphical.ULCComponentGraphicalEditPart:true" modelAdapterClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.propertysheet.ULCComponentConstraintAndContainmentHandler">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427801156163" resourceName="platform:/plugin/org.eclipse.ve.jfc/icons/full/clcl16/textfield_obj.gif"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427801156163" beanProxyClassName="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.proxy.ULCTextComponentProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
+</change:ChangeDescription>

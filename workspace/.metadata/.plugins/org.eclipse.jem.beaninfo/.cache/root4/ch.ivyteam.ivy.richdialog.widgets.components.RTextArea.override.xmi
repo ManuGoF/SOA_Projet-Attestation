@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmi:id="ChangeDescription_1427801279288">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279288" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets.components#RTextArea">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279288" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279288" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.components.RTextArea.override.xmi#ClassDescriptorDecorator_1427801279288"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427801279288" graphViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.graphical.ULCComponentGraphicalEditPart:true" modelAdapterClassname="ch.ivyteam.ivy.richdialog.visualeditor/ch.ivyteam.ivy.richdialog.visualeditor.decoder.RComponentConstraintAndContainmentHandler"/>
+</change:ChangeDescription>

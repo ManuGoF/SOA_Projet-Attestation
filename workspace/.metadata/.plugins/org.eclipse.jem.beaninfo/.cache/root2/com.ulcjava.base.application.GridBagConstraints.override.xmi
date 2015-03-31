@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801279393">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279393" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#GridBagConstraints">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279393" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279393" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279393"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279394" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279394"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279395" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279395"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279396" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279396"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279397" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279397"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279398" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279398"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279399" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279399"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279400" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279400"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279401" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279401"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279402" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279402"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279403" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.override.xmi#EReference_1427801279403"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279393" name="fill" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279393" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getFill("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279394" name="anchor" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279394" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getAnchor("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279395" name="gridHeight" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279395" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getGridHeight("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279396" name="gridWidth" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279396" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getGridWidth("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279397" name="gridX" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279397" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getGridX("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279398" name="gridY" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279398" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getGridY("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279399" name="insets" eType="ecore:EClass java:/com.ulcjava.base.application.utils#Insets" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279399" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getInsets("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279400" name="IPadX" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279400" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getIPadX("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279401" name="IPadY" eType="ecore:EClass java:/#int" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279401" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getIPadY("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279402" name="weightX" eType="ecore:EClass java:/#double" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279402" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getWeightX("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279403" name="weightY" eType="ecore:EClass java:/#double" unsettable="true" containment="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279403" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.getWeightY("/>
+  </objectsToAttach>
+</change:ChangeDescription>

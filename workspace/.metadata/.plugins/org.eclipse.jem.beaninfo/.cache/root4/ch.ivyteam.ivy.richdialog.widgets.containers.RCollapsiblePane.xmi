@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801868438">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801868438" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801868438" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868438" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.xmi#BeanDecorator_1427801868438"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801868439" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868439" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.xmi#EReference_1427801868438 ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.xmi#EReference_1427801868439 ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.xmi#EReference_1427801868440 ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.xmi#EReference_1427801868441"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801868438" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801868438" name="panelComponentAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.panel#IPanelComponentAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801868438" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane.getPanelComponentAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801868439" name="richContainerAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets#IRichContainerAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801868439" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane.getRichContainerAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801868440" name="richComponentAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets#IRichComponentAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801868440" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane.getRichComponentAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801868441" name="containerContext" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.ulc.server#ULCYContainerContext" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801868441" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane.getContainerContext("/>
+  </objectsToAttach>
+</change:ChangeDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801470096">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801470096" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.rdpanels#RichDialogBorderPanel">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470096" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801470096" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel.xmi#BeanDecorator_1427801470096"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470097" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801470097" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel.xmi#EReference_1427801470096 ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel.xmi#EReference_1427801470097"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801470096" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801470096" name="displayIcon" eType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#ULCIcon" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801470096" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.rdpanels#RichDialogBorderPanel.getDisplayIcon("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801470097" name="panelAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.panel#IRichDialogPanelAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801470097" implicitlySetBits="60" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.rdpanels#RichDialogBorderPanel.getPanelAPI(" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.rdpanels#RichDialogBorderPanel.setPanelAPI(ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanelAPI"/>
+  </objectsToAttach>
+</change:ChangeDescription>

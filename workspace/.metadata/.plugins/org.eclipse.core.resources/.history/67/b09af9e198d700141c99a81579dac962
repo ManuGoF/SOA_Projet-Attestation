@@ -1,0 +1,66 @@
+[Ivy]
+[>Created: Tue Mar 31 13:24:54 CEST 2015]
+14C6F93B6D2E912F 3.17 #module
+>Proto >Proto Collection #zClass
+Ss0 SaisieAttestationVehiculeProcess Big #zClass
+Ss0 RD #cInfo
+Ss0 #process
+Ss0 @TextInP .ui2RdDataAction .ui2RdDataAction #zField
+Ss0 @TextInP .rdData2UIAction .rdData2UIAction #zField
+Ss0 @TextInP .resExport .resExport #zField
+Ss0 @TextInP .type .type #zField
+Ss0 @TextInP .processKind .processKind #zField
+Ss0 @AnnotationInP-0n ai ai #zField
+Ss0 @MessageFlowInP-0n messageIn messageIn #zField
+Ss0 @MessageFlowOutP-0n messageOut messageOut #zField
+Ss0 @TextInP .xml .xml #zField
+Ss0 @TextInP .responsibility .responsibility #zField
+Ss0 @RichDialogInitStart f0 '' #zField
+Ss0 @RichDialogProcessEnd f1 '' #zField
+Ss0 @PushWFArc f2 '' #zField
+>Proto Ss0 Ss0 SaisieAttestationVehiculeProcess #zField
+Ss0 f0 guid 14C6F93B76B2D893 #txt
+Ss0 f0 type projetAttestationVhc.SaisieAttestationVehicule.SaisieAttestationVehiculeData #txt
+Ss0 f0 method start() #txt
+Ss0 f0 disableUIEvents true #txt
+Ss0 f0 inParameterDecl 'ch.ivyteam.ivy.richdialog.exec.RdMethodCallEvent methodEvent = event as ch.ivyteam.ivy.richdialog.exec.RdMethodCallEvent;
+<> param = methodEvent.getInputArguments();
+' #txt
+Ss0 f0 outParameterDecl '<java.lang.String car_serial_number,java.lang.String car_registration,java.lang.String car_brand,java.lang.String car_model,java.lang.String car_type,java.lang.String car_color,java.lang.String car_price,java.lang.String certificate_state,ch.ivyteam.ivy.scripting.objects.Date certificate_creation_date,java.lang.String client_lastname,java.lang.String client_firstname,java.lang.String client_email,ch.ivyteam.ivy.scripting.objects.Date client_birthday,java.lang.String client_licence_type,ch.ivyteam.ivy.scripting.objects.Date client_licence_date> result;
+' #txt
+Ss0 f0 outParameterMapAction 'result.car_serial_number=in.car_serial_number;
+result.car_registration=in.car_registration;
+result.car_brand=in.car_brand;
+result.car_model=in.car_model;
+result.car_type=in.car_type;
+result.car_color=in.car_color;
+result.car_price=in.car_price;
+result.certificate_state=in.certificate_state;
+result.certificate_creation_date=in.certificate_creation_date;
+result.client_lastname=in.client_lastname;
+result.client_firstname=in.client_firstname;
+result.client_email=in.client_email;
+result.client_birthday=in.client_birthday;
+result.client_licence_type=in.client_licence_type;
+result.client_licence_date=in.client_licence_date;
+' #txt
+Ss0 f0 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>start()</name>
+    </language>
+</elementInfo>
+' #txt
+Ss0 f0 83 51 26 26 -16 15 #rect
+Ss0 f0 @|RichDialogInitStartIcon #fIcon
+Ss0 f1 type projetAttestationVhc.SaisieAttestationVehicule.SaisieAttestationVehiculeData #txt
+Ss0 f1 211 51 26 26 0 12 #rect
+Ss0 f1 @|RichDialogProcessEndIcon #fIcon
+Ss0 f2 expr out #txt
+Ss0 f2 109 64 211 64 #arcP
+>Proto Ss0 .type projetAttestationVhc.SaisieAttestationVehicule.SaisieAttestationVehiculeData #txt
+>Proto Ss0 .processKind RICH_DIALOG #txt
+>Proto Ss0 -8 -8 16 16 16 26 #rect
+>Proto Ss0 '' #fIcon
+Ss0 f0 mainOut f2 tail #connect
+Ss0 f2 head f1 mainIn #connect

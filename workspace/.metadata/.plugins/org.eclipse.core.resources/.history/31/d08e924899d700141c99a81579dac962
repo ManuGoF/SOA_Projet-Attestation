@@ -1,0 +1,17 @@
+SaisieAttestationVhcData #class
+projetAttestationVhc.SaisieAttestationVhc #namespace
+car_serial_number String #field
+car_registration String #field
+car_brand String #field
+car_model String #field
+car_type String #field
+car_color String #field
+car_price String #field
+certificate_state String #field
+certificate_creation_date Date #field
+client_lastname String #field
+client_firstname String #field
+client_email String #field
+client_birthday Date #field
+client_licence_type String #field
+client_licence_date Date #field

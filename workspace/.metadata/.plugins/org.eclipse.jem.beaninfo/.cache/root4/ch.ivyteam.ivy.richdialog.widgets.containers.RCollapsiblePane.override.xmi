@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:codeGenHelpers="platform:/plugin/org.eclipse.ve.java.core/overrides/codegenHelpers.ecore" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427801868444">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801868444" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCollapsiblePane">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801868444" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868444" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.override.xmi#ClassDescriptorDecorator_1427801868444"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868445" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.override.xmi#BeanDecorator_1427801868444"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868446" referenceValues="codeGenHelpers:CodeGenHelperClass file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.override.xmi#CodeGenHelperClass_1427801868444"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801868445" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801868447" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane.override.xmi#EReference_1427801868444"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427801868444" treeViewClassname="ch.ivyteam.ivy.richdialog.visualeditor/ch.ivyteam.ivy.richdialog.visualeditor.gef.tree.NoConstraintContainerTreeEditPartEXT" graphViewClassname="ch.ivyteam.ivy.richdialog.visualeditor/ch.ivyteam.ivy.richdialog.visualeditor.gef.graphical.ULCFlowLayoutGraphicalEditPartEXT:true">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427801868444" resourceName="platform:/plugin/ch.ivyteam.ivy.richdialog.visualeditor/icons/collapsible_pane.gif"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427801868444" beanProxyClassName="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.proxy.FlowLayoutContainerProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
+  <objectsToAttach xmi:type="codeGenHelpers:CodeGenHelperClass" xmi:id="CodeGenHelperClass_1427801868444" source="codegen.CodeGenHelperClass" expDecoder="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.codegen.NoConstraintContainerDecoder" modelled="true"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801868444" name="components" eType="ecore:EClass java:/com.ulcjava.base.application#ULCComponent">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorDecorator" xmi:id="PropertyDescriptorDecorator_1427801868444" hidden="true"/>
+    <eAnnotations xmi:type="org.eclipse.ve.internal.jcm:BeanFeatureDecorator" xmi:id="BeanFeatureDecorator_1427801868445" linkType="CHILD"/>
+  </objectsToAttach>
+</change:ChangeDescription>

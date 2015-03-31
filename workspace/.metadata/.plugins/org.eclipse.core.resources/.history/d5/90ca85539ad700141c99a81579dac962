@@ -1,0 +1,50 @@
+package projetAttestationVhc.SaisieAttestationVhc;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RGridBagLayoutPane;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane;
+
+/**
+ * <p>SaisieAttestationVhcPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class SaisieAttestationVhcPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RCollapsiblePane CollapsiblePane = null;  //  @jve:decl-index=0:visual-constraint="484,470"
+/**
+   * Create a new instance of SaisieAttestationVhcPanel
+   */
+  public SaisieAttestationVhcPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes SaisieAttestationVhcPanel
+   * @return void
+   */
+  private void initialize()
+  {
+  }
+
+/**
+ * This method initializes CollapsiblePane	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RCollapsiblePane	
+ */
+private RCollapsiblePane getCollapsiblePane() {
+	if (CollapsiblePane == null) {
+		CollapsiblePane = new RCollapsiblePane();
+	}
+	return CollapsiblePane;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

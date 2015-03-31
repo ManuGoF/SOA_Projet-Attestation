@@ -1,0 +1,53 @@
+package projetAttestationVhc.SaisieAttestationVehicule;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.components.RTextField;
+
+/**
+ * <p>SaisieAttestationVehiculePanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class SaisieAttestationVehiculePanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RTextField Serial = null;
+  
+  /**
+   * Create a new instance of SaisieAttestationVehiculePanel
+   */
+  public SaisieAttestationVehiculePanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes SaisieAttestationVehiculePanel
+   * @return void
+   */
+  private void initialize()
+  {
+  }
+
+/**
+ * This method initializes Serial	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.wid        this.add(getSerial(), com.ulcjava.base.application.ULCBorderLayoutPane.NORTH);
+gets.components.RTextField	
+ *		Serial.setText("Serial");
+		Serial.setName("Serial");
+/
+private RTextField getSerial() {
+	if (Serial == null) {
+		Serial = new RTextField();
+	}
+	return Serial;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

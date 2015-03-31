@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801279382">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279382" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#GridBagConstraints">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279383" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279383" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.xmi#BeanDecorator_1427801279383"/>
+    </value>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279383" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/fill/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279384" featureName="implicitlySetBits" dataValue="2161727821137838136"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279385" featureName="attributes">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279384" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:FeatureAttributeMapEntry file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.xmi#FeatureAttributeMapEntry_1427801279384"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279386" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setFill(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279384" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/fill">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279387" featureName="name" dataValue="fill"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279388" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279389" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279390" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279391" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279392" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279393" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279385" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/anchor/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279394" featureName="implicitlySetBits" dataValue="2161727821137838136"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279395" featureName="attributes">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279385" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:FeatureAttributeMapEntry file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.GridBagConstraints.xmi#FeatureAttributeMapEntry_1427801279385"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279396" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setAnchor(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279386" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/anchor">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279397" featureName="name" dataValue="anchor"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279398" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279399" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279400" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279401" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279402" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279403" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279387" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/gridHeight/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279404" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279405" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setGridHeight(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279388" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/gridHeight">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279406" featureName="name" dataValue="gridHeight"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279407" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279408" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279409" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279410" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279411" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279412" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279389" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/gridWidth/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279413" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279414" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setGridWidth(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279390" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/gridWidth">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279415" featureName="name" dataValue="gridWidth"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279416" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279417" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279418" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279419" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279420" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279421" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279391" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/gridX/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279422" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279423" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setGridX(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279392" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/gridX">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279424" featureName="name" dataValue="gridX"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279425" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279426" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279427" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279428" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279429" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279430" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279393" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/gridY/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279431" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279432" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setGridY(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279394" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/gridY">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279433" featureName="name" dataValue="gridY"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279434" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279435" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279436" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279437" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279438" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279439" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279395" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/insets/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279440" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279441" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setInsets(com.ulcjava.base.application.util.Insets"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279396" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/insets">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279442" featureName="name" dataValue="insets"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279443" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279444" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279445" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279446" featureName="eType" referenceValue="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#Insets"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279447" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279448" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279397" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/IPadX/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279449" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279450" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setIPadX(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279398" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/IPadX">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279451" featureName="name" dataValue="IPadX"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279452" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279453" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279454" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279455" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279456" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279457" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279399" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/IPadY/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279458" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279459" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setIPadY(int"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279400" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/IPadY">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279460" featureName="name" dataValue="IPadY"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279461" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279462" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279463" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279464" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#int"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279465" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279466" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279401" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/weightX/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279467" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279468" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setWeightX(double"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279402" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/weightX">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279469" featureName="name" dataValue="weightX"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279470" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279471" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279472" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279473" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#double"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279474" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279475" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279403" key="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator java:/com.ulcjava.base.application#//GridBagConstraints/weightY/%org.eclipse.jem.internal.beaninfo.PropertyDecorator%">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279476" featureName="implicitlySetBits" dataValue="2017612633061982264"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279477" featureName="writeMethod" referenceValue="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#GridBagConstraints.setWeightY(double"/>
+  </objectChanges>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279404" key="ecore:EReference java:/com.ulcjava.base.application#GridBagConstraints/weightY">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279478" featureName="name" dataValue="weightY"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279479" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279480" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279481" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279482" featureName="eType" referenceValue="org.eclipse.jem.java:JavaDataType java:/#double"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279483" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279484" featureName="upperBound" dataValue="1"/>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801279383" implicitlySetBits="2017612633061982222" implicitDecoratorFlag="IMPLICIT_DECORATOR" mergeSuperMethods="false" mergeSuperEvents="false"/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:FeatureAttributeMapEntry" xmi:id="FeatureAttributeMapEntry_1427801279384" key="enumerationValues" value="implicit,[12]{&quot;NONE&quot;,0,&quot;com.ulcjava.base.application.GridBagConstraints.NONE&quot;,&quot;HORIZONTAL&quot;,2,&quot;com.ulcjava.base.application.GridBagConstraints.HORIZONTAL&quot;,&quot;VERTICAL&quot;,3,&quot;com.ulcjava.base.application.GridBagConstraints.VERTICAL&quot;,&quot;BOTH&quot;,1,&quot;com.ulcjava.base.application.GridBagConstraints.BOTH&quot;}"/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:FeatureAttributeMapEntry" xmi:id="FeatureAttributeMapEntry_1427801279385" key="enumerationValues" value="implicit,[27]{&quot;CENTER&quot;,10,&quot;com.ulcjava.base.application.GridBagConstraints.CENTER&quot;,&quot;NORTH&quot;,11,&quot;com.ulcjava.base.application.GridBagConstraints.NORTH&quot;,&quot;NORTHEAST&quot;,12,&quot;com.ulcjava.base.application.GridBagConstraints.NORTHEAST&quot;,&quot;EAST&quot;,13,&quot;com.ulcjava.base.application.GridBagConstraints.EAST&quot;,&quot;SOUTHEAST&quot;,14,&quot;com.ulcjava.base.application.GridBagConstraints.SOUTHEAST&quot;,&quot;SOUTH&quot;,15,&quot;com.ulcjava.base.application.GridBagConstraints.SOUTH&quot;,&quot;SOUTHWEST&quot;,16,&quot;com.ulcjava.base.application.GridBagConstraints.SOUTHWEST&quot;,&quot;WEST&quot;,17,&quot;com.ulcjava.base.application.GridBagConstraints.WEST&quot;,&quot;NORTHWEST&quot;,18,&quot;com.ulcjava.base.application.GridBagConstraints.NORTHWEST&quot;}"/>
+</change:ChangeDescription>
