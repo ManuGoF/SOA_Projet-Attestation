@@ -233,23 +233,23 @@ public class CarController {
     
     
     /**
-     * Permet de supprimer un car à l'aide de son ID.
-     * Cette méthode supprime le car dans la table Véhicules de la BD.
-     * Cette méthode supprime en cascade dans la BD les objets qui sont liés au car supprimé.
-     * -> Car -> Cars -> Certifications -> Comments
-     * @param id_car de type Integer correspondant à l'id à supprimer.
+     * Permet de supprimer un véhicule à l'aide de son ID.
+     * Cette méthode supprime le véhicule dans la table Cars de la BD.
+     * Cette méthode supprime en cascade dans la BD les objets qui sont liés au véhicule supprimé.
+     * -> Cars -> Certifications -> Comments
+     * @param serial_number de type String correspondant au véhicule à supprimer.
      * @return response de type Response selon les résultats suivants:
-     * response: -1, OK, Number of the deleted car => OK (l'opération s'est bien déroulée).
+     * response: -1, OK: Serial number, 0 => OK (l'opération s'est bien déroulée).
      * response: -2, The object doesn't exist!, 0 => L'objet correspondant à l'ID passé en paramètre n'existe pas dans la BD.
      * response: -3, The object already exist!, 0 => L'objet correspondant à l'ID passé en paramètre existe déjà.
      * response: -4, Parameter isn't congruent!, 0 => Paramètre idn conforme.
      * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
      */
-    /*public static Response deleteCar(int id_car) {
+    public static Response deleteCar(String serial_number) {
         Response response = null;
         ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
         
-        if (id_car > 0) {
+        if (serial_number != null) {
             Connection con = null;
             try {
                 // Connection à la base de données
@@ -261,21 +261,21 @@ public class CarController {
                             + " FROM "
                             + "Cars"
                             + " WHERE "
-                            + "ID = " + id_car;
+                            + "SERIAL_NUMBER = " + "'" + serial_number + "'";
                 
                 ResultSet existCar = requete.executeQuery(requestCarExist);
                 if (existCar.next()) {
                 
-                    String requestDeleteCar = "DELETE FROM Véhicules"
+                    String requestDeleteCar = "DELETE FROM Cars"
                             + " WHERE "
-                            + "ID = " + id_car;
-                    int carDelet = requete.executeUpdate(requestDeleteCar);
-                    System.out.println(carDelet + " car supprimé");
-                    response = new Response(-1, "OK", id_car);
+                            + "SERIAL_NUMBER = " + "'" + serial_number + "'";
+                    int carDelete = requete.executeUpdate(requestDeleteCar);
+                    System.out.println(carDelete + " véhicule supprimé");
+                    response = new Response(-1, "OK: " + serial_number, 0);
                 }
                 else {
                     response = new Response(-2, "The object doesn't exist!", 0);
-                    System.out.println("Le car ID n'existe pas. Rien n'a été supprimé.");
+                    System.out.println("Le car SERIAL_NUMBER n'existe pas. Rien n'a été supprimé.");
                 }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
@@ -292,7 +292,7 @@ public class CarController {
         }
         
         return response;
-    }*/
+    }
     
     
     /**
