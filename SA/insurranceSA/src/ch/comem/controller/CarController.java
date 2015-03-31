@@ -145,19 +145,19 @@ public class CarController {
      * @param serial_number de type String correspondant au numéro de série du véhicule souhaité.
      * @return car de type CarModel correspondant au véhicule souhaité s'il existe.
      */
-    /*public static CarModel readCar(int serial_number) {
+    public static CarModel readCar(String serial_number) {
         
         ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
         
-        int idGet = 0;
-        String lastnameGet = "";
-        String firstnameGet = "";
-        String emailGet = "";
-        String birthdayGet = "";
-        String licenceTypeGet = "";
-        String licenceDateGet = "";
+        String serialNumberGet = "";
+        String brandGet = "";
+        String modelGet = "";
+        String typeGet = "";
+        String colorGet = "";
+        Double priceGet = null;
+        ClientModel clientGet = null;
         
-        if (id_car > 0) {
+        if (serial_number != null) {
             
             Connection con = null;
 
@@ -173,10 +173,10 @@ public class CarController {
                             + " FROM "
                             + "Cars"
                             + " WHERE "
-                            + "ID = " + id_car;
+                            + "SERIAL_NUMBER = " + "'" + serial_number + "'";
                 ResultSet existCar = requete.executeQuery(requestCarExist);
                 
-                // Test si le car existe dans la BD.
+                // Test si le véhicule existe dans la BD.
                 if (existCar.next()) {
                     ResultSet carGet = requete.executeQuery(
                             "SELECT "
@@ -184,20 +184,23 @@ public class CarController {
                             + " FROM "
                             + "Cars"
                             + " WHERE "
-                            + "ID = " + id_car);
+                            + "SERIAL_NUMBER = " + "'" + serial_number + "'");
 
                     while (carGet.next()) {
-                        idGet = carGet.getInt("ID");
-                        lastnameGet = carGet.getString("LASTNAME");
-                        firstnameGet = carGet.getString("FIRSTNAME");
-                        emailGet = carGet.getString("EMAIL");
-                        birthdayGet = carGet.getString("BIRTHDAY");
-                        licenceTypeGet = carGet.getString("LICENCE_TYPE");
-                        licenceDateGet = carGet.getString("LICENCE_DATE");
+                        // Récupération du client à qui appartient le véhicule
+                        int client_id = carGet.getInt("CLIENT_ID");
+                        
+                        serialNumberGet = carGet.getString("SERIAL_NUMBER");
+                        brandGet = carGet.getString("BRAND");
+                        modelGet = carGet.getString("MODEL");
+                        typeGet = carGet.getString("TYPE");
+                        colorGet = carGet.getString("COLOR");
+                        priceGet = carGet.getDouble("PRICE");
+                        clientGet = ClientController.readClient(client_id);
                     }
                 }
                 else {
-                    System.out.println("Le CLIENT ID fourni n'existe pas!");
+                    System.out.println("Le Car SERIAL_NUMBER fourni n'existe pas!");
                 }
 
             } catch (Exception e) {
@@ -212,20 +215,21 @@ public class CarController {
             }
             
         } else {
-            System.out.println("Le Car ID n'est pas conforme");
+            System.out.println("Le Car SERIAL_NUMBER n'est pas conforme");
         }
         
         CarModel car = new CarModel(
-            lastnameGet, 
-            firstnameGet,
-            emailGet,
-            birthdayGet,
-            licenceTypeGet,
-            licenceDateGet
+            serialNumberGet,
+            brandGet,
+            modelGet,
+            typeGet,
+            colorGet,
+            priceGet,
+            clientGet
         );
 
         return car;
-    }*/
+    }
     
     
     /**
