@@ -18,4 +18,3 @@
     ('Djarno', 'Luca', 'djarno.luca@gmail.com', '1994-03-09', 'B2, D1', '2013-12-25');*/
 
 
-
