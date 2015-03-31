@@ -17,7 +17,4 @@ INSERT INTO Clients (LASTNAME, FIRSTNAME, EMAIL, BIRTHDAY, LICENCE_TYPE, LICENCE
     ('Bezencon', 'Manu', 'bezencon.manu', '1990-01-02', 'B2, C2, D1', '2008-08-21'),
     ('Djarno', 'Luca', 'djarno.luca@gmail.com', '1994-03-09', 'B2, D1', '2013-12-25');
 
-/*ALTER TABLE Peoples
-ADD FOREIGN KEY (AUTO_ID) REFERENCES Autos(SERIAL_NUMBER);*/
-
 

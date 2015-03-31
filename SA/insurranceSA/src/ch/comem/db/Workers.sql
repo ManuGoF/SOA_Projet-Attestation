@@ -17,7 +17,4 @@ INSERT INTO Workers (LASTNAME, FIRSTNAME, EMAIL, POSITION, CERTIFICATE_ID)
     ('Mayer', 'Justin', 'mayer.justin@gmail.com', 'garage', 1004),
     ('Wenger', 'Eric', 'wenger.eric@gmail.com', 'garage', 1005);
 
-/*ALTER TABLE Peoples
-ADD FOREIGN KEY (AUTO_ID) REFERENCES Autos(SERIAL_NUMBER);*/
-
 

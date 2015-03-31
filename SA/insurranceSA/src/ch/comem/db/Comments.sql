@@ -14,7 +14,4 @@ INSERT INTO Comments (TEXT, WORKER_ID, CERTIFICATE_ID)
     ('Commentaire numéro 4', 3004, 1004),
     ('Commentaire numéro 5', 3005, 1005);
 
-/*ALTER TABLE Peoples
-ADD FOREIGN KEY (AUTO_ID) REFERENCES Autos(SERIAL_NUMBER);*/
-
 
