@@ -4,7 +4,7 @@
     FIRSTNAME VARCHAR(50) NOT NULL,
     EMAIL VARCHAR(80) NOT NULL,
     POSITION VARCHAR(20) NOT NULL,
-    CHECK (POSITION IN ('garage', 'agence', 'siege', 'direction', 'sca')),
+    CHECK (POSITION IN ('garage', 'agence', 'siege', 'direction')),
     CERTIFICATE_ID INTEGER NOT NULL, 
     PRIMARY KEY (ID)
 );
