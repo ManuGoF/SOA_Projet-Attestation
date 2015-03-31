@@ -130,7 +130,7 @@ public class ClientController {
      * @param id_client de type Integer correspondant à l'id du client souhaité.
      * @return client de type ClientModel correspondant au client souhaité si il existe.
      */
-    public static ClientModel getClient(int id_client) {
+    public static ClientModel readClient(int id_client) {
         
         ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
         
