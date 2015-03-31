@@ -18,6 +18,7 @@ public class InsurranceProgSA {
      */
     public static void main(String[] args) {
         WorkerModel worker = new WorkerModel("Liengme", "Cedric", "cliengme@gmail.com", "garage");
+        System.out.println(worker);
     }
     
 }
