@@ -47,12 +47,12 @@ public class ClientController {
      * response: -1, OK, Number of the genereted key => OK (l'opération s'est bien déroulée).
      * response: -2, The object doesn't exist!, 0 => L'objet correspondant à l'ID passé en paramètre n'existe pas dans la BD.
      * response: -3, The object already exist!, 0 => L'objet correspondant à l'ID passé en paramètre existe déjà.
-     * response: -4, Parameter not congruent!, 0 => Paramètre non conforme.
+     * response: -4, Parameter isn't congruent!, 0 => Paramètre idn conforme.
      * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
      */
     public static Response createClient(ClientModel client) {
         Response response = null;
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.DBproperties");
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
         
         if (client != null) {
             Connection con = null;
@@ -73,26 +73,24 @@ public class ClientController {
                 
                 // Test si le client existe déjà pour ne pas le créer à double.
                 if (!exist.next()) {
-                    
                     // Comme l'id est un champ auto incrémenté il n'est pas nécessaire de le définir.
-                    int nbClientsAdd = requete.executeUpdate(
-                            "INSERT INTO clients"
+                    String requestInsertClient = "INSERT INTO clients "
                             + "(LASTNAME, FIRSTNAME, EMAIL, BIRTHDAY, LICENCE_TYPE, LICENCE_DATE) VALUES "
                             + "('" + client.lastname.replace("'", "''") + "', "
-                            + "('" + client.firstname.replace("'", "''") + "', "
-                            + "('" + client.email.replace("'", "''") + "', "
-                            + "('" + client.birthday + "', "
-                            + "('" + client.licence_type.replace("'", "''") + "', "
-                            + "('" + client.licence_date + "')", Statement.RETURN_GENERATED_KEYS);
+                            + "'" + client.firstname.replace("'", "''") + "', "
+                            + "'" + client.email.replace("'", "''") + "', "
+                            + "'" + client.birthday + "', "
+                            + "'" + client.licence_type.replace("'", "''") + "', "
+                            + "'" + client.licence_date + "')";
+                    int nbClientsAdd = requete.executeUpdate(requestInsertClient, Statement.RETURN_GENERATED_KEYS);
                     System.out.println(nbClientsAdd + " client a été ajouté");
                     ResultSet ensembleTuplesAjoutes = requete.getGeneratedKeys();
                     int idTupleAjoute = 0;
-                    
                     // Comme il n'y a eu qu'un seul insert, on peut faire un if au lieu d'un while
                     if (ensembleTuplesAjoutes.next()) {
                         idTupleAjoute = ensembleTuplesAjoutes.getInt(1);
                     }
-                    System.out.println("L'id du nouveau tuple est : " + idTupleAjoute);
+                    System.out.println("L'id du iduveau tuple est : " + idTupleAjoute);
                     
                     if (idTupleAjoute < 0) {
                         response = new Response(-5, "Nothing happened", 0);
@@ -100,7 +98,6 @@ public class ClientController {
                     else {
                         response = new Response(-1, "OK", idTupleAjoute);
                     }
-                    
                 }
                 else {
                     response = new Response(-3, "The object already exist!", 0);
@@ -117,7 +114,162 @@ public class ClientController {
             } 
         }
         else {
-            response = new Response(-4, "Parameter not congruent!", 0);
+            response = new Response(-4, "Parameter isn't congruent!", 0);
+        }
+        
+        return response;
+    }
+    
+    
+    /**
+     * Permet de récupérer un client de la table Clients de la BD.
+     * Ce client est composée des paramètres suivants:
+     * lastname, firstname, email, birthday, licence_type, licence_date
+     * Si le client n'existe pas (selon son ID), l'objet n'est pas retourné.
+     * Si le client ID n'est pas conforme (=< 0), l'objet n'est pas retourné.
+     * @param id_client de type Integer correspondant à l'id du client souhaité.
+     * @return client de type ClientModel correspondant au client souhaité si il existe.
+     */
+    public static ClientModel getClient(int id_client) {
+        
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        
+        int idGet = 0;
+        String lastnameGet = "";
+        String firstnameGet = "";
+        String emailGet = "";
+        String birthdayGet = "";
+        String licenceTypeGet = "";
+        String licenceDateGet = "";
+        
+        if (id_client > 0) {
+            
+            Connection con = null;
+
+            try {
+                
+                // Connection à la base de données
+                con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
+                Statement requete = con.createStatement();
+                
+                // Requète de selection du client (Pour vérifier l'existance)
+                String requestClientExist = " SELECT "
+                            + "*"
+                            + " FROM "
+                            + "Clients"
+                            + " WHERE "
+                            + "ID = " + id_client;
+                ResultSet existClient = requete.executeQuery(requestClientExist);
+                
+                // Test si le client existe dans la BD.
+                if (existClient.next()) {
+                    ResultSet clientGet = requete.executeQuery(
+                            "SELECT "
+                            + "*"
+                            + " FROM "
+                            + "Clients"
+                            + " WHERE "
+                            + "ID = " + id_client);
+
+                    while (clientGet.next()) {
+                        idGet = clientGet.getInt("ID");
+                        lastnameGet = clientGet.getString("LASTNAME");
+                        firstnameGet = clientGet.getString("FIRSTNAME");
+                        emailGet = clientGet.getString("EMAIL");
+                        birthdayGet = clientGet.getString("BIRTHDAY");
+                        licenceTypeGet = clientGet.getString("LICENCE_TYPE");
+                        licenceDateGet = clientGet.getString("LICENCE_DATE");
+                    }
+                }
+                else {
+                    System.out.println("Le CLIENT ID fourni n'existe pas!");
+                }
+
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+
+            // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
+            try {
+                con.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+            
+        } else {
+            System.out.println("Le Client ID n'est pas conforme");
+        }
+        
+        ClientModel client = new ClientModel(
+            lastnameGet, 
+            firstnameGet,
+            emailGet,
+            birthdayGet,
+            licenceTypeGet,
+            licenceDateGet
+        );
+
+        return client;
+    }
+    
+    
+    /**
+     * Permet de supprimer un client à l'aide de son ID.
+     * Cette méthode supprime le client dans la table Clients de la BD.
+     * Cette méthode supprime en cascade dans la BD les objets qui sont liés au client supprimé.
+     * -> Client -> Cars -> Certifications -> Comments
+     * @param id_client de type Integer correspondant à l'id à supprimer.
+     * @return response de type Response selon les résultats suivants:
+     * response: -1, OK, Number of the deleted client => OK (l'opération s'est bien déroulée).
+     * response: -2, The object doesn't exist!, 0 => L'objet correspondant à l'ID passé en paramètre n'existe pas dans la BD.
+     * response: -3, The object already exist!, 0 => L'objet correspondant à l'ID passé en paramètre existe déjà.
+     * response: -4, Parameter isn't congruent!, 0 => Paramètre idn conforme.
+     * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
+     */
+    public static Response deleteClient(int id_client) {
+        Response response = null;
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        
+        if (id_client > 0) {
+            Connection con = null;
+            try {
+                // Connection à la base de données
+                con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
+                Statement requete = con.createStatement();
+                
+                String requestClientExist = " SELECT "
+                            + "*"
+                            + " FROM "
+                            + "Clients"
+                            + " WHERE "
+                            + "ID = " + id_client;
+                
+                ResultSet existClient = requete.executeQuery(requestClientExist);
+                if (existClient.next()) {
+                
+                    String requestDeleteClient = "DELETE FROM Clients"
+                            + " WHERE "
+                            + "ID = " + id_client;
+                    int clientDelet = requete.executeUpdate(requestDeleteClient);
+                    System.out.println(clientDelet + " client supprimé");
+                    response = new Response(-1, "OK", id_client);
+                }
+                else {
+                    response = new Response(-2, "The object doesn't exist!", 0);
+                    System.out.println("Le client ID n'existe pas. Rien n'a été supprimé.");
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+            // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
+            try {
+                con.close();
+            } catch (SQLException e) {
+                e.getMessage();
+            }
+        }
+        else {
+            response = new Response(-4, "Parameter isn't congruent!", 0);
         }
         
         return response;
