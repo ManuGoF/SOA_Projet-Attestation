@@ -82,9 +82,9 @@ public class ClientController {
                             + "('" + client.lastname.replace("'", "''") + "', "
                             + "'" + client.firstname.replace("'", "''") + "', "
                             + "'" + client.email.replace("'", "''") + "', "
-                            + "'" + client.birthday + "', "
+                            + "'" + client.birthday.replace("'", "''") + "', "
                             + "'" + client.licence_type.replace("'", "''") + "', "
-                            + "'" + client.licence_date + "')";
+                            + "'" + client.licence_date.replace("'", "''") + "')";
                     int nbClientsAdd = requete.executeUpdate(requestInsertClient, Statement.RETURN_GENERATED_KEYS);
                     System.out.println(nbClientsAdd + " client a été ajouté");
                     ResultSet ensembleTuplesAjoutes = requete.getGeneratedKeys();
