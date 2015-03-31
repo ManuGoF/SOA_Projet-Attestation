@@ -12,6 +12,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
@@ -273,6 +275,52 @@ public class ClientController {
         }
         
         return response;
+    }
+    
+    
+    /**
+     * Permet de récupérer tous les clients existants (dans la table Clients de la BD).
+     * @return une liste Map<Integer, ClientModel> correspondant à une liste de clé->valeurs (Id->Client).
+     * La liste retournée comprends les clients dans la BD de donnée. Si la BD est vide, une liste vide est retournée.
+     */
+    public static Map<Integer, ClientModel> readAllClients() {
+        Map<Integer, ClientModel> clients = new HashMap();
+        
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        
+        Connection con = null;
+
+        try {
+            // Connection à la base de données
+            con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
+            Statement requete = con.createStatement();
+                
+            ResultSet allClients = requete.executeQuery("SELECT * FROM Clients");
+            // Parcours de l'ensemble de clients et ajoute à la liste avec l'id.
+            while (allClients.next()) {
+                ClientModel client = new ClientModel(
+                    allClients.getString("LASTNAME"), 
+                    allClients.getString("FIRSTNAME"),
+                    allClients.getString("EMAIL"),
+                    allClients.getString("BIRTHDAY"),
+                    allClients.getString("LICENCE_TYPE"),
+                    allClients.getString("LICENCE_DATE")
+                );
+                clients.put(allClients.getInt(1), client);
+            }
+            //System.out.println("Clé->Valeur des clients: " + clients);
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }     
+        return clients;
     }
     
         
