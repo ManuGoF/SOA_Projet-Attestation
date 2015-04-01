@@ -5,9 +5,12 @@
  */
 package ch.comem.ws;
 
+import ch.comem.controller.CarController;
 import ch.comem.controller.ClientController;
+import ch.comem.model.CarModel;
 import ch.comem.model.ClientModel;
 import ch.comem.model.Response;
+import ch.comem.transport.CarTransport;
 import ch.comem.transport.ClientTransport;
 import ch.comem.transport.Convertisseurs;
 import ch.comem.transport.ResponseTransport;
@@ -93,6 +96,72 @@ public class inssuranceManuWS {
         ResponseTransport responseWS = null;
         if (client_id > 0) {
             Response responseSA = ClientController.deleteClient(client_id);
+            responseWS = Convertisseurs.responseToResponseTransport(responseSA);
+        }
+        return responseWS;
+    }
+
+    /**
+     * Web service operation
+     * @return 
+     */
+    @WebMethod(operationName = "readAllCars")
+    public List<CarTransport> readAllCars() {
+        List<CarModel> cars;
+        List<CarTransport> carsListWS = new ArrayList<>();
+        cars = CarController.readAllCars();
+        
+        for (CarModel car : cars) {
+            int client_id = ClientController.getClientId(car.client.email);
+            CarTransport carWS = Convertisseurs.carToCarTransport(client_id, car);
+            carsListWS.add(carWS);
+        }
+
+        return carsListWS;
+    }
+
+    /**
+     * Web service operation
+     * @param car
+     * @return 
+     */
+    @WebMethod(operationName = "createCar")
+    public ResponseTransport createCar(@WebParam(name = "car") CarTransport car) {
+        ResponseTransport responseWS = null;
+        if (car != null) {
+            CarModel carSA = Convertisseurs.carTransportToCar(car);
+            Response responseSA = CarController.createCar(carSA);
+            responseWS = Convertisseurs.responseToResponseTransport(responseSA);
+        }
+        return responseWS;
+    }
+
+    /**
+     * Web service operation
+     * @param serial_number
+     * @return 
+     */
+    @WebMethod(operationName = "readCar")
+    public CarTransport readCar(@WebParam(name = "serial_number") String serial_number) {
+        CarTransport carWS = new CarTransport();        
+        if (serial_number.length() > 0 && serial_number.length() <= 50) { 
+            CarModel carSA = CarController.readCar(serial_number);
+            int client_id = ClientController.getClientId(carSA.client.email);
+            carWS = Convertisseurs.carToCarTransport(client_id, carSA);
+        }
+        return carWS;
+    }
+
+    /**
+     * Web service operation
+     * @param serial_number
+     * @return 
+     */
+    @WebMethod(operationName = "deleteCar")
+    public ResponseTransport deleteCar(@WebParam(name = "serial_number") String serial_number) {
+        ResponseTransport responseWS = null;
+        if (serial_number.length() > 0 && serial_number.length() <= 50) {
+            Response responseSA = CarController.deleteCar(serial_number);
             responseWS = Convertisseurs.responseToResponseTransport(responseSA);
         }
         return responseWS;
