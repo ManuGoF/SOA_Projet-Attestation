@@ -3,10 +3,13 @@ import ch.comem.controller.CertificateController;
 import ch.comem.controller.ClientController;
 import ch.comem.controller.WorkerController;
 import ch.comem.model.CertificateModel;
+import ch.comem.model.WorkerModel;
 import ch.comem.transport.CertificateTransport;
 import ch.comem.transport.Convertisseurs;
+import ch.comem.transport.WorkerTransport;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -21,16 +24,14 @@ public class Programme {
 
     public static void main(String[] args) {
         List<CertificateTransport> listCt = new ArrayList<>();
-        ArrayList<CertificateModel> cert = CertificateController.readAllCertificates();
-        for (int i = 0; i < cert.size(); i++) {
-            CertificateModel c = cert.get(i);
-            int id_client = ClientController.getClientId(c.car.client.email);
-            int id_worker = WorkerController.getWorkerId(c.worker.email);
-            CertificateTransport certt = Convertisseurs.certificateToCertificateTransport(id_client, id_worker, c);
-            listCt.add(certt);
+        List<WorkerTransport> listWt = new ArrayList<>();
+        Map<Integer, WorkerModel> workers = WorkerController.readWorker(2001);
+        for (Map.Entry<Integer, WorkerModel> entry : workers.entrySet()) {
+            WorkerTransport wt = Convertisseurs.WorkerToWorkerTransport(entry.getKey(), entry.getValue());
+            listWt.add(wt);
         }
+        System.out.println(listWt);
 
-        System.out.println(listCt);
     }
 
 }
