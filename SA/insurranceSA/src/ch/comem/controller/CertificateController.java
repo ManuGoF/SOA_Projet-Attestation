@@ -133,7 +133,7 @@ public class CertificateController {
 
     /**
      * Permet de récupérer un certificat de la table Certificates de la BD. 
-     * Ce client est composée des paramètres suivants: 
+     * Cette attestation est composée des paramètres suivants: 
      * number, state, creation_date, car, worker 
      * Si le certificat n'existe pas (selon son numéro) l'objet n'est pas retourné. 
      * Si le certificate number n'est pas conforme (=< 0), l'objet n'est pas retourné. 

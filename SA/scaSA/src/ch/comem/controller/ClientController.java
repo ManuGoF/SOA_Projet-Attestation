@@ -24,6 +24,7 @@ import java.util.ResourceBundle;
  * - récupération d'un client de la BD à l'aide de son ID.
  * - suppression d'un client dans la BD et les objets liés en cascade à l'aide de son ID.
  * - récupération d'une liste de clé->valeur de tous les clients (ID->Client).
+ * - récupération de l'ID d'un client à l'aide de son adresse email.
  * @author Groupe Manu et Cédric
  */
 public class ClientController {

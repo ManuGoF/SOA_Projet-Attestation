@@ -23,7 +23,8 @@ import java.util.ResourceBundle;
  * - création d'un véhicule dans la BD.
  * - récupération d'un véhicule de la BD à l'aide de son ID.
  * - suppression d'un véhicule dans la BD et les objets liés en cascade à l'aide de son ID.
- * - récupération d'une liste de clé->valeur de tous les véhicules (ID->Car).
+ * - récupération d'une liste de véhicules avec le client correspondant.
+ * - modification des plaques d'un véhicule existant à l'aide de son numéro de série.
  * @author Groupe Manu et Cédric
  */
 public class CarController {

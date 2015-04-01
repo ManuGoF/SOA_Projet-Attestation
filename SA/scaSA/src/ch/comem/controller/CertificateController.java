@@ -18,12 +18,13 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 /**
- * Permet de gérer des certificats qui on les paramètres suivants: number,
- * state, creation_date, car, worker Ce controlleur permet de faire les actions
- * suivantes: - création d'un certificat dans la BD. - récupération d'un
- * certificat de la BD à l'aide de son ID. - récupération d'une liste de de tous
- * les certificats.
- *
+ * Permet de gérer les attestations qui on les paramètres suivants: 
+ * number,state, creation_date, car, worker 
+ * Ce controlleur permet de faire les actions suivantes: 
+ * - création d'une attestation dans la BD. 
+ * - récupération d'une attestation de la BD à l'aide de son ID. 
+ * - récupération d'une liste de toutes les attestations.
+ * - modification de l'état d'une attestation déjà existante.
  * @author Groupe Manu et Cédric
  */
 public class CertificateController {
@@ -38,18 +39,17 @@ public class CertificateController {
     }
 
     /**
-     * Permet d'insérer un certificat dans la table Certificats de la BD. Ce
-     * certificat est composée des paramètres suivants: number, state,
-     * creation_date, car, worker Si le certificat existe déjà (selon son
-     * numero), l'objet n'est pas créé.
-     *
+     * Permet d'insérer une attestation dans la table Certificates de la BD. 
+     * Cette attestation est composée des paramètres suivants: 
+     * number, state, creation_date, car, worker 
+     * Si le certificat existe déjà (selon son numero), l'objet n'est pas créé.
      * @param certificate de type CertificatModel
-     * @return response de type Response selon les résultats suivants: response:
-     * -1, OK, Number of the genereted key => OK (l'opération s'est bien
-     * déroulée). response: -2, The worker doesn't exist!, 0 => Le worker
-     * n'existe pas dans la BD. response: -3, The car doesn't exist!, 0 => Le
-     * car n'existe pas dans la BD. response: -4, The object already exist!, 0
-     * => L'objet correspondant à l'ID passé en paramètre existe déjà.
+     * @return response de type Response selon les résultats suivants: 
+     * response: -1, OK, 0 => OK (l'opération s'est bien déroulée).
+     * response: -2, The object doesn't exist!, 0 => L'objet correspondant à l'objet fourni n'existe pas dans la BD.
+     * response: -3, The object already exist!, 0 => L'objet correspondant à l'ID passé en paramètre existe déjà.
+     * response: -4, Parameter isn't congruent!, 0 => Paramètre id non conforme.
+     * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
      */
     public static Response createCertificate(CertificateModel certificate) {
         Response response = null;
@@ -92,9 +92,9 @@ public class CertificateController {
     }
 
     /**
-     * La methode readAllCertificates() permet de récuper tous les certificats.
-     *
-     * @return ArrayList<CertificateModel> - une liste de certificats.
+     * Permet de récupérer toutes les attestations existantes (dans la table Certificates de la BD).
+     * @return une liste ArrayList<CertificateModel> correspondant à une liste d'attestations avec le véhicule correspondant.
+     * La liste retournée comprends les attestation dans la base de donnée. Si la BD est vide, une liste vide est retournée.
      */
     public static ArrayList<CertificateModel> readAllCertificates() {
         Connection con = null;
@@ -124,17 +124,12 @@ public class CertificateController {
     }
 
     /**
-     * Permet de récupérer un certificat de la table Certificates de la BD. Ce
-     * client est composée des paramètres suivants: number, state,
-     * creation_date, car, worker Si le certificat n'existe pas (selon son ID),
-     * l'objet n'est pas retourné. Si le certificate number n'est pas conforme
-     * (=< 0), l'objet n'est pas retourné. @param number @ret
-     *
-     * u
-     * rn certific
-     *
-     * ate de type CertificateModel correspondant au certificat souhaité si il
-     * existe. @param number @return
+     * Permet de récupérer un certificat de la table Certificates de la BD. 
+     * Cette attesttaion est composée des paramètres suivants: 
+     * number, state, creation_date, car, worker 
+     * Si le certificat n'existe pas (selon son numéro) l'objet n'est pas retourné. 
+     * Si le certificate number n'est pas conforme (=< 0), l'objet n'est pas retourné. 
+     * @param number @return certificaate de type CertificateModel correspondant au certificat souhaité si il existe.
      */
     public static CertificateModel readCertificate(String number) {
         Connection con = null;
@@ -163,20 +158,14 @@ public class CertificateController {
     }
 
     /**
-     * La methode updateState permet de modifier l'état d'un certificat s'il
-     * existe et si l'état entré est conforme.
-     *
-     * @param certificate_number de type Certificat correspondant au certificat
-     * à modifier.
+     * La methode updateState permet de modifier l'état d'un certificat s'il existe et si l'état entré est conforme.
+     * @param certificate_number de type Certificat correspondant au certificat à modifier.
      * @param state de type String correspondant au nouvel état.
      * @return response de Type Response correspondant à la réponse du service.
-     * response: -1, OK new state : state, 0 => OK (l'opération s'est bien
-     * déroulée). response: -2, State is already : state, 0 => L'état est deja
-     * celui defini. response: -3, State is not correct, 0 => L'état n'est pas
-     * correct. response: -4, Certificate doesn't exist, 0 =>Le certificat
-     * n'existe pas.
-     *
-     *
+     * response: -1, OK new state : state, 0 => OK (l'opération s'est bien déroulée). 
+     * response: -2, State is already : state, 0 => L'état est deja celui defini. 
+     * response: -3, State is not correct, 0 => L'état n'est pas correct. 
+     * response: -4, Certificate doesn't exist, 0 =>Le certificat n'existe pas.
      */
     public static Response updateState(String certificate_number, String state) {
         Response response = null;
