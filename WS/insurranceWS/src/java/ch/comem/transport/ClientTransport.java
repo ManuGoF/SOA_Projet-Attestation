@@ -29,7 +29,7 @@ public class ClientTransport {
     }
 
     /**
-     * Permet de définir l'id du client
+     * Permet de définir l'id du client.
      * @param id the id to set de type Integer
      */
     public void setId(int id) {
