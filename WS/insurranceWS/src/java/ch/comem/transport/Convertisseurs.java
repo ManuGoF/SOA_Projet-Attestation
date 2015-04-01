@@ -5,8 +5,7 @@
  */
 package ch.comem.transport;
 
-import ch.comem.model.CarModel;
-import ch.comem.model.ExampleModel;
+import ch.comem.model.WorkerModel;
 
 /**
  * Permet de convertir des objets fournis par les services applicatifs en objets transportable (sur le web).
@@ -17,36 +16,37 @@ import ch.comem.model.ExampleModel;
  */
 public class Convertisseurs {
     
-    /**
-     * Permet de convertir un exemple de type ExampleModel en type ExampleTransport.
-     * Cela permet de convertir l'exemple du SA en exemple transportable (sur le Web) pour le client.
-     * Si l'objet passé en paramètre est null, rien n'est retourné.
-     * @param example de type exampleTransport correspondant à un exemple transportable (sur le web).
-     * @return et de type ExampleTransport correspondant à un exemple "transportable".
+    
+        /**
+     * Permet de transformer un bateau transport en bateau.
+     * @param workerTransport
+     * @return b le bateau (Boat)
      */
-    public static ExampleTransport exampleToExampleTransport (int id_example, ExampleModel example) {
-        ExampleTransport et = null;
-        if (example != null) {
-            et = new ExampleTransport();
-            et.setId_example(id_example);
-            et.setChain(example.chain);
+    public static WorkerModel boatTransportToBoat(WorkerTransport workerTransport) {
+        WorkerModel w = null;
+        if (workerTransport != null) {
+            w = new WorkerModel(workerTransport.getLastname(), workerTransport.getFirstname(), workerTransport.getEmail(), workerTransport.getPosition());
         }
-        return et;
+        return w;
     }
     
-    /**
-     * Permet de convertir un exemple de type ExampleTransport entype ExampleModel.
-     * Cela permet de convertir l'exemple du WS transportable (sur le Web) pour le client en exemple SA utilisable par le Web Service.
-     * Si l'objet passé en paramètre est null, rien n'est retourné. (Ou null).
-     * @param et de type exampleTransport correspondant à un exemple transportable (sur le web)
-     * @return example de type ExampleModel correspondant à un exemple du SA.
+        /**
+     * Permet de transformer un bateau en bateau transport
+     * @param id - l'id du bateau (int)
+     * @param worker
+     * @return bt - le bateau transport (BoatTransport)
      */
-    public static ExampleModel exampleTransportToExample (ExampleTransport et) {
-        ExampleModel example = null;
-        if (et != null) {
-            example = new ExampleModel(et.getChain());
+    public static WorkerTransport WorkerToWorkerTransport(int id, WorkerModel worker) {
+        WorkerTransport wt = null;
+        if (worker != null) {
+            wt = new WorkerTransport();
+            wt.setId(id);
+            wt.setLastname(worker.lastname);
+            wt.setFirstname(worker.firstname);
+            wt.setEmail(worker.email);
+            wt.setPosition(worker.position);
         }
-        return example;   
+        return wt;
     }
     
 }
