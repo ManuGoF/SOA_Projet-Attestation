@@ -47,11 +47,11 @@ public class wsCedric {
      * Permet de récupérer tous les bateaux n'ayant pas rendu leur pochette.
      * @return la liste des bateaux (List<BoatTransport>)
      */
-    @WebMethod(operationName = "readBoatsHavingKits")
-    public List<BoatTransport> readAllCerfificates() {
+    @WebMethod(operationName = "readAllCertificates")
+    public List<CertificateTransport> readAllCerfificates() {
         List<BoatTransport> listBt = new ArrayList<>();
-        Map<Integer, Boat> items = BoatController.readBoatsHavingKits();
-        for (Map.Entry<Integer, Boat> entry : items.entrySet()) {
+        ArrayList<CertificateModel> certificates = CertificateController.readAllCertificates();
+        for () {
             BoatTransport bt = Converter.boatToBoatTransport(entry.getKey(), entry.getValue());
             listBt.add(bt);
         }
