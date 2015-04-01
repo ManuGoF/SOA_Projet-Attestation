@@ -54,7 +54,7 @@ import javax.ejb.Stateless;
 public class insurranceWebService {
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet d'insérer un client dans la table Clients de la BD.
      * Ce client est composée des paramètres suivants:
      * id, lastname, firstname, email, birthday, licence_type, licence_date
@@ -79,7 +79,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer un client de la table Clients de la BD.
      * Ce client est composée des paramètres suivants:
      * id, lastname, firstname, email, birthday, licence_type, licence_date
@@ -99,7 +99,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer tous les clients existants (dans la table Clients de la BD).
      * @return une liste <ClientTransport> correspondant à une liste de clients.
      * La liste retournée comprends les clients dans la BD de donnée. Si la BD est vide, une liste vide est retournée.
@@ -118,7 +118,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de supprimer un client à l'aide de son ID.
      * Cette méthode supprime le client dans la table Clients de la BD.
      * Cette méthode supprime en cascade dans la BD les objets qui sont liés au client supprimé.
@@ -142,7 +142,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer tous les véhiculess existants (dans la table Cars de la BD).
      * @return une liste List<CarTransport> correspondant à une liste de véhicule avec le Client à qui appartient le véhicule.
      * La liste retournée comprends les véhicules dans la base de donnée. Si la BD est vide, une liste vide est retournée.
@@ -163,7 +163,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet d'insérer un véhicule dans la table Cars de la BD.
      * Ce véhicule est composé des paramètres suivants:
      * serial_number, brand, model, type, color, price, client
@@ -189,7 +189,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer un véhicule de la table Cars de la BD.
      * Ce véhicule est composé des paramètres suivants:
      * serial_number, brand, model, type, color, price, client
@@ -210,7 +210,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de supprimer un véhicule à l'aide de son ID.
      * Cette méthode supprime le véhicule dans la table Cars de la BD.
      * Cette méthode supprime en cascade dans la BD les objets qui sont liés au véhicule supprimé.
@@ -235,7 +235,7 @@ public class insurranceWebService {
     
         
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet d'insérer une attestation dans la table Certificats de la BD. 
      * Cette attestation est composée des paramètres suivants: 
      * number, state, creation_date, car, worker 
@@ -260,7 +260,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer toutes les attestations existantes (dans la table Certificates de la BD).
      * @return une liste List<CertificateTransport> correspondant à une liste d'attestations avec le véhicule correspondant.
      * La liste retournée comprends les attestation dans la base de donnée. Si la BD est vide, une liste vide est retournée.
@@ -281,7 +281,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer une attestation de la table Certificates de la BD. 
      * Cette attestation est composée des paramètres suivants: 
      * number, state, creation_date, car, worker 
@@ -319,7 +319,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de modifier l'état d'une attestation s'il existe et si l'état entré est conforme.
      * @param certificate_number de type String correspondant au certificat à modifier.
      * @param status de type String correspondant au nouvel état.
@@ -339,7 +339,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet d'insérer un nouveau worker dans la base de données, 
      * si les paramètres d'entrée sont valides et si le tuple n'existe pas encore dans la base de données 
      * (par rapport a l'adresse email du travailleur).
@@ -359,7 +359,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * La methode readAllWorkers() permet de récuper tous les employés.
      * @return List<WorkerTransport> - une liste  de workers.
      * La liste retournée comprends les clients dans la BD de donnée. Si la BD est vide, une liste vide est retournée.
@@ -376,7 +376,7 @@ public class insurranceWebService {
     }
 
     /**
-     * Web service operation
+     * Web service operation de l'assurance.
      * Permet de récupérer un employé de la table Workers de la BD.
      * L'employé est composé des paramètres suivants:
      * id, lastname, firstname, email, birthday, position
