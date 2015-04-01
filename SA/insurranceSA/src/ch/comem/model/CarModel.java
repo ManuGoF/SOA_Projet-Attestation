@@ -14,28 +14,28 @@ package ch.comem.model;
  */
 public class CarModel {
     /**
-     * Numéro de série du véhicule (Maximum 50 charactères).
+     * Numéro de série du véhicule (Maximum 50 caractères).
      */
     public final String serial_number;
     
     /**
-     * Marque du véhicule (Maximum 20 charactères).
+     * Marque du véhicule (Maximum 20 caractères).
      */
     public final String brand;
     
     /**
-     * Modèle du véhicule (Maximum 50 charactères).
+     * Modèle du véhicule (Maximum 50 caractères).
      */
     public final String model;
     
     /**
-     * Type de véhicule (Maximum 50 charactères).
+     * Type de véhicule (Maximum 50 caractères).
      * (Exemple Limousine, Cabriolet, 2 roues, etc.)
      */
     public final String type;
     
     /**
-     * Couleur du véhicule (Maximum 20 charactères).
+     * Couleur du véhicule (Maximum 20 caractères).
      */
     public final String color;
     

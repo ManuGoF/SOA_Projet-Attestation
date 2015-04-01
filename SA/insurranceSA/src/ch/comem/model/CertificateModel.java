@@ -10,11 +10,11 @@ import java.util.Date;
 public class CertificateModel {
 
     /**
-     * Numero du certificat (Maximum 50 charactères).
+     * Numero du certificat (Maximum 50 caractères).
      */
     public final String number;
     /**
-     * Etat du certificat (Maximum 20 charactères).
+     * Etat du certificat (Maximum 20 caractères).
      */
     public final String state;
 
@@ -34,19 +34,15 @@ public class CertificateModel {
     public final WorkerModel worker;
 
     /**
-     * Crée l'élément Client
-     *
+     * Crée l'élément Worker
      * @param number de type String correspondant au numero du certificat.
      * @param state de type String correspondant a l'état du certificat.
-     * @param creation_date de type String correspondant à la date de création du
-     * certificat ("2015-02-10").
+     * @param creation_date de type String correspondant à la date de création du certificat ("2015-02-10").
      * @param car de type CarModel correspondant à la voiture concernée.
-     * @param worker de type WorkerModel correspondant à l'employé ayant crée le
-     * cerficat. Attention : Lance une exception si le paramètre String number
-     * est plus élevé que 50 caractères. Attention : Lance une exception si le
-     * paramètre String state est plus élevé que 20 caractères. Attention :
-     * Lance une exception si le paramètre String state est différent que les
-     * valeurs admises ("en attente" | "acceptée" | "refusée").
+     * @param worker de type WorkerModel correspondant à l'employé ayant crée le cerficat. 
+     * Attention : Lance une exception si le paramètre String number est plus élevé que 50 caractères. 
+     * Attention : Lance une exception si le paramètre String state est plus élevé que 20 caractères. 
+     * Attention : Lance une exception si le paramètre String state est différent que les valeurs admises ("en attente" | "acceptée" | "refusée"). 
      */
     public CertificateModel(String number, String state, String creation_date, CarModel car, WorkerModel worker) {
         // Contrôle si les paramètres d'entrée sont fournis

@@ -7,22 +7,22 @@
 package ch.comem.model;
 
 /**
- * Permet de définir l'objet comment.
+ * Permet de définir l'objet Comment.
  * @author Cedric
  */
 public class CommentModel {
     
     /**
-     * Le texte du commentaire (Maximum 100 charactères).
+     * Le texte du commentaire (Maximum 100 caractères).
      */
     public final String text;
     
-        /**
+     /**
      * Le certificat commenté.
      */
     public final CertificateModel certificate;
     
-        /**
+     /**
      * L'employé ayant rédigé le commentaire.
      */
     public final WorkerModel worker;
@@ -33,7 +33,7 @@ public class CommentModel {
      * @param certificate de type CertificateModel correspondant au cerfificat commenté.
      * @param worker de type WorkerModel correspondant à l'employé ayant rédigé le commentaire.
      * Attention renvoie une exception si les paramètres ne sont pas définis.
-     * Attention renvoie une exception si la longueur du texte est plus longue que 100 characteres.
+     * Attention renvoie une exception si la longueur du texte est plus longue que 100 caracteres.
      */
     public CommentModel(String text, CertificateModel certificate, WorkerModel worker) {
       if (text == null || certificate == null || worker == null) throw new RuntimeException("Comment parameters not define");

@@ -6,28 +6,28 @@
 package ch.comem.model;
 
 /**
- *
+ * Permet de définir l'objet Worker.
  * @author Cedric
  */
 public class WorkerModel {
 
     /**
-     * Prenom de l'employé (Maximum 50 charactères).
+     * Prenom de l'employé (Maximum 50 caractères).
      */
     public final String lastname;
 
     /**
-     * Nom de l'employé (Maximum 50 charactères).
+     * Nom de l'employé (Maximum 50 caractères).
      */
     public final String firstname;
 
-        /**
-     * Email de l'employé (Maximum 80 charactères).
+     /**
+     * Email de l'employé (Maximum 80 caractères).
      */
     public final String email;
 
-        /**
-     * Position de l'employé (Maximum 20 charactères).
+     /**
+     * Position de l'employé (Maximum 20 caractères).
      */
     public final String position;
     
