@@ -5,6 +5,7 @@
  */
 package ch.comem.transport;
 
+import ch.comem.model.CarModel;
 import ch.comem.model.ExampleModel;
 
 /**
