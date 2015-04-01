@@ -11,6 +11,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
+/**
+ * Permet de gérer des employés qui on les paramètres suivants:
+ * lastname, firstname, email, birthday, position
+ * Ce controlleur permet de faire les actions suivantes:
+ * - création d'un employé dans la BD.
+ * - récupération d'un employé de la BD à l'aide de son ID.
+ * - récupération d'une liste de clé->valeur de tous les employés (ID->Worker).
+ * - Récupération de l'ID d'un worker à l'aide de son email.
+ * @author Groupe Manu et Cédric
+ */
 public class WorkerController {
 
     // Chargement du driver odbc une fois pour toute
@@ -23,17 +33,13 @@ public class WorkerController {
     }
 
     /**
-     * La methode createWorker permet d'insérer un nouveau worker dans la base
-     * de données, si les paramètres d'entrée sont valides et si le tuple
-     * n'existe pas encore dans la base de données (par rapport a l'adresse
-     * email du travailleur).
-     *
-     * @param worker
-     * @return response de type Response selon les résultats suivants: response:
-     * -1, OK, Number of the genereted key => OK (l'opération s'est bien
-     * déroulée). response: -2, Worker already exist!, 0 => Le worker existe
-     * deja dans la BD.
-     *
+     * La methode createWorker permet d'insérer un nouveau worker dans la base de données, 
+     * si les paramètres d'entrée sont valides et si le tuple n'existe pas encore dans la base de données 
+     * (par rapport a l'adresse email du travailleur).
+     * @param worker de type WorkerModel
+     * @return response de type Response selon les résultats suivants: 
+     * response: -1, OK, Number of the genereted key => OK (l'opération s'est bien déroulée). 
+     * response: -2, Worker already exist!, 0 => Le worker existe deja dans la BD.
      */
     public static Response createWorker(WorkerModel worker) {
         Response response = null;
@@ -69,10 +75,9 @@ public class WorkerController {
     }
 
     /**
-     * La methode readAllWorkers() permet de récuper tous les certificats.
-     *
-     * @return Map<Integer,WorkerModel> - une liste clé->valeur de workers
-     * (ID->WorkerModel).
+     * La methode readAllWorkers() permet de récuper tous les employés.
+     * @return Map<Integer,WorkerModel> - une liste clé->valeur de workers (ID->WorkerModel).
+     * La liste retournée comprends les clients dans la BD de donnée. Si la BD est vide, une liste vide est retournée.
      */
     public static Map<Integer, WorkerModel> readAllWorkers() {
         Connection con = null;
@@ -98,11 +103,14 @@ public class WorkerController {
         return workers;
     }
 
-        /**
-     * La methode readWorker() permet de récuper un worker specifique.
-     *
-     * @return Map<Integer,WorkerModel> - une liste clé->valeur de worker
-     * (ID->WorkerModel).
+     /**
+     * Permet de récupérer un employé de la table Workers de la BD.
+     * L'employé est composé des paramètres suivants:
+     * lastname, firstname, email, birthday, position
+     * Si l'employé n'existe pas (selon son ID), l'objet n'est pas retourné.
+     * Si l'employé  ID n'est pas conforme (=< 0), l'objet n'est pas retourné.
+     * @param id de type Integer correspondant à l'id de l'employé souhaité.
+     * @return Map<Integer,WorkerModel> - une liste clé->valeur de worker (ID->WorkerModel).
      */
     public static Map<Integer, WorkerModel> readWorker(int id) {
         Connection con = null;
@@ -129,12 +137,12 @@ public class WorkerController {
         return workers;
     }
     
-        /**
-     * Permet de récupérer un ID d'un client de la table Clients de la BD.
-     * Si le client n'existe pas (selon son EMAIL), l'id retourné = 0.
+     /**
+     * Permet de récupérer un ID d'un employé de la table Workers de la BD.
+     * Si l'employé n'existe pas (selon son EMAIL), l'id retourné = 0.
      * Si l'email n'est pas définit, l'id retourné = 0.
-     * @param email de type String correspondant à l'email du client souhaité.
-     * @return idGet de type Integer correspondant à l'ID du client souhaité s'il existe.
+     * @param email de type String correspondant à l'email de l'employé souhaité.
+     * @return idGet de type Integer correspondant à l'ID de l'emloyé souhaité s'il existe.
      */
     public static int getWorkerId(String email) {
         
