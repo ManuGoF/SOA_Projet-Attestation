@@ -39,7 +39,7 @@ public class InsurranceProgSA {
 //        System.out.println(WorkerController.createWorker(worker).message);
         
 //        System.out.println(CertificateController.readCertificate("ASS10 5000 1001").car.brand);
-        System.out.println(WorkerController.readAllWorkers());
+       // System.out.println(WorkerController.readWorker(300));
 
     }
 
