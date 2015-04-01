@@ -29,12 +29,12 @@ import javax.jws.WebParam;
 import javax.ejb.Stateless;
 
 /**
- * Permet de gérer des attestations, véhicules, client et employés.
+ * Permet de gérer des attestations, véhicules, client et employés de l'assurance.
  * Ce web service permet de faire les actions suivantes:
  * - Création d'un client dans la BD.
  * - Récupération d'un client de la BD à l'aide de son ID.
  * - Suppression d'un client dans la BD et les objets liés en cascade à l'aide de son ID.
- * - Récupération d'une liste de clé->valeur de tous les clients (ID->Client).
+ * - Récupération d'une liste de de tous les clients.
  * - Création d'un véhicule dans la BD.
  * - Récupération d'un véhicule de la BD à l'aide de son ID.
  * - Suppression d'un véhicule dans la BD et les objets liés en cascade à l'aide de son ID.
@@ -46,7 +46,7 @@ import javax.ejb.Stateless;
  * - Modification de l'employé responsable (worker).
  * - Création d'un employé dans la BD.
  * - Récupération d'un employé de la BD à l'aide de son ID.
- * - Récupération d'une liste de clé->valeur de tous les employés (ID->Worker).
+ * - Récupération d'une liste de tous les employés.
  * @author Groupe Manu et Cédric
  */
 @WebService(serviceName = "insurranceWebService")
