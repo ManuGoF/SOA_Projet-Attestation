@@ -14,9 +14,9 @@ import javax.ejb.Stateless;
  *
  * @author Manu
  */
-@WebService(serviceName = "agencyWebService")
+@WebService(serviceName = "insurranceWebService")
 @Stateless()
-public class agencyWebService {
+public class insurranceWebService {
 
     /**
      * This is a sample web service operation
