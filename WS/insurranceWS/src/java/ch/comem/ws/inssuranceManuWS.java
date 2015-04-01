@@ -5,6 +5,12 @@
  */
 package ch.comem.ws;
 
+import ch.comem.controller.ClientController;
+import ch.comem.model.ClientModel;
+import ch.comem.model.Response;
+import ch.comem.transport.ClientTransport;
+import ch.comem.transport.Convertisseurs;
+import ch.comem.transport.ResponseTransport;
 import javax.jws.WebService;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -31,7 +37,12 @@ public class inssuranceManuWS {
      */
     @WebMethod(operationName = "createClient")
     public ResponseTransport createClient(@WebParam(name = "client") ClientTransport client) {
-        //TODO write your implementation code here:
-        return null;
+        ResponseTransport responseWS = null;
+        if (client != null) {
+            ClientModel clientSA = Convertisseurs.clientTransportToClient(client);
+            Response responseSA = ClientController.createClient(clientSA);
+            responseWS = Convertisseurs.responseToResponseTransport(responseSA);
+        }
+        return responseWS;
     }
 }
