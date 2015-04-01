@@ -101,6 +101,7 @@ public class Convertisseurs {
             cart.setClient(clit);
             
             wt = new WorkerTransport();
+            wt.setId(id_worker);
             wt.setLastname(certificate.worker.lastname);
             wt.setFirstname(certificate.worker.firstname);
             wt.setEmail(certificate.worker.email);

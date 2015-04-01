@@ -143,10 +143,9 @@ public class CertificateController {
      * ate de type CertificateModel correspondant au certificat souhaité si il
      * existe.
      */
-    public static Map<ArrayList<Integer>, CertificateModel> readCertificate(String number) {
+    public static CertificateModel readCertificate(String number) {
         Connection con = null;
         CertificateModel certificate = null;
-        Map<ArrayList<Integer>, CertificateModel> cert = new HashMap();
         ResourceBundle r = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
 
         try {
@@ -158,9 +157,7 @@ public class CertificateController {
             CarModel car = new CarModel(ensembleResultats.getString(6), ensembleResultats.getString(7), ensembleResultats.getString(8), ensembleResultats.getString(9), ensembleResultats.getString(10), ensembleResultats.getDouble(11), client);
             WorkerModel worker = new WorkerModel(ensembleResultats.getString(14), ensembleResultats.getString(15), ensembleResultats.getString(16), ensembleResultats.getString(17));
             certificate = new CertificateModel(ensembleResultats.getString(1), ensembleResultats.getString(2), ensembleResultats.getString(3), car, worker);
-            ArrayList ids = new ArrayList<>();
-            ids.add(ensembleResultats.getInt(13));
-            ids.add(ensembleResultats.getInt(18));
+           
             
 
         } catch (Exception e) {

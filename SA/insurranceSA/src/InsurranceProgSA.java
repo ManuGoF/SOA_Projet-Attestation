@@ -1,5 +1,7 @@
 
 import ch.comem.controller.CarController;
+import ch.comem.controller.CertificateController;
+import ch.comem.controller.WorkerController;
 import ch.comem.model.Response;
 
 
@@ -92,6 +94,7 @@ public class InsurranceProgSA {
         System.out.println("Réponse code : "  + response2.code);
         System.out.println("Réponse message : "  + response2.message);
         System.out.println("Réponse clé suprimée : "  + response2.generatedKey);*/
+        System.out.println(WorkerController.getWorkerId("mavic.arnold@gmail.com"));
         
         
 
