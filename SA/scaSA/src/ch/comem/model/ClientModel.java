@@ -12,33 +12,33 @@ package ch.comem.model;
  */
 public class ClientModel {
     /**
-     * Nom du client (Maximum 50 charactères).
+     * Nom du client (Maximum 50 caractères).
      */
     public final String lastname;
             
     /**
-     * Prénom du client (Maximum 50 charactères).
+     * Prénom du client (Maximum 50 caractères).
      */
     public final String firstname;
     
     /**
-     * Email du client (Maximum 80 charactères)
+     * Email du client (Maximum 80 caractères)
      */
     public final String email;
     
     /**
-     * Date de naissance du client.
+     * Date de naissance du client. (Maximum 10 caractères).
      */
     public final String birthday;
     
     /**
-     * Type de permis que possède le client (Maximum 50 charactères).
+     * Type de permis que possède le client (Maximum 50 caractères).
      * (Exemple B, C1, D1, BE, C1E, D1E, etc.)
      */
     public final String licence_type;
     
     /**
-     * Date d'émission du permis.
+     * Date d'émission du permis. (Maximum 10 caractères).
      */
     public final String licence_date;
 

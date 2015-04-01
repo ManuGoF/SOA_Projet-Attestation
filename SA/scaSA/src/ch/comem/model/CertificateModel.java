@@ -10,29 +10,29 @@ import java.util.Date;
 public class CertificateModel {
     
     /**
-     * Numero du certificat (Maximum 50 charactères).
+     * Numero de l'attestation (Maximum 50 caractères).
      */
     public final String number;
     /**
-     * Etat du certificat (Maximum 20 charactères).
+     * Etat de l'attestation (Maximum 20 caractères).
      */
     public final String state;
     
     /**
-     * Date de création du certificat.
+     * Date de création de l'attestation.
      */
     public final String creation_date;
     
     /**
-     * Voiture concernée par le certificat.
+     * Voiture concernée par l'attestation.
      */
     public final CarModel car;
     
     /**
-     * Crée l'élément Client
-     * @param number de type String correspondant au numero du certificat.
-     * @param state de type String correspondant a l'état du certificat.
-     * @param creation_date de type String correspondant à la date de création du certificat ("yyyy-MM-dd").
+     * Crée l'élément Certificat
+     * @param number de type String correspondant au numero de l'attestation
+     * @param state de type String correspondant a l'état de l'attestation
+     * @param creation_date de type String correspondant à la date de création de l'attestation ("yyyy-MM-dd").
      * @param car de type CarModel correspondant à la voiture concernée.
      * Attention : Lance une exception si le paramètre String number est plus élevé que 50 caractères.
      * Attention : Lance une exception si le paramètre String state est plus élevé que 20 caractères.
