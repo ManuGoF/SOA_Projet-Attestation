@@ -8,6 +8,7 @@ package ch.comem.transport;
 import ch.comem.model.CarModel;
 import ch.comem.model.CertificateModel;
 import ch.comem.model.ClientModel;
+import ch.comem.model.Response;
 import ch.comem.model.WorkerModel;
 
 /**
@@ -110,6 +111,7 @@ public class Convertisseurs {
             ct.setState(certificate.state);
             ct.setCreation_date(certificate.creation_date);
             ct.setCar_transport(cart);
+            ct.setWorker_transport(wt);
 
         }
         return ct;
@@ -205,6 +207,23 @@ public class Convertisseurs {
             );
         }
         return car;   
+    }
+    
+        /**
+     * Permet de transformer une response en response transport
+     * @param response la réponse du sa (Response)
+     * @return rt la réponse transport (ResponseTransport)
+     */
+    public static ResponseTransport responseToResponseTransport(Response response) {
+        ResponseTransport rt = null;
+        if (response != null) {
+            rt = new ResponseTransport();
+            rt.setCode(response.code);
+            rt.setMessage(response.message);
+            rt.setGeneratedKey(response.generatedKey);
+
+        }
+        return rt;
     }
     
 }

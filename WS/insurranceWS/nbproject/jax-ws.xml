@@ -7,6 +7,9 @@
     <service name="inssuranceManuWS">
       <implementation-class>ch.comem.ws.inssuranceManuWS</implementation-class>
     </service>
+    <service name="wsCedric">
+      <implementation-class>ch.comem.ws.wsCedric</implementation-class>
+    </service>
   </services>
   <clients/>
 </jax-ws>
