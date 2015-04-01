@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services>
-    <service name="insurranceWebService">
-      <implementation-class>ch.comem.ws.insurranceWebService</implementation-class>
+    <service name="wsCedric">
+      <implementation-class>ch.comem.ws.wsCedric</implementation-class>
     </service>
     <service name="inssuranceManuWS">
       <implementation-class>ch.comem.ws.inssuranceManuWS</implementation-class>
     </service>
-    <service name="wsCedric">
-      <implementation-class>ch.comem.ws.wsCedric</implementation-class>
+    <service name="insurranceWebService">
+      <implementation-class>ch.comem.ws.insurranceWebService</implementation-class>
     </service>
   </services>
   <clients/>
