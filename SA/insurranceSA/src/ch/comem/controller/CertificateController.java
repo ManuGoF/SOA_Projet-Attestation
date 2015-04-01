@@ -169,7 +169,7 @@ public class CertificateController {
 
     /**
      * La methode updateState permet de modifier l'état d'un certificat s'il existe et si l'état entré est conforme.
-     * @param certificate_number de type Certificat correspondant au certificat à modifier.
+     * @param certificate_number de type String correspondant au certificat à modifier.
      * @param state de type String correspondant au nouvel état.
      * @return response de Type Response correspondant à la réponse du service.
      * response: -1, OK new state : state, 0 => OK (l'opération s'est bien déroulée). 
@@ -217,7 +217,7 @@ public class CertificateController {
 
     /**
      * La methode updateState permet de modifier l'état d'un certificat s'il existe et si l'état entré est conforme.
-     * @param certificate_number de type Certificat correspondant au certificat à modifier.
+     * @param certificate_number de type String correspondant au certificat à modifier.
      * @param new_worker_id de type int correspondant au nouveau travailleur.
      * @return response de Type Response correspondant à la réponse du service.
      * response: -1, OK, 0 => OK (l'opération s'est bien déroulée). 
