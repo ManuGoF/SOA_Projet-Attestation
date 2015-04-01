@@ -8,7 +8,7 @@ package ch.comem.transport;
 import ch.comem.model.ClientModel;
 
 /**
- * Permet de définir un objet montre "transportable su le web" (sans logique).
+ * Permet de définir un objet véhicule "transportable su le web" (sans logique).
  * @author Manu
  */
 public class CarTransport {

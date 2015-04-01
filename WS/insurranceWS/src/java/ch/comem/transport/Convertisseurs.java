@@ -14,17 +14,26 @@ import ch.comem.model.WorkerModel;
 /**
  * Permet de convertir des objets fournis par les services applicatifs en objets transportable (sur le web).
  * Cette classe permet de faire les actions suivantes:
- * - Convertir un exemple de type ExampleModel en type ExampleTransport
- * - Convertir un exemple de type ExampleTransport en type ExampleModel 
+ * - Convertir un employé de type WorkerModel en type WorkerTransport.
+ * - Convertir un employé de type WorkerTransport en type WorkerModel. 
+ * - Convertir un employé de type CertificateModel en type CertificateTransport.
+ * - Convertir un employé de type CertificateTransport en type CertificateModel. 
+ * - Convertir un employé de type CarModel en type CarTransport.
+ * - Convertir un employé de type CarTransport en type CarModel. 
+ * - Convertir un employé de type ClientModel en type ClientTransport.
+ * - Convertir un employé de type ClientTransport en type ClientModel. 
+ * - Convertir un employé de type ResponseTransport en type ResponseModel. 
  * @author Groupe Manu et Cédric
  */
 public class Convertisseurs {
     
 
-        /**
-     * Permet de transformer un bateau transport en bateau.
-     * @param workerTransport
-     * @return b le bateau (Boat)
+    /**
+     * Permet de convertir un employé de type WorkerTransport en type WorkerModel.
+     * Cela permet de convertir l'employé du WS transportable (sur le Web) en employé SA utilisable par le SA.
+     * Si l'objet passé en paramètre est null, rien n'est retourné. (Ou null).
+     * @param workerTransport de type WorkerTransport correspondant à l'employé transportable (sur le web)
+     * @return w de type WorkerModel correspondant à un employé du SA.
      */
     public static WorkerModel workerTransportToWorker(WorkerTransport workerTransport) {
         WorkerModel w = null;
@@ -33,12 +42,15 @@ public class Convertisseurs {
         }
         return w;
     }
+
     
-        /**
-     * Permet de transformer un bateau en bateau transport
-     * @param id - l'id du bateau (int)
-     * @param worker
-     * @return bt - le bateau transport (BoatTransport)
+    /**
+     * Permet de convertir un employé de type WorkerModel en type WorkerTransport.
+     * Cela permet de convertir l'employé du SA en employé transportable (sur le Web).
+     * Si l'objet passé en paramètre est null ou si l'id du client < 0, rien n'est retourné.
+     * @param worker de type WorkerModel correspondant à l'employé.
+     * @param id de type Integer correspondant à un worker du SA.
+     * @return wt de type WorkerTransport correspondant à un employé "transportable".
      */
     public static WorkerTransport WorkerToWorkerTransport(int id, WorkerModel worker) {
         WorkerTransport wt = null;
@@ -53,10 +65,13 @@ public class Convertisseurs {
         return wt;
     }
     
-            /**
-     * Permet de transformer un bateau transport en bateau.
-     * @param certificateTransport
-     * @return b le bateau (Boat)
+    
+    /**
+     * Permet de convertir une attestation de type CertificateTransport en type CertificateModel.
+     * Cela permet de convertir l'attestaton du WS transportable (sur le Web) en attestation SA utilisable par le SA.
+     * Si l'objet passé en paramètre est null, rien n'est retourné. (Ou null).
+     * @param certificateTransport de type CertificateTransport correspondant à l'attestation transportable (sur le web)
+     * @return ce de type CertificateModel correspondant à une attestation du SA.
      */
     public static CertificateModel certificateTransportToCertificate(CertificateTransport certificateTransport) {
         CertificateModel ce = null;
@@ -70,11 +85,15 @@ public class Convertisseurs {
         return ce;
     }
     
-        /**
-     * Permet de transformer un bateau en bateau transport
-     * @param id - l'id du bateau (int)
-     * @param certificate
-     * @return bt - le bateau transport (BoatTransport)
+
+    /**
+     * Permet de convertir une attestation de type CertificateModel en type CertificateTransport.
+     * Cela permet de convertir l'attestation du SA en attestation transportable (sur le Web).
+     * Si l'objet passé en paramètre est null ou si l'id du client ou si l'id du client < 0, rien n'est retourné.
+     * @param certificate de type CertificateModel correspondant à l'attestation
+     * @param id_client de type Integer correspondant à un Client du SA.
+     * @param id_worker  de type Integer correspondant à un employé du SA.
+     * @return ct de type CertificateTransport correspondant à une attestation "transportable".
      */
     public static CertificateTransport certificateToCertificateTransport(int id_client, int id_worker, CertificateModel certificate) {
         ClientTransport clit = null;
@@ -210,10 +229,13 @@ public class Convertisseurs {
         return car;   
     }
     
-        /**
-     * Permet de transformer une response en response transport
-     * @param response la réponse du sa (Response)
-     * @return rt la réponse transport (ResponseTransport)
+
+    /**
+     * Permet de convertir une réponse de type ResponseModel en type ResponseTransport.
+     * Cela permet de convertir la réponse du SA en réponse transportable (sur le Web).
+     * Si l'objet passé en paramètre est null ou l'id < 0, rien n'est retourné.
+     * @param response de type ResponseModel correspondant à une réponse du SA.
+     * @return rt de type ResponseTransport correspondant à une réponse "transportable".
      */
     public static ResponseTransport responseToResponseTransport(Response response) {
         ResponseTransport rt = null;

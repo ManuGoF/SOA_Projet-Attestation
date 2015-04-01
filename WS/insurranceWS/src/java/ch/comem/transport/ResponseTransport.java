@@ -7,7 +7,7 @@
 package ch.comem.transport;
 
 /**
- *
+ * Permet de définir un objet Response "transportable su le web" (sans logique).
  * @author Cedric
  */
 public class ResponseTransport {
@@ -16,47 +16,48 @@ public class ResponseTransport {
     private int generatedKey;
 
     /**
-     * @return the code
+     * Permet de récupérer le code de la réponse.
+     * @return the code de type Integer.
      */
     public int getCode() {
         return code;
     }
 
     /**
-     * @param code the code to set
+     * Permet de définir le code de la réponse.
+     * @param code the code to set de type Integer.
      */
     public void setCode(int code) {
         this.code = code;
     }
 
     /**
-     * @return the description
-     */
-
-
-    /**
-     * @return the generatedKey
+     * Permet de récupérer la clé généréé de la réponse.
+     * @return the generatedKey de type Integer
      */
     public int getGeneratedKey() {
         return generatedKey;
     }
 
     /**
-     * @param generatedKey the generatedKey to set
+     * Permet de définir la clé généréé de la réponse.
+     * @param generatedKey the generatedKey to set de type Integer.
      */
     public void setGeneratedKey(int generatedKey) {
         this.generatedKey = generatedKey;
     }
 
     /**
-     * @return the message
+     * Permet de récupérer le message de la réponse.
+     * @return the message de type String.
      */
     public String getMessage() {
         return message;
     }
 
     /**
-     * @param message the message to set
+     * Permet de définir le message de la réponse.
+     * @param message the message to set type String
      */
     public void setMessage(String message) {
         this.message = message;
