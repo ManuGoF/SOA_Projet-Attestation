@@ -29,7 +29,7 @@ public class scaProgSA {
         System.out.println("Réponse message : "  + response1.message);
         System.out.println("Réponse clé générée : "  + response1.generatedKey);*/
         
-        /*ClientModel client2 = ClientController.readClient(2002);
+        /*ClientModel client2 = ClientController.readClient(2001);
         System.out.println("Lastname : " + client2.lastname);
         System.out.println("Firstname : " + client2.firstname);
         System.out.println("Email : " + client2.email);
@@ -78,6 +78,8 @@ public class scaProgSA {
         System.out.println("Réponse code : "  + response2.code);
         System.out.println("Réponse message : "  + response2.message);
         System.out.println("Réponse clé suprimée : "  + response2.generatedKey);*/
+        
+        //CarController.addRegistration("VF7 X2R FVF 7200 9190", "VD 144 777");
         
         
         
