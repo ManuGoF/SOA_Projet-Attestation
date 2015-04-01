@@ -13,28 +13,33 @@ import com.sun.security.ntlm.Client;
  */
 public class CarModel {
     /**
-     * Numéro de série du véhicule (Maximum 50 charactères).
+     * Numéro de série du véhicule (Maximum 50 caractères).
      */
     public final String serial_number;
     
     /**
-     * Marque du véhicule (Maximum 20 charactères).
+     * Numéro de plaque du véhicule (Maximum 20 caractères)
+     */
+    private String registration;
+    
+    /**
+     * Marque du véhicule (Maximum 20 caractères).
      */
     public final String brand;
     
     /**
-     * Modèle du véhicule (Maximum 50 charactères).
+     * Modèle du véhicule (Maximum 50 caractères).
      */
     public final String model;
     
     /**
-     * Type de véhicule (Maximum 50 charactères).
+     * Type de véhicule (Maximum 50 caractères).
      * (Exemple Limousine, Cabriolet, 2 roues, etc.)
      */
     public final String type;
     
     /**
-     * Couleur du véhicule (Maximum 20 charactères).
+     * Couleur du véhicule (Maximum 20 caractères).
      */
     public final String color;
     
@@ -46,7 +51,7 @@ public class CarModel {
     /**
      * Client propriétaire du véhicule.
      */
-    public final Client client;
+    public final ClientModel client;
     
     /**
      * Crée l'élément Car.
@@ -60,8 +65,10 @@ public class CarModel {
      * Attention : Lance une exception si les paramètres ne sont pas définis.
      * Attention : Lance une exception si certains paramètres String sont plus élevé que 50 caractères.
      * Attention : Lance une exception si certains paramètre String sont plus élevé que 20 caractères.
+     * Info: registration n'est pas nécessaire car il est définit seulement quans le client vient chercher les plaques. 
+     * Le seul test sur ce paramètre est celui qui vérifie que la String ne soit pas supérieure à 20 caractères ou s'il est définit lors du setRegistration.
      */
-    public CarModel(String serial_number, String registration, String brand, String model, String type, String color, Double price, Client client) {
+    public CarModel(String serial_number, String brand, String model, String type, String color, Double price, ClientModel client) {
         // Contrôle si les paramètres d'entrée sont fournis
         if (serial_number == null || brand == null || model == null || type == null || color == null || price == 0 || client == null) throw new RuntimeException("Car parameters not define");
         // Contrôle de la longueur des paramètres String fournis
@@ -74,6 +81,24 @@ public class CarModel {
         this.color = color;
         this.price = price;
         this.client = client;
+    }
+
+    /**
+     * Ajoute le numéro de plaque du véhicule à l'élément 
+     * @param registration the registration to set de type String correspond au numéro de plaque du véhicule.
+     * Attention : Lance une exception si le paramètre est égale à null. (Pas défini.)
+     */
+    public void setRegistration(String registration) {
+        if (registration == null) throw new RuntimeException("The registration car isn't define.");
+        this.registration = registration;
+    }
+
+    /**
+     * Récupère le numéro de plaque du véhicule 
+     * @return the registration de type String correspondant au numéro de plaque du véhicule.
+     */
+    public String getRegistration() {
+        return registration;
     }
     
 }

@@ -15,7 +15,7 @@ public class ClientModel {
      * Nom du client (Maximum 50 charactères).
      */
     public final String lastname;
-    
+            
     /**
      * Prénom du client (Maximum 50 charactères).
      */

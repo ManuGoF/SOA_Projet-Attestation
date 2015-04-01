@@ -43,7 +43,7 @@ public class CarController {
     /**
      * Permet d'insérer un véhicule dans la table Cars de la BD.
      * Ce véhicule est composé des paramètres suivants:
-     * serial_number, brand, model, type, color, price, client
+     * serial_number, registration, brand, model, type, color, price, client
      * Si le véhicule existe déjà (selon son SERIAL_NUMBER), l'objet n'est pas créé.
      * Si l'id du client à qui appartient le véhicule n'existe pas, l'objet n'est pas créé.
      * @param car de type CarModel
@@ -56,7 +56,7 @@ public class CarController {
      */
     public static Response createCar(CarModel car) {
         Response response = null;
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
         
         if (car != null) {
             Connection con = null;
@@ -74,7 +74,7 @@ public class CarController {
                             + " WHERE "
                             + "SERIAL_NUMBER = '" + car.serial_number.replace("'", "''") + "'";
                 ResultSet exist = requete.executeQuery(requestCar);
-                
+               
                 // Test si le véhicule existe déjà pour ne pas le créer à double.
                 if (!exist.next()) {
                     // Récupération de l'id du client à l'aide de son objet
@@ -137,9 +137,94 @@ public class CarController {
     
     
     /**
+     * Permet d'attribuer un numéro de plaque à un véhicule dans la table Cars de la BD.
+     * Ce véhicule est composé des paramètres suivants:
+     * serial_number, registration, brand, model, type, color, price, client
+     * Si le véhicule existe (selon son SERIAL_NUMBER), le champ registration est modifié.
+     * Sinon, le véhicule n'est pas modifié.
+     * @param serial_number
+     * @param registration
+     * @return response de type Response selon les résultats suivants:
+     * response: -1, OK: Serial number, 0 => OK (l'opération s'est bien déroulée).
+     * response: -2, The client object doesn't exist!, 0 => L'objet correspondant à l'ID client passé dans car n'existe pas dans la BD.
+     * response: -3, The object already exist!, 0 => L'objet correspondant à l'ID passé en paramètre existe déjà.
+     * response: -4, Parameter isn't congruent!, 0 => Paramètre idn conforme.
+     * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
+     */
+    public static Response addRegistration(String serial_number, String registration) {
+        Response response = null;
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
+        
+        if (serial_number != null || registration != null) {
+            Connection con = null;
+            
+            try {
+                // Connection à la base de données
+                con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
+                Statement requete = con.createStatement();
+            
+                // Requète de sélection du véhicule (Pour vérifier l'existance)
+                String requestCar = " SELECT "
+                            + "*"
+                            + " FROM "
+                            + "Cars"
+                            + " WHERE "
+                            + "SERIAL_NUMBER = '" + serial_number.replace("'", "''") + "'";
+                ResultSet exist = requete.executeQuery(requestCar);
+               
+                // Test si le véhicule existe.
+                if (exist.next()) {
+
+                        // Comme l'id est un champ auto incrémenté il n'est pas nécessaire de le définir.
+                        String requestInsertCar = "UPDATE cars "
+                                + "SET REGISTRATION = "
+                                + "'" + registration.replace("'", "''") + "'"
+                                + " WHERE "
+                                + "SERIAL_NUMBER = '" + serial_number.replace("'", "''") + "'"; 
+                        int nbCarsAdd = requete.executeUpdate(requestInsertCar, Statement.RETURN_GENERATED_KEYS);
+                        System.out.println(nbCarsAdd + " véhicule a été modifié (numéro de plaque)");
+                        ResultSet ensembleTuplesUpdate = requete.getGeneratedKeys();
+                        int idTupleUpdate = 0;
+                        // Comme il n'y a eu qu'un seul insert, on peut faire un if au lieu d'un while
+                        if (ensembleTuplesUpdate.next()) {
+                            idTupleUpdate = ensembleTuplesUpdate.getInt(1);
+                        }
+                        System.out.println("L'id du tuple modifié est : " + idTupleUpdate);
+
+                        if (idTupleUpdate < 0) {
+                            response = new Response(-5, "Nothing happened", 0);
+                        } 
+                        else {
+                            response = new Response(-1, "OK: " + serial_number, 0);
+                        }
+                    }
+                    else {
+                        response = new Response(-2, "The object doesn't exist!", 0);
+                    }
+
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+
+            // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
+            try {
+                con.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            } 
+        }
+        else {
+            response = new Response(-4, "Parameters isn't congruent!", 0);
+        }
+        
+        return response;
+    }
+    
+    
+    /**
      * Permet de récupérer un véhicule de la table Cars de la BD.
      * Ce véhicule est composé des paramètres suivants:
-     * serial_number, brand, model, type, color, price, client
+     * serial_number, registration, brand, model, type, color, price, client
      * Si le véhicule n'existe pas (selon son SERIAL_NUMBER), l'objet n'est pas retourné.
      * Si le véhicule SERIAL_NUMBER n'est pas conforme, l'objet n'est pas retourné.
      * @param serial_number de type String correspondant au numéro de série du véhicule souhaité.
@@ -147,9 +232,10 @@ public class CarController {
      */
     public static CarModel readCar(String serial_number) {
         
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
         
         String serialNumberGet = "";
+        String registrationGet = "";
         String brandGet = "";
         String modelGet = "";
         String typeGet = "";
@@ -191,6 +277,7 @@ public class CarController {
                         int client_id = carGet.getInt("CLIENT_ID");
                         
                         serialNumberGet = carGet.getString("SERIAL_NUMBER");
+                        registrationGet = carGet.getString("REGISTRATION");
                         brandGet = carGet.getString("BRAND");
                         modelGet = carGet.getString("MODEL");
                         typeGet = carGet.getString("TYPE");
@@ -227,6 +314,7 @@ public class CarController {
             priceGet,
             clientGet
         );
+        car.setRegistration(registrationGet);
 
         return car;
     }
@@ -247,7 +335,7 @@ public class CarController {
      */
     public static Response deleteCar(String serial_number) {
         Response response = null;
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
         
         if (serial_number != null) {
             Connection con = null;
@@ -303,7 +391,7 @@ public class CarController {
     public static ArrayList<CarModel> readAllCars() {
         ArrayList <CarModel> cars = new ArrayList<>();
         
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
         
         Connection con = null;
 
@@ -327,6 +415,7 @@ public class CarController {
                     allCars.getDouble("PRICE"),
                     client
                 );
+                car.setRegistration(allCars.getString("REGISTRATION"));
                 cars.add(car);
             }
 
