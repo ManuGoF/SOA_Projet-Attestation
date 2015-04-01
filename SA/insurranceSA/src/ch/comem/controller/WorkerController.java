@@ -1,4 +1,3 @@
-
 package ch.comem.controller;
 
 import ch.comem.model.Response;
@@ -12,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
-
 public class WorkerController {
 
     // Chargement du driver odbc une fois pour toute
@@ -25,21 +23,17 @@ public class WorkerController {
     }
 
     /**
-     * La methode createBoat permet d'insérer un nouveau bateau dans la base de
-     * données, si les paramètres d'entrée sont valides (cf. methode
-     * validateBoat()) et si le tuple n'existe pas encore dans la base de
-     * données (par rapport au numéro d'immatriculation).
+     * La methode createWorker permet d'insérer un nouveau worker dans la base
+     * de données, si les paramètres d'entrée sont valides et si le tuple
+     * n'existe pas encore dans la base de données (par rapport a l'adresse
+     * email du travailleur).
      *
-     * @param boat le bateau a ajouter (Boat)
-     * @return <code>response</code> - la réponse générée (Response)<br><br>
-     * <b>Si le tuple a été ajouté</b><br>
-     * Code : 201, Message : Created boat, GeneratedKey : the generated key <br>
-     * <b>Si le nom saisi est trop long</b><br>
-     * Code : 400, Message : Name is too long, GeneratedKey : 0 <br>
-     * <b>Si le numero saisi est trop long</b><br>
-     * Code : 400, Message : Number is too long, GeneratedKey : 0 <br>
-     * <b>Si le tuple existe déjà</b><br>
-     * Code : 400, Message : Boat already exist, GeneratedKey : 0 <br>
+     * @param worker
+     * @return response de type Response selon les résultats suivants: response:
+     * -1, OK, Number of the genereted key => OK (l'opération s'est bien
+     * déroulée). response: -2, Worker already exist!, 0 => Le worker existe
+     * deja dans la BD.
+     *
      */
     public static Response createWorker(WorkerModel worker) {
         Response response = null;
@@ -57,10 +51,10 @@ public class WorkerController {
                         + "('" + worker.lastname.replace("'", "''") + "','" + worker.firstname.replace("'", "''") + "','" + worker.email.replace("'", "''") + "','" + worker.position.replace("'", "''") + "')", Statement.RETURN_GENERATED_KEYS);
                 ResultSet generatedKey = requete.getGeneratedKeys();
                 generatedKey.next();
-                response = new Response(201, "Created worker", generatedKey.getInt(1));
+                response = new Response(-1, "OK", generatedKey.getInt(1));
 
             } else {
-                response = new Response(400, "Worker already exist", 0);
+                response = new Response(-2, "Worker already exist", 0);
             }
 
         } catch (Exception e) {
@@ -73,11 +67,12 @@ public class WorkerController {
         }
         return response;
     }
-    
-        /**
-     * La methode readBoatsHavingKits() permet de récuper tous les bateaux ayant un kit attribué
+
+    /**
+     * La methode readAllWorkers() permet de récuper tous les certificats.
      *
-     * @return boats - une hash map de bateaux disposant d'un kit (Map<Integer, Boat>) 
+     * @return Map<Integer,WorkerModel> - une liste clé->valeur de workers
+     * (ID->WorkerModel).
      */
     public static Map<Integer, WorkerModel> readAllWorkers() {
         Connection con = null;
@@ -89,7 +84,7 @@ public class WorkerController {
             Statement requete = con.createStatement();
             ResultSet ensembleResultats = requete.executeQuery("select * from workers");
             while (ensembleResultats.next()) {
-                WorkerModel worker = new WorkerModel(ensembleResultats.getString(2), ensembleResultats.getString(3), ensembleResultats.getString(4),ensembleResultats.getString(5));
+                WorkerModel worker = new WorkerModel(ensembleResultats.getString(2), ensembleResultats.getString(3), ensembleResultats.getString(4), ensembleResultats.getString(5));
                 workers.put(ensembleResultats.getInt(1), worker);
             }
         } catch (Exception e) {
@@ -102,8 +97,36 @@ public class WorkerController {
         }
         return workers;
     }
-    
 
+        /**
+     * La methode readWorker() permet de récuper un worker specifique.
+     *
+     * @return Map<Integer,WorkerModel> - une liste clé->valeur de worker
+     * (ID->WorkerModel).
+     */
+    public static Map<Integer, WorkerModel> readWorker(int id) {
+        Connection con = null;
+        Map<Integer, WorkerModel> workers = new HashMap();
+        ResourceBundle r = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
 
+        try {
+            con = DriverManager.getConnection(r.getString("BDurl"), r.getString("username"), r.getString("password"));
+            Statement requete = con.createStatement();
+            ResultSet ensembleResultats = requete.executeQuery("select * from workers where id=" + id + "");
+            if (ensembleResultats.next()) {
+                WorkerModel worker = new WorkerModel(ensembleResultats.getString(2), ensembleResultats.getString(3), ensembleResultats.getString(4), ensembleResultats.getString(5));
+                workers.put(ensembleResultats.getInt(1), worker);
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return workers;
+    }
 
 }
