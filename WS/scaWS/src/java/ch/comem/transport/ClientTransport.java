@@ -123,8 +123,8 @@ public class ClientTransport {
     }
 
     /**
-     * Permet de définir le type de permis que possède le client
-     * @param licence_type the licence_type to set de type String
+     * Permet de définir le type de permis que possède le client.
+     * @param licence_type the licence_type to set de type String.
      */
     public void setLicence_type(String licence_type) {
         this.licence_type = licence_type;

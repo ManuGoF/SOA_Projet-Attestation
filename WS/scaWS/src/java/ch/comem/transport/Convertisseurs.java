@@ -13,8 +13,13 @@ import ch.comem.model.Response;
 /**
  * Permet de convertir des objets fournis par les services applicatifs en objets transportable (sur le web).
  * Cette classe permet de faire les actions suivantes:
- * - Convertir un exemple de type ExampleModel en type ExampleTransport
- * - Convertir un exemple de type ExampleTransport en type ExampleModel 
+ * - Convertir un employé de type CertificateModel en type CertificateTransport.
+ * - Convertir un employé de type CertificateTransport en type CertificateModel. 
+ * - Convertir un employé de type CarModel en type CarTransport.
+ * - Convertir un employé de type CarTransport en type CarModel. 
+ * - Convertir un employé de type ClientModel en type ClientTransport.
+ * - Convertir un employé de type ClientTransport en type ClientModel. 
+ * - Convertir un employé de type ResponseTransport en type ResponseModel. 
  * @author Groupe Manu et Cédric
  */
 public class Convertisseurs {
@@ -64,14 +69,14 @@ public class Convertisseurs {
         return client;   
     }
     
-        /**
+    /**
      * Permet de convertir un véhicule de type CarModel en type CarTransport.
      * Cela permet de convertir le véhicule du SA en véhicule transportable (sur le Web).
      * Si l'objet passé en paramètre est null ou l'id < 0, rien n'est retourné.
      * @param id_client de type Integer correspondant à l'id du client à qui apprtient le véhicule.
      * @param car de type CarModel correspondant à un véhicule du SA.
      * @return cart de type CarTransport correspondant à un véhicule "transportable".
-     */
+    */
     public static CarTransport carToCarTransport (int id_client, CarModel car) {
         CarTransport cart = null;
         if (car != null) {
@@ -112,10 +117,12 @@ public class Convertisseurs {
         return car;   
     }
     
-            /**
-     * Permet de transformer une response en response transport
-     * @param response la réponse du sa (Response)
-     * @return rt la réponse transport (ResponseTransport)
+    /**
+     * Permet de convertir une réponse de type ResponseModel en type ResponseTransport.
+     * Cela permet de convertir la réponse du SA en réponse transportable (sur le Web).
+     * Si l'objet passé en paramètre est null ou l'id < 0, rien n'est retourné.
+     * @param response de type ResponseModel correspondant à une réponse du SA.
+     * @return rt de type ResponseTransport correspondant à une réponse "transportable".
      */
     public static ResponseTransport responseToResponseTransport(Response response) {
         ResponseTransport rt = null;
@@ -129,10 +136,12 @@ public class Convertisseurs {
         return rt;
     }
     
-               /**
-     * Permet de transformer un bateau transport en bateau.
-     * @param certificateTransport
-     * @return b le bateau (Boat)
+    /**
+     * Permet de convertir une attestation de type CertificateTransport en type CertificateModel.
+     * Cela permet de convertir l'attestaton du WS transportable (sur le Web) en attestation SA utilisable par le SA.
+     * Si l'objet passé en paramètre est null, rien n'est retourné. (Ou null).
+     * @param certificateTransport de type CertificateTransport correspondant à l'attestation transportable (sur le web)
+     * @return ce de type CertificateModel correspondant à une attestation du SA.
      */
     public static CertificateModel certificateTransportToCertificate(CertificateTransport certificateTransport) {
         CertificateModel ce = null;
@@ -144,11 +153,13 @@ public class Convertisseurs {
         return ce;
     }
     
-        /**
-     * Permet de transformer un bateau en bateau transport
-     * @param id - l'id du bateau (int)
-     * @param certificate
-     * @return bt - le bateau transport (BoatTransport)
+    /**
+     * Permet de convertir une attestation de type CertificateModel en type CertificateTransport.
+     * Cela permet de convertir l'attestation du SA en attestation transportable (sur le Web).
+     * Si l'objet passé en paramètre est null ou si l'id du client ou si l'id du client < 0, rien n'est retourné.
+     * @param certificate de type CertificateModel correspondant à l'attestation
+     * @param id_client de type Integer correspondant à un Client du SA.
+     * @return ct de type CertificateTransport correspondant à une attestation "transportable".
      */
     public static CertificateTransport certificateToCertificateTransport(int id_client, CertificateModel certificate) {
         ClientTransport clit = null;

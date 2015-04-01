@@ -6,7 +6,7 @@
 package ch.comem.transport;
 
 /**
- * Permet de définir un objet montre "transportable su le web" (sans logique).
+ * Permet de définir un objet Car "transportable su le web" (sans logique).
  * @author Manu
  */
 public class CarTransport {
@@ -132,13 +132,15 @@ public class CarTransport {
     }
 
     /**
-     * @return the registration
+     * Permet de récupérer le numéro de plaque du véhicule.
+     * @return the registration de type String.
      */
     public String getRegistration() {
         return registration;
     }
 
     /**
+     * Permet de définir le numéro de plaque du véhicule.
      * @param registration the registration to set
      */
     public void setRegistration(String registration) {

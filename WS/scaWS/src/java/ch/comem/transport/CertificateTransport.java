@@ -7,7 +7,7 @@
 package ch.comem.transport;
 
 /**
- *
+ * Permet de définir un objet attestation "transportable su le web" (sans logique).
  * @author Cedric
  */
 public class CertificateTransport {
@@ -19,58 +19,64 @@ public class CertificateTransport {
 
 
     /**
-     * @return the state
+     * Permet de récupérer l'état de l'attestation.
+     * @return the state de type String
      */
     public String getState() {
         return state;
     }
 
     /**
-     * @param state the state to set
+     * Permet de définir l'état de l'attestation.
+     * @param state the state to set de type String
      */
     public void setState(String state) {
         this.state = state;
     }
 
     /**
-     * @return the creation_date
+     * Permet de récupérer la date de création de l'attestation.
+     * @return the creation_date de type String
      */
     public String getCreation_date() {
         return creation_date;
     }
 
     /**
-     * @param creation_date the creation_date to set
+     * Permet de définir la date de création de l'attestation.
+     * @param creation_date the creation_date to set de type String
      */
     public void setCreation_date(String creation_date) {
         this.creation_date = creation_date;
     }
 
     /**
-     * @return the car_transport
+     * Permet de récupérer la voiture concernée par l'attestation.
+     * @return the car_transport de type CarTransport
      */
     public CarTransport getCar_transport() {
         return car_transport;
     }
 
     /**
-     * @param car_transport the car_transport to set
+     * Permet de définir la voiture concernée par l'attestation.
+     * @param car_transport the car_transport to set de type CarTransport
      */
     public void setCar_transport(CarTransport car_transport) {
         this.car_transport = car_transport;
     }
 
-
-
     /**
-     * @return the id
+     * Permet de récupérer l'id l'attestation.
+     * @return the id de type Integer
      */
     public String getId() {
         return id;
     }
 
     /**
-     * @param id the id to set
+     * Permet de définir l'id l'attestation.
+     * @param id the id to set de type Integer
      */
     public void setId(String id) {
         this.id = id;
