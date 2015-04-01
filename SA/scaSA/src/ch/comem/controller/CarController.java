@@ -31,7 +31,7 @@ public class CarController {
     // Chargement du driver odbc une fois pour toute
     static {
         try {
-            Class.forName("org.apache.derby.jdbc.CarDriver");
+            Class.forName("org.apache.derby.jdbc.ClientDriver");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -151,75 +151,41 @@ public class CarController {
      * response: -4, Parameter isn't congruent!, 0 => Paramètre idn conforme.
      * response: -5, Nothing happened, 0 => Rien ne s'est passé (l'opération n'a eu aucun effet).
      */
-    public static Response addRegistration(String serial_number, String registration) {
+
+  public static Response updateRegistration(String serial_number, String registration) {
         Response response = null;
-        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
-        
-        if (serial_number != null || registration != null) {
-            Connection con = null;
-            
-            try {
-                // Connection à la base de données
-                con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
-                Statement requete = con.createStatement();
-            
-                // Requète de sélection du véhicule (Pour vérifier l'existance)
-                String requestCar = " SELECT "
-                            + "*"
-                            + " FROM "
-                            + "Cars"
-                            + " WHERE "
-                            + "SERIAL_NUMBER = '" + serial_number.replace("'", "''") + "'";
-                ResultSet exist = requete.executeQuery(requestCar);
-               
-                // Test si le véhicule existe.
-                if (exist.next()) {
+        Connection con = null;
+        ResourceBundle r = ResourceBundle.getBundle("ch.comem.ressources.scaDBproperties");
+        try {
+            con = DriverManager.getConnection(r.getString("BDurl"), r.getString("username"), r.getString("password"));
+            Statement requete = con.createStatement();
+            ResultSet carExist = requete.executeQuery("SELECT * FROM cars WHERE serial_number='" + serial_number + "'");
 
-                        // Comme l'id est un champ auto incrémenté il n'est pas nécessaire de le définir.
-                        String requestInsertCar = "UPDATE cars "
-                                + "SET REGISTRATION = "
-                                + "'" + registration.replace("'", "''") + "'"
-                                + " WHERE "
-                                + "SERIAL_NUMBER = '" + serial_number.replace("'", "''") + "'"; 
-                        int nbCarsAdd = requete.executeUpdate(requestInsertCar, Statement.RETURN_GENERATED_KEYS);
-                        System.out.println(nbCarsAdd + " véhicule a été modifié (numéro de plaque)");
-                        ResultSet ensembleTuplesUpdate = requete.getGeneratedKeys();
-                        int idTupleUpdate = 0;
-                        // Comme il n'y a eu qu'un seul insert, on peut faire un if au lieu d'un while
-                        if (ensembleTuplesUpdate.next()) {
-                            idTupleUpdate = ensembleTuplesUpdate.getInt(1);
-                        }
-                        System.out.println("L'id du tuple modifié est : " + idTupleUpdate);
+            if (carExist.next()) {
+                
+                
+                        String builtString;
+                        builtString = "UPDATE cars SET registration = '" + registration + "' WHERE serial_number ='" + serial_number + "'";
+                        requete.executeUpdate(builtString, Statement.RETURN_GENERATED_KEYS);
+                        response = new Response(-1, "OK new registration : " + registration + "", 0);
 
-                        if (idTupleUpdate < 0) {
-                            response = new Response(-5, "Nothing happened", 0);
-                        } 
-                        else {
-                            response = new Response(-1, "OK: " + serial_number, 0);
-                        }
-                    }
-                    else {
-                        response = new Response(-2, "The object doesn't exist!", 0);
-                    }
 
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
+
+
+            } else {
+                response = new Response(-4, "Certificate doesn't exist", 0);
             }
-
-            // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
-            try {
-                con.close();
-            } catch (SQLException e) {
-                System.out.println(e.getMessage());
-            } 
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
-        else {
-            response = new Response(-4, "Parameters isn't congruent!", 0);
+        try {
+            con.close();
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
         }
-        
         return response;
     }
-    
+
     
     /**
      * Permet de récupérer un véhicule de la table Cars de la BD.

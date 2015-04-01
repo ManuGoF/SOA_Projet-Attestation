@@ -5,7 +5,6 @@
  */
 package ch.comem.model;
 
-import com.sun.security.ntlm.Client;
 
 /**
  * Permet de définir l'objet Car.

@@ -41,7 +41,7 @@ public class CertificateModel {
     public CertificateModel(String number, String state, String creation_date, CarModel car) {
         if (number == null || state == null || creation_date == null || car == null) throw new RuntimeException("Certificate parameters not define");
         if (number.length() > 50 || state.length() > 20) throw new RuntimeException("One or more parameters are longer than expected");
-        if (state != "en attente" || state != "non récupérée" || state != "non récupérée" || state != "non conforme") throw new RuntimeException("This state doesn't exist");
+        if (!state.equalsIgnoreCase("en attente") && !state.equalsIgnoreCase("non récupérée") && !state.equalsIgnoreCase("non récupérée") && !state.equalsIgnoreCase("non conforme")) throw new RuntimeException("This state doesn't exist");
         if (creation_date.length() > 10) {
             throw new RuntimeException("Date is longer than expected");
         }

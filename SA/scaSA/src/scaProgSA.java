@@ -1,5 +1,6 @@
 
 import ch.comem.controller.CarController;
+import ch.comem.controller.CertificateController;
 import ch.comem.controller.ClientController;
 import ch.comem.model.CarModel;
 import ch.comem.model.ClientModel;
@@ -80,6 +81,7 @@ public class scaProgSA {
         System.out.println("Réponse clé suprimée : "  + response2.generatedKey);*/
         
         //CarController.addRegistration("VF7 X2R FVF 7200 9190", "VD 144 777");
+        System.out.println(CertificateController.readAllCertificates());
         
         
         
