@@ -217,6 +217,74 @@ public class ClientController {
     
     
     /**
+     * Permet de récupérer un ID d'un client de la table Clients de la BD.
+     * Si le client n'existe pas (selon son EMAIL), l'id retourné = 0.
+     * Si l'email n'est pas définit, l'id retourné = 0.
+     * @param email de type String correspondant à l'email du client souhaité.
+     * @return idGet de type Integer correspondant à l'ID du client souhaité s'il existe.
+     */
+    public static int getClientId(String email) {
+        
+        ResourceBundle R = ResourceBundle.getBundle("ch.comem.ressources.insurranceDBproperties");
+        
+        int idGet = 0;
+        
+        if (email != null) {
+            
+            Connection con = null;
+
+            try {
+                
+                // Connection à la base de données
+                con = DriverManager.getConnection(R.getString("BDurl"), R.getString("username"), R.getString("password"));
+                Statement requete = con.createStatement();
+                
+                // Requète de selection du client (Pour vérifier l'existance)
+                String requestClientExist = " SELECT "
+                            + "*"
+                            + " FROM "
+                            + "Clients"
+                            + " WHERE "
+                            + "EMAIL = " + "'" + email + "'";
+                ResultSet existClient = requete.executeQuery(requestClientExist);
+                
+                // Test si le client existe dans la BD.
+                if (existClient.next()) {
+                    ResultSet clientGet = requete.executeQuery(
+                            "SELECT "
+                            + "ID"
+                            + " FROM "
+                            + "Clients"
+                            + " WHERE "
+                            + "EMAIL = " + "'" + email + "'");
+
+                    while (clientGet.next()) {
+                        idGet = clientGet.getInt("ID");
+                    }
+                }
+                else {
+                    System.out.println("Le CLIENT EMAIL fourni n'existe pas!");
+                }
+
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+
+            // fermeture de la connection à la base de données ainsi que de toutes les ressources qui lui sont associées ! (ResultSet, Statement)
+            try {
+                con.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+            
+        } else {
+            System.out.println("Le Client EMAIL n'est pas conforme");
+        }
+
+        return idGet;
+    }
+    
+    /**
      * Permet de supprimer un client à l'aide de son ID.
      * Cette méthode supprime le client dans la table Clients de la BD.
      * Cette méthode supprime en cascade dans la BD les objets qui sont liés au client supprimé.
