@@ -79,6 +79,8 @@ public class scaProgSA {
         System.out.println("Réponse message : "  + response2.message);
         System.out.println("Réponse clé suprimée : "  + response2.generatedKey);*/
         
+        
+        
     }
     
 }

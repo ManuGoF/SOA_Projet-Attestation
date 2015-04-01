@@ -1,12 +1,6 @@
 
-import ch.comem.controller.CertificateController;
-import ch.comem.controller.WorkerController;
-import ch.comem.model.WorkerModel;
 import ch.comem.controller.CarController;
-import ch.comem.controller.ClientController;
-import ch.comem.model.CarModel;
-import ch.comem.model.ClientModel;
-import java.util.ArrayList;
+import ch.comem.model.Response;
 
 
 
@@ -78,6 +72,26 @@ public class InsurranceProgSA {
         
         /*ArrayList<CarModel> cars = CarController.readAllCars();
         System.out.println("Véhicules : " + cars);*/
+        
+        /*CarModel car2 = CarController.readCar("VF7 X2R FVF 7200 2120");
+        System.out.println("Serial number : " + car2.serial_number);
+        System.out.println("Brand : " + car2.brand);
+        System.out.println("Model : " + car2.model);
+        System.out.println("Type : " + car2.type);
+        System.out.println("Color : " + car2.color);
+        System.out.println("Price : " + car2.price);
+        System.out.println("Client firstname : " + car2.client.firstname);
+        System.out.println("Client lastname : " + car2.client.lastname);
+        System.out.println("Client email : " + car2.client.email);
+        System.out.println("Client birthday : " + car2.client.birthday);
+        System.out.println("Client licence_type : " + car2.client.licence_type);
+        System.out.println("Client licence_date : " + car2.client.licence_date);*/
+        
+        /*Response response2 = null;
+        response2 = CarController.deleteCar("VF7 X2R FVF 7200 6160");
+        System.out.println("Réponse code : "  + response2.code);
+        System.out.println("Réponse message : "  + response2.message);
+        System.out.println("Réponse clé suprimée : "  + response2.generatedKey);*/
         
         
 
