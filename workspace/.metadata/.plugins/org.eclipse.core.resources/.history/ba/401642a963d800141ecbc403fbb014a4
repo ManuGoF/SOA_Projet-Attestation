@@ -1,0 +1,36 @@
+package projetAttestationVhc.GarageCreateClient;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogGridBagPanel;
+
+/**
+ * <p>GarageCreateClientPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class GarageCreateClientPanel extends RichDialogGridBagPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+  
+  /**
+   * Create a new instance of GarageCreateClientPanel
+   */
+  public GarageCreateClientPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes GarageCreateClientPanel
+   * @return void
+   */
+  private void initialize()
+  {
+  }
+}  //  @jve:decl-index=0:visual-constraint="10,10"

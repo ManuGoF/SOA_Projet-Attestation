@@ -1,0 +1,3 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-02 08:03:12 | 5.1.4.48243 | 1.0
+~@RD_METHODCALL[start(projetAttestationVhc.Data)]--->ch.ivyteam.ivy.process.ProcessStart:14C78B9E923837A0/14C78B9E97787D39

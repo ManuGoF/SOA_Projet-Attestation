@@ -1,0 +1,253 @@
+[Ivy]
+[>Created: Thu Apr 02 14:02:27 CEST 2015]
+14C6E9A6DE157EC4 3.17 #module
+>Proto >Proto Collection #zClass
+Ac0 AttestationVhc Big #zClass
+Ac0 B #cInfo
+Ac0 #process
+Ac0 @TextInP .resExport .resExport #zField
+Ac0 @TextInP .type .type #zField
+Ac0 @TextInP .processKind .processKind #zField
+Ac0 @AnnotationInP-0n ai ai #zField
+Ac0 @MessageFlowInP-0n messageIn messageIn #zField
+Ac0 @MessageFlowOutP-0n messageOut messageOut #zField
+Ac0 @TextInP .xml .xml #zField
+Ac0 @TextInP .responsibility .responsibility #zField
+Ac0 @StartRequest f0 '' #zField
+Ac0 @RichDialog f1 '' #zField
+Ac0 @PushWFArc f2 '' #zField
+Ac0 @Alternative f3 '' #zField
+Ac0 @WSElement f4 '' #zField
+Ac0 @PushWFArc f5 '' #zField
+Ac0 @RichDialog f7 '' #zField
+Ac0 @PushWFArc f8 '' #zField
+Ac0 @Alternative f9 '' #zField
+Ac0 @EndTask f10 '' #zField
+Ac0 @PushWFArc f11 '' #zField
+Ac0 @PushWFArc f12 '' #zField
+Ac0 @TaskSwitchSimple f13 '' #zField
+Ac0 @RichDialog f15 '' #zField
+Ac0 @PushWFArc f16 '' #zField
+Ac0 @Alternative f17 '' #zField
+Ac0 @PushWFArc f18 '' #zField
+Ac0 @Alternative f19 '' #zField
+Ac0 @PushWFArc f20 '' #zField
+Ac0 @WSElement f23 '' #zField
+Ac0 @TaskSwitchSimple f25 '' #zField
+Ac0 @TkArc f26 '' #zField
+Ac0 @TaskSwitchSimple f28 '' #zField
+Ac0 @TkArc f29 '' #zField
+Ac0 @RichDialog f30 '' #zField
+Ac0 @PushWFArc f31 '' #zField
+Ac0 @Alternative f32 '' #zField
+Ac0 @PushWFArc f33 '' #zField
+Ac0 @Alternative f34 '' #zField
+Ac0 @PushWFArc f35 '' #zField
+Ac0 @WSElement f22 '' #zField
+Ac0 @TaskSwitchSimple f38 '' #zField
+Ac0 @PushWFArc f42 '' #zField
+Ac0 @TkArc f27 '' #zField
+Ac0 @TaskSwitchSimple f36 '' #zField
+Ac0 @PushWFArc f39 '' #zField
+Ac0 @TaskSwitchSimple f40 '' #zField
+Ac0 @TkArc f41 '' #zField
+Ac0 @RichDialog f44 '' #zField
+Ac0 @PushWFArc f45 '' #zField
+Ac0 @Alternative f46 '' #zField
+Ac0 @TaskSwitchSimple f47 '' #zField
+Ac0 @PushWFArc f49 '' #zField
+Ac0 @PushWFArc f50 '' #zField
+Ac0 @EMail f52 '' #zField
+Ac0 @PushWFArc f53 '' #zField
+Ac0 @EndTask f54 '' #zField
+Ac0 @PushWFArc f55 '' #zField
+Ac0 @TaskSwitchSimple f56 '' #zField
+Ac0 @RichDialog f57 '' #zField
+Ac0 @PushWFArc f58 '' #zField
+Ac0 @Alternative f59 '' #zField
+Ac0 @PushWFArc f60 '' #zField
+Ac0 @EndTask f61 '' #zField
+Ac0 @EMail f63 '' #zField
+Ac0 @TaskSwitchSimple f65 '' #zField
+Ac0 @TkArc f66 '' #zField
+Ac0 @RichDialog f67 '' #zField
+Ac0 @PushWFArc f68 '' #zField
+Ac0 @PushWFArc f69 '' #zField
+Ac0 @EMail f37 '' #zField
+Ac0 @PushWFArc f48 '' #zField
+Ac0 @TkArc f70 '' #zField
+Ac0 @EMail f71 '' #zField
+Ac0 @PushWFArc f72 '' #zField
+Ac0 @TkArc f73 '' #zField
+Ac0 @TkArc f74 '' #zField
+Ac0 @ProcessException f75 '' #zField
+Ac0 @EMail f76 '' #zField
+Ac0 @WSElement f14 '' #zField
+Ac0 @PushWFArc f77 '' #zField
+Ac0 @TkArc f78 '' #zField
+Ac0 @WSElement f79 '' #zField
+Ac0 @PushWFArc f80 '' #zField
+Ac0 @PushWFArc f43 '' #zField
+Ac0 @WSElement f81 '' #zField
+Ac0 @PushWFArc f82 '' #zField
+Ac0 @PushWFArc f83 '' #zField
+Ac0 @TaskSwitchSimple f84 '' #zField
+Ac0 @TkArc f85 '' #zField
+Ac0 @PushWFArc f86 '' #zField
+Ac0 @WSElement f62 '' #zField
+Ac0 @PushWFArc f87 '' #zField
+Ac0 @PushWFArc f88 '' #zField
+Ac0 @WSElement f64 '' #zField
+Ac0 @PushWFArc f89 '' #zField
+Ac0 @PushWFArc f90 '' #zField
+Ac0 @PushWFArc f91 '' #zField
+Ac0 @PushWFArc f6 '' #zField
+Ac0 @GridStep f24 '' #zField
+Ac0 @PushWFArc f92 '' #zField
+Ac0 @PushWFArc f51 '' #zField
+Ac0 @PushWFArc f21 '' #zField
+>Proto Ac0 Ac0 AttestationVhc #zField
+Ac0 f0 outLink start.ivp #txt
+Ac0 f0 type projetAttestationVhc.Data #txt
+Ac0 f0 inParamDecl '<> param;' #txt
+Ac0 f0 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f0 guid 14C6E9A6E757D29F #txt
+Ac0 f0 requestEnabled true #txt
+Ac0 f0 triggerEnabled false #txt
+Ac0 f0 callSignature start() #txt
+Ac0 f0 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>start.ivp</name>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f0 @C|.responsibility Everybody #txt
+Ac0 f0 57 145 30 30 -21 17 #rect
+Ac0 f0 @|StartRequestIcon #fIcon
+Ac0 f1 targetWindow NEW:card: #txt
+Ac0 f1 targetDisplay TOP #txt
+Ac0 f1 richDialogId projetAttestationVhc.GarageCreateClient #txt
+Ac0 f1 startMethod start() #txt
+Ac0 f1 type projetAttestationVhc.Data #txt
+Ac0 f1 requestActionDecl '<> param;' #txt
+Ac0 f1 responseActionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f1 responseMappingAction 'out=in;
+out.carInsurrance=result.CarTransport;
+out.certificateInsurrance=result.CertificateTransport;
+' #txt
+Ac0 f1 windowConfiguration '* ' #txt
+Ac0 f1 isAsynch false #txt
+Ac0 f1 isInnerRd false #txt
+Ac0 f1 userContext '* ' #txt
+Ac0 f1 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Saisie attestation provisoire</name>
+        <nameStyle>29
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f1 216 124 160 72 -76 -8 #rect
+Ac0 f1 @|RichDialogIcon #fIcon
+Ac0 f2 expr out #txt
+Ac0 f2 87 160 216 160 #arcP
+Ac0 f3 type projetAttestationVhc.Data #txt
+Ac0 f3 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Prix &lt; 30000</name>
+        <nameStyle>12
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f3 600 144 32 32 -34 18 #rect
+Ac0 f3 @|AlternativeIcon #fIcon
+Ac0 f4 type projetAttestationVhc.Data #txt
+Ac0 f4 actionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f4 actionTable 'out=in;
+' #txt
+Ac0 f4 cache '{/cache false /invalidation false /scope 0 /groupname ""/lifetime_group "0"/invalidation_time_group ""/identifier ""/lifetime_entry "0"/invalidation_time_entry ""}' #txt
+Ac0 f4 timeout 0 #txt
+Ac0 f4 beanConfig '"KEY_PASSWORD=
+KEY_AXIS_PORTNAME=insurranceWebServicePort
+KEY_WEBSERVICECONFIG_ID=14C74B61A00491FE
+KEY_DOMAIN=
+KEY_USERNAME=
+KEY_OPERATION=createCertificate
+KEY_AUTHENTICATION_KIND=0
+KEY_HOST=
+KEY_USE_AUTHENTICATION=false
+KEY_AXIS_CSL_PARAMETER_DATA=""arg0.createCertificate.certificate__@@__ch.comem.ws.CertificateTransport__@@__in.certificateInsurrance"""' #txt
+Ac0 f4 returningObjectList '[wsResponse]' #txt
+Ac0 f4 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>WSAssurance : creation certificat provisoire [en attente]</name>
+        <nameStyle>57
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f4 464 234 304 44 -149 -8 #rect
+Ac0 f4 @|WebServiceIcon #fIcon
+Ac0 f5 expr in #txt
+Ac0 f5 outCond 'in.carInsurrance.price < 30000' #txt
+Ac0 f5 616 176 616 234 #arcP
+Ac0 f7 targetWindow NEW:card: #txt
+Ac0 f7 targetDisplay TOP #txt
+Ac0 f7 richDialogId projetAttestationVhc.demandeRetrait #txt
+Ac0 f7 startMethod start(ch.comem.ws.CertificateTransport) #txt
+Ac0 f7 type projetAttestationVhc.Data #txt
+Ac0 f7 requestActionDecl '<ch.comem.ws.CertificateTransport Certificate> param;' #txt
+Ac0 f7 requestMappingAction 'param.Certificate=in.certificateInsurrance;
+' #txt
+Ac0 f7 responseActionDecl 'projetAttestationVhc.Data out;
+' #txt
+Ac0 f7 responseMappingAction 'out=in;
+out.certificateInsurrance=result.data;
+out.isDropped=result.isDropped;
+' #txt
+Ac0 f7 windowConfiguration '* ' #txt
+Ac0 f7 isAsynch false #txt
+Ac0 f7 isInnerRd false #txt
+Ac0 f7 userContext '* ' #txt
+Ac0 f7 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Demande retrait attestation</name>
+        <nameStyle>27
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f7 760 124 160 72 -74 -8 #rect
+Ac0 f7 @|RichDialogIcon #fIcon
+Ac0 f8 expr in #txt
+Ac0 f8 632 160 760 160 #arcP
+Ac0 f9 type projetAttestationVhc.Data #txt
+Ac0 f9 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>Demande retirée</name>
+        <nameStyle>15
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+Ac0 f9 992 144 32 32 -46 18 #rect
+Ac0 f9 @|AlternativeIcon #fIcon
+Ac0 f10 type projetAttestationVhc.Data #txt
+Ac0 f10 1089 145 30 30 0 15 #rect
+Ac0 f10 @|EndIcon #fIcon
+Ac0 f11 expr out #txt
+Ac0 f11 920 160 992 160 #arcP
+Ac0 f12 expr in #txt
+Ac0 f12 outCond 'in.isDropped == true' #txt
+Ac0 f12 1024 160 1089 160 #arcP
+Ac0 f13 actionDecl 'proj

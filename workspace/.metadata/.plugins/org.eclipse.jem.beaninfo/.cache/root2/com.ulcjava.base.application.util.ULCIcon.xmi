@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801564049">
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801564049" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#ULCIcon">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801564049" featureName="eAnnotations">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801564049" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.util.ULCIcon.xmi#BeanDecorator_1427801564049"/>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970628048">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970628048" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#ULCIcon">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970628048" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970628048" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.util.ULCIcon.xmi#BeanDecorator_1427970628048"/>
     </value>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801564050" featureName="eStructuralFeatures">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801564050" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.util.ULCIcon.xmi#EReference_1427801564049"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970628049" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970628049" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.util.ULCIcon.xmi#EReference_1427970628049"/>
     </value>
   </objectChanges>
-  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801564049" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801564049" name="iconData" eType="org.eclipse.jem.java:ArrayType java:/#byte[]" unsettable="true">
-    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801564049" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application.util#ULCIcon.getIconData("/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970628048" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970628049" name="iconData" eType="org.eclipse.jem.java:ArrayType java:/#byte[]" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970628049" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application.util#ULCIcon.getIconData("/>
   </objectsToAttach>
 </change:ChangeDescription>

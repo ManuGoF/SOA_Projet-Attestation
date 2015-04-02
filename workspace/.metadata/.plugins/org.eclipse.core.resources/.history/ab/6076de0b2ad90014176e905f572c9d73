@@ -1,0 +1,3 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-02 13:15:49 | 5.1.4.48243 | 1.0
+~@RD_METHODCALL[start(ch.comem.ws.CertificateTransport)]--->ch.ivyteam.ivy.process.ProcessStart:14C79A428EA5C075/14C79A4294029BCB

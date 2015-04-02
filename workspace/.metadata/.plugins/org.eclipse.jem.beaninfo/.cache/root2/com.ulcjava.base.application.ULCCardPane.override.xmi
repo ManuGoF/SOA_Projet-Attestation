@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:codeGenHelpers="platform:/plugin/org.eclipse.ve.java.core/overrides/codegenHelpers.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427968695402">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427968695402" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCCardPane">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968695402" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968695402" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCCardPane.override.xmi#ClassDescriptorDecorator_1427968695402"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968695403" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCCardPane.override.xmi#BeanDecorator_1427968695402"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968695404" referenceValues="codeGenHelpers:CodeGenHelperClass file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCCardPane.override.xmi#CodeGenHelperClass_1427968695402"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427968695402" treeViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.tree.ULCCardPaneTreeEditPart" graphViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.graphical.ULCCardPaneGraphicalEditPart:true">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427968695402" resourceName="platform:/plugin/org.eclipse.ve.jfc/icons/full/clcl16/panel_obj.gif"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427968695402" beanProxyClassName="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.proxy.ULCCardPaneProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
+  <objectsToAttach xmi:type="codeGenHelpers:CodeGenHelperClass" xmi:id="CodeGenHelperClass_1427968695402" source="codegen.CodeGenHelperClass" expDecoder="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.codegen.ULCCardPaneDecoder" modelled="true"/>
+</change:ChangeDescription>

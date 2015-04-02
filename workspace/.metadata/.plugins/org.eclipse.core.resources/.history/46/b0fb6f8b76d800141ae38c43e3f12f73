@@ -1,0 +1,4 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-01 14:20:18 | 5.1.4.48243 | 1.0
+~.Create@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C74C7BF34FFFC5/14C74E575A2DEE2F # GarageCreateClientProcess.mod/CLickCreerClient
+~@RD_METHODCALL[start()]--->ch.ivyteam.ivy.process.ProcessStart:14C74C7BF34FFFC5/14C74C7BF91D5378

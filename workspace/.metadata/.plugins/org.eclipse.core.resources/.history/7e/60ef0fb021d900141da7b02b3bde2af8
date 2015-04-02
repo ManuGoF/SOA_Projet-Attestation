@@ -1,0 +1,33 @@
+[Ivy]
+[>Created: Thu Apr 02 12:19:03 CEST 2015]
+14C79A428EA5C075 3.17 #module
+>Proto >Proto Collection #zClass
+es0 elementsNonCouvertsProcess Big #zClass
+es0 RD #cInfo
+es0 #process
+es0 @TextInP .ui2RdDataAction .ui2RdDataAction #zField
+es0 @TextInP .rdData2UIAction .rdData2UIAction #zField
+es0 @TextInP .resExport .resExport #zField
+es0 @TextInP .type .type #zField
+es0 @TextInP .processKind .processKind #zField
+es0 @AnnotationInP-0n ai ai #zField
+es0 @MessageFlowInP-0n messageIn messageIn #zField
+es0 @MessageFlowOutP-0n messageOut messageOut #zField
+es0 @TextInP .xml .xml #zField
+es0 @TextInP .responsibility .responsibility #zField
+es0 @RichDialogInitStart f0 '' #zField
+es0 @RichDialogProcessEnd f1 '' #zField
+es0 @PushWFArc f2 '' #zField
+>Proto es0 es0 elementsNonCouvertsProcess #zField
+es0 f0 disableUIEvents true #txt
+es0 f0 83 51 26 26 0 12 #rect
+es0 f0 @|RichDialogInitStartIcon #fIcon
+es0 f1 211 51 26 26 0 12 #rect
+es0 f1 @|RichDialogProcessEndIcon #fIcon
+es0 f2 109 64 211 64 #arcP
+>Proto es0 .type projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData #txt
+>Proto es0 .processKind RICH_DIALOG #txt
+>Proto es0 -8 -8 16 16 16 26 #rect
+>Proto es0 '' #fIcon
+es0 f0 mainOut f2 tail #connect
+es0 f2 head f1 mainIn #connect

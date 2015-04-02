@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970813908">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813908" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCLazyLoadingContainer">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813908" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813908" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCLazyLoadingContainer.xmi#BeanDecorator_1427970813908"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970813908" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+</change:ChangeDescription>

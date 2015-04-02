@@ -1,0 +1,33 @@
+[Ivy]
+[>Created: Thu Apr 02 11:36:54 CEST 2015]
+14C797D8F5C61B27 3.17 #module
+>Proto >Proto Collection #zClass
+ds0 demandeRetraitProcess Big #zClass
+ds0 RD #cInfo
+ds0 #process
+ds0 @TextInP .ui2RdDataAction .ui2RdDataAction #zField
+ds0 @TextInP .rdData2UIAction .rdData2UIAction #zField
+ds0 @TextInP .resExport .resExport #zField
+ds0 @TextInP .type .type #zField
+ds0 @TextInP .processKind .processKind #zField
+ds0 @AnnotationInP-0n ai ai #zField
+ds0 @MessageFlowInP-0n messageIn messageIn #zField
+ds0 @MessageFlowOutP-0n messageOut messageOut #zField
+ds0 @TextInP .xml .xml #zField
+ds0 @TextInP .responsibility .responsibility #zField
+ds0 @RichDialogInitStart f0 '' #zField
+ds0 @RichDialogProcessEnd f1 '' #zField
+ds0 @PushWFArc f2 '' #zField
+>Proto ds0 ds0 demandeRetraitProcess #zField
+ds0 f0 disableUIEvents true #txt
+ds0 f0 83 51 26 26 0 12 #rect
+ds0 f0 @|RichDialogInitStartIcon #fIcon
+ds0 f1 211 51 26 26 0 12 #rect
+ds0 f1 @|RichDialogProcessEndIcon #fIcon
+ds0 f2 109 64 211 64 #arcP
+>Proto ds0 .type projetAttestationVhc.demandeRetrait.demandeRetraitData #txt
+>Proto ds0 .processKind RICH_DIALOG #txt
+>Proto ds0 -8 -8 16 16 16 26 #rect
+>Proto ds0 '' #fIcon
+ds0 f0 mainOut f2 tail #connect
+ds0 f2 head f1 mainIn #connect

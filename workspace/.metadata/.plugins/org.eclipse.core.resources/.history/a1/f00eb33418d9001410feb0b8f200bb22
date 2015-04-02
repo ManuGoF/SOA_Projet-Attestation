@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webServiceConfigurationNode>
+    <id>14C74E8DCA5FF961</id>
+    <webServiceConfig>
+        <name>InsurranceWS</name>
+        <id>14C74B61A00491FE</id>
+        <description></description>
+        <wsdlUrl>http://localhost:8080/insurranceWebService/insurranceWebService?WSDL</wsdlUrl>
+        <transportSession>false</transportSession>
+        <sessionHandlingMode>0</sessionHandlingMode>
+        <wsdlGeneratedInfo>
+            <axisLocatorClassname></axisLocatorClassname>
+            <axisNamespacesNew>http\://ws.comem.ch/=ch.comem.ws</axisNamespacesNew>
+            <axisOperationsToPort>insurranceWebServicePort=&quot;readAllClients&quot;,&quot;createCertificate&quot;,&quot;readAllCertificates&quot;,&quot;updateCertificateStatus&quot;,&quot;readAllWorkers&quot;,&quot;createClient&quot;,&quot;readAllCars&quot;,&quot;readCertificate&quot;,&quot;updateCertificateWorker&quot;,&quot;deleteClient&quot;,&quot;createCar&quot;,&quot;readCar&quot;,&quot;deleteCar&quot;,&quot;createWorker&quot;,&quot;readWorker&quot;,&quot;readClient&quot;</axisOperationsToPort>
+            <axisEndPointForPortType>insurranceWebServicePort=http\://localhost\:8080/insurranceWebService/insurranceWebService</axisEndPointForPortType>
+            <axisParameterProperties>insurranceWebServicePortupdateCertificateStatus=&quot;arg0__@@__ch.comem.ws.UpdateCertificateStatusE__@@__&quot;
+insurranceWebServicePortreadAllWorkers=&quot;arg0__@@__ch.comem.ws.ReadAllWorkersE__@@__&quot;
+insurranceWebServicePortdeleteClient=&quot;arg0__@@__ch.comem.ws.DeleteClientE__@@__&quot;
+insurranceWebServicePortreadAllCertificates=&quot;arg0__@@__ch.comem.ws.ReadAllCertificatesE__@@__&quot;
+insurranceWebServicePortcreateClient=&quot;arg0__@@__ch.comem.ws.CreateClientE__@@__&quot;
+insurranceWebServicePortcreateWorker=&quot;arg0__@@__ch.comem.ws.CreateWorkerE__@@__&quot;
+insurranceWebServicePortreadCertificate=&quot;arg0__@@__ch.comem.ws.ReadCertificateE__@@__&quot;
+insurranceWebServicePortreadAllCars=&quot;arg0__@@__ch.comem.ws.ReadAllCarsE__@@__&quot;
+insurranceWebServicePortdeleteCar=&quot;arg0__@@__ch.comem.ws.DeleteCarE__@@__&quot;
+insurranceWebServicePorthello=&quot;arg0__@@__ch.comem.ws.HelloE__@@__&quot;
+insurranceWebServicePortcreateCar=&quot;arg0__@@__ch.comem.ws.CreateCarE__@@__&quot;
+insurranceWebServicePortcreateCertificate=&quot;arg0__@@__ch.comem.ws.CreateCertificateE__@@__&quot;
+insurranceWebServicePortupdateCertificateWorker=&quot;arg0__@@__ch.comem.ws.UpdateCertificateWorkerE__@@__&quot;
+insurranceWebServicePortreadCar=&quot;arg0__@@__ch.comem.ws.ReadCarE__@@__&quot;
+insurranceWebServicePortreadClient=&quot;arg0__@@__ch.comem.ws.ReadClientE__@@__&quot;
+insurranceWebServicePortreadAllClients=&quot;arg0__@@__ch.comem.ws.ReadAllClientsE__@@__&quot;
+insurranceWebServicePortreadWorker=&quot;arg0__@@__ch.comem.ws.ReadWorkerE__@@__&quot;</axisParameterProperties>
+            <axisPortList>insurranceWebServicePort</axisPortList>
+            <axisStubClassnameList>ch.comem.ws.InsurranceWebServiceStub</axisStubClassnameList>
+            <axisReturnTypes>insurranceWebServicePortupdateCertificateStatus=ch.comem.ws.UpdateCertificateStatusResponseE
+insurranceWebServicePortreadAllWorkers=ch.comem.ws.ReadAllWorkersResponseE
+insurranceWebServicePortdeleteClient=ch.comem.ws.DeleteClientResponseE
+insurranceWebServicePortreadAllCertificates=ch.comem.ws.ReadAllCertificatesResponseE
+insurranceWebServicePortcreateClient=ch.comem.ws.CreateClientResponseE
+insurranceWebServicePortcreateWorker=ch.comem.ws.CreateWorkerResponseE
+insurranceWebServicePortreadCertificate=ch.comem.ws.ReadCertificateResponseE
+insurranceWebServicePortreadAllCars=ch.comem.ws.ReadAllCarsResponseE
+insurranceWebServicePortdeleteCar=ch.comem.ws.DeleteCarResponseE
+insurranceWebServicePorthello=ch.comem.ws.HelloResponseE
+insurranceWebServicePortcreateCar=ch.comem.ws.CreateCarResponseE
+insurranceWebServicePortcreateCertificate=ch.comem.ws.CreateCertificateResponseE
+insurranceWebServicePortupdateCertificateWorker=ch.comem.ws.UpdateCertificateWorkerResponseE
+insurranceWebServicePortreadCar=ch.comem.ws.ReadCarResponseE
+insurranceWebServicePortreadClient=ch.comem.ws.ReadClientResponseE
+insurranceWebServicePortreadAllClients=ch.comem.ws.ReadAllClientsResponseE
+insurranceWebServicePortreadWorker=ch.comem.ws.ReadWorkerResponseE</axisReturnTypes>
+            <axisServiceClassname>ch.comem.ws.insurranceWebService</axisServiceClassname>
+            <axisUsedJavaclasses>&quot;ch\\comem\\ws\\CarTransport.java&quot;,&quot;ch\\comem\\ws\\CertificateTransport.java&quot;,&quot;ch\\comem\\ws\\ClientTransport.java&quot;,&quot;ch\\comem\\ws\\CreateCar.java&quot;,&quot;ch\\comem\\ws\\CreateCarE.java&quot;,&quot;ch\\comem\\ws\\CreateCarResponse.java&quot;,&quot;ch\\comem\\ws\\CreateCarResponseE.java&quot;,&quot;ch\\comem\\ws\\CreateCertificate.java&quot;,&quot;ch\\comem\\ws\\CreateCertificateE.java&quot;,&quot;ch\\comem\\ws\\CreateCertificateResponse.java&quot;,&quot;ch\\comem\\ws\\CreateCertificateResponseE.java&quot;,&quot;ch\\comem\\ws\\CreateClient.java&quot;,&quot;ch\\comem\\ws\\CreateClientE.java&quot;,&quot;ch\\comem\\ws\\CreateClientResponse.java&quot;,&quot;ch\\comem\\ws\\CreateClientResponseE.java&quot;,&quot;ch\\comem\\ws\\CreateWorker.java&quot;,&quot;ch\\comem\\ws\\CreateWorkerE.java&quot;,&quot;ch\\comem\\ws\\CreateWorkerResponse.java&quot;,&quot;ch\\comem\\ws\\CreateWorkerResponseE.java&quot;,&quot;ch\\comem\\ws\\DeleteCar.java&quot;,&quot;ch\\comem\\ws\\DeleteCarE.java&quot;,&quot;ch\\comem\\ws\\DeleteCarResponse.java&quot;,&quot;ch\\comem\\ws\\DeleteCarResponseE.java&quot;,&quot;ch\\comem\\ws\\DeleteClient.java&quot;,&quot;ch\\comem\\ws\\DeleteClientE.java&quot;,&quot;ch\\comem\\ws\\DeleteClientResponse.java&quot;,&quot;ch\\comem\\ws\\DeleteClientResponseE.java&quot;,&quot;ch\\comem\\ws\\ExtensionMapper.java&quot;,&quot;ch\\comem\\ws\\InsurranceWebService.java&quot;,&quot;ch\\comem\\ws\\InsurranceWebServiceStub.java&quot;,&quot;ch\\comem\\ws\\ReadAllCars.java&quot;,&quot;ch\\comem\\ws\\ReadAllCarsE.java&quot;,&quot;ch\\comem\\ws\\ReadAllCarsResponse.java&quot;,&quot;ch\\comem\\ws\\ReadAllCarsResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadAllCertificates.java&quot;,&quot;ch\\comem\\ws\\ReadAllCertificatesE.java&quot;,&quot;ch\\comem\\ws\\ReadAllCertificatesResponse.java&quot;,&quot;ch\\comem\\ws\\ReadAllCertificatesResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadAllClients.java&quot;,&quot;ch\\comem\\ws\\ReadAllClientsE.java&quot;,&quot;ch\\comem\\ws\\ReadAllClientsResponse.java&quot;,&quot;ch\\comem\\ws\\ReadAllClientsResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadAllWorkers.java&quot;,&quot;ch\\comem\\ws\\ReadAllWorkersE.java&quot;,&quot;ch\\comem\\ws\\ReadAllWorkersResponse.java&quot;,&quot;ch\\comem\\ws\\ReadAllWorkersResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadCar.java&quot;,&quot;ch\\comem\\ws\\ReadCarE.java&quot;,&quot;ch\\comem\\ws\\ReadCarResponse.java&quot;,&quot;ch\\comem\\ws\\ReadCarResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadCertificate.java&quot;,&quot;ch\\comem\\ws\\ReadCertificateE.java&quot;,&quot;ch\\comem\\ws\\ReadCertificateResponse.java&quot;,&quot;ch\\comem\\ws\\ReadCertificateResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadClient.java&quot;,&quot;ch\\comem\\ws\\ReadClientE.java&quot;,&quot;ch\\comem\\ws\\ReadClientResponse.java&quot;,&quot;ch\\comem\\ws\\ReadClientResponseE.java&quot;,&quot;ch\\comem\\ws\\ReadWorker.java&quot;,&quot;ch\\comem\\ws\\ReadWorkerE.java&quot;,&quot;ch\\comem\\ws\\ReadWorkerResponse.java&quot;,&quot;ch\\comem\\ws\\ReadWorkerResponseE.java&quot;,&quot;ch\\comem\\ws\\ResponseTransport.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateStatus.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateStatusE.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateStatusResponse.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateStatusResponseE.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateWorker.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateWorkerE.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateWorkerResponse.java&quot;,&quot;ch\\comem\\ws\\UpdateCertificateWorkerResponseE.java&quot;,&quot;ch\\comem\\ws\\WorkerTransport.java&quot;</axisUsedJavaclasses>
+            <codeGenerationTimestamp>1427963144178</codeGenerationTimestamp>
+            <wsdlWebserviceName>insurranceWebService</wsdlWebserviceName>
+            <wsClassGenerationImplementationUsed>AXIS_2_0</wsClassGenerationImplementationUsed>
+            <jarPacked>true</jarPacked>
+        </wsdlGeneratedInfo>
+        <webServiceVersion/>
+    </webServiceConfig>
+    <webServiceConfig>
+        <name>scaWS</name>
+        <id>14C7964A6C3D0273</id>
+        <description></description>
+        <wsdlUrl>http://localhost:8080/scaWebService/scaWebService?WSDL</wsdlUrl>
+        <transportSession>false</transportSession>
+        <sessionHandlingMode>0</sessionHandlingMode>
+        <wsdlGeneratedInfo>
+            <axisLocatorClassname></axisLocatorClassname>
+            <axisNamespacesNew>http\://ws.comem.ch/=ws.sca.comem.ws</axisNamespacesNew>
+            <axisOperationsToPort>scaWebServicePort=&quot;readAllClients&quot;,&quot;createCertificate&quot;,&quot;readAllCertificates&quot;,&quot;updateCertificateStatus&quot;,&quot;createClient&quot;,&quot;updateRegistration&quot;,&quot;readAllCars&quot;,&quot;readCertificate&quot;,&quot;deleteClient&quot;,&quot;createCar&quot;,&quot;readCar&quot;,&quot;deleteCar&quot;,&quot;readClient&quot;</axisOperationsToPort>
+            <axisEndPointForPortType>scaWebServicePort=http\://localhost\:8080/scaWebService/scaWebService</axisEndPointForPortType>
+            <axisParameterProperties>scaWebServicePortreadCar=&quot;arg0__@@__ws.sca.comem.ws.ReadCarE__@@__&quot;
+scaWebServicePortdeleteClient=&quot;arg0__@@__ws.sca.comem.ws.DeleteClientE__@@__&quot;
+scaWebServicePortdeleteCar=&quot;arg0__@@__ws.sca.comem.ws.DeleteCarE__@@__&quot;
+scaWebServicePortcreateClient=&quot;arg0__@@__ws.sca.comem.ws.CreateClientE__@@__&quot;
+scaWebServicePortcreateCar=&quot;arg0__@@__ws.sca.comem.ws.CreateCarE__@@__&quot;
+scaWebServicePortupdateRegistration=&quot;arg0__@@__ws.sca.comem.ws.UpdateRegistrationE__@@__&quot;
+scaWebServicePortupdateCertificateStatus=&quot;arg0__@@__ws.sca.comem.ws.UpdateCertificateStatusE__@@__&quot;
+scaWebServicePortreadAllCars=&quot;arg0__@@__ws.sca.comem.ws.ReadAllCarsE__@@__&quot;
+scaWebServicePortreadCertificate=&quot;arg0__@@__ws.sca.comem.ws.ReadCertificateE__@@__&quot;
+scaWebServicePortcreateCertificate=&quot;arg0__@@__ws.sca.comem.ws.CreateCertificateE__@@__&quot;
+scaWebServicePortreadClient=&quot;arg0__@@__ws.sca.comem.ws.ReadClientE__@@__&quot;
+scaWebServicePortreadAllClients=&quot;arg0__@@__ws.sca.comem.ws.ReadAllClientsE__@@__&quot;
+scaWebServicePortreadAllCertificates=&quot;arg0__@@__ws.sca.comem.ws.ReadAllCertificatesE__@@__&quot;</axisParameterProperties>
+            <axisPortList>scaWebServicePort</axisPortList>
+            <axisStubClassnameList>ws.sca.comem.ws.ScaWebServiceStub</axisStubClassnameList>
+            <axisReturnTypes>scaWebServicePortreadCar=ws.sca.comem.ws.ReadCarResponseE
+scaWebServicePortdeleteClient=ws.sca.comem.ws.DeleteClientResponseE
+scaWebServicePortdeleteCar=ws.sca.comem.ws.DeleteCarResponseE
+scaWebServicePortcreateClient=ws.sca.comem.ws.CreateClientResponseE
+scaWebServicePortcreateCar=ws.sca.comem.ws.CreateCarResponseE
+scaWebServicePortupdateRegistration=ws.sca.comem.ws.UpdateRegistrationResponseE
+scaWebServicePortupdateCertificateStatus=ws.sca.comem.ws.UpdateCertificateStatusResponseE
+scaWebServicePortreadAllCars=ws.sca.comem.ws.ReadAllCarsResponseE
+scaWebServicePortreadCertificate=ws.sca.comem.ws.ReadCertificateResponseE
+scaWebServicePortcreateCertificate=ws.sca.comem.ws.CreateCertificateResponseE
+scaWebServicePortreadClient=ws.sca.comem.ws.ReadClientResponseE
+scaWebServicePortreadAllClients=ws.sca.comem.ws.ReadAllClientsResponseE
+scaWebServicePortreadAllCertificates=ws.sca.comem.ws.ReadAllCertificatesResponseE</axisReturnTypes>
+            <axisServiceClassname>ws.sca.comem.ws.scaWebService</axisServiceClassname>
+            <axisUsedJavaclasses>&quot;ws\\sca\\comem\\ws\\CarTransport.java&quot;,&quot;ws\\sca\\comem\\ws\\CertificateTransport.java&quot;,&quot;ws\\sca\\comem\\ws\\ClientTransport.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCar.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCarE.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCarResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCarResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCertificate.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCertificateE.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCertificateResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateCertificateResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateClient.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateClientE.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateClientResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\CreateClientResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteCar.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteCarE.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteCarResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteCarResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteClient.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteClientE.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteClientResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\DeleteClientResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ExtensionMapper.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCars.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCarsE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCarsResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCarsResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCertificates.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCertificatesE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCertificatesResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllCertificatesResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllClients.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllClientsE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllClientsResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadAllClientsResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCar.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCarE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCarResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCarResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCertificate.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCertificateE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCertificateResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadCertificateResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadClient.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadClientE.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadClientResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\ReadClientResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\ResponseTransport.java&quot;,&quot;ws\\sca\\comem\\ws\\ScaWebService.java&quot;,&quot;ws\\sca\\comem\\ws\\ScaWebServiceStub.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateCertificateStatus.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateCertificateStatusE.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateCertificateStatusResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateCertificateStatusResponseE.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateRegistration.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateRegistrationE.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateRegistrationResponse.java&quot;,&quot;ws\\sca\\comem\\ws\\UpdateRegistrationResponseE.java&quot;

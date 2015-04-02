@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970688128">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970688128" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.server#IProxy">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970688128" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970688128" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.server.IProxy.xmi#BeanDecorator_1427970688128"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970688129" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970688129" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.server.IProxy.xmi#EReference_1427970688128 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.server.IProxy.xmi#EReference_1427970688129"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970688128" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970688128" name="id" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970688128" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.server#IProxy.getId("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970688129" name="ref" eType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.shared.internal#Anything" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970688129" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.server#IProxy.getRef("/>
+  </objectsToAttach>
+</change:ChangeDescription>

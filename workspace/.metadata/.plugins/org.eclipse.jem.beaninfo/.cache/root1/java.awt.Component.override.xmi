@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:codeGenHelpers="platform:/plugin/org.eclipse.ve.java.core/overrides/codegenHelpers.ecore" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427801156216">
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801156216" key="org.eclipse.jem.java:JavaClass java:/java.awt#Component">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156217" featureName="eAnnotations">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156217" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#ClassDescriptorDecorator_1427801156217"/>
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156218" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#BeanDecorator_1427801156217"/>
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156219" referenceValues="codeGenHelpers:CodeGenHelperClass file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#CodeGenHelperClass_1427801156217"/>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:codeGenHelpers="platform:/plugin/org.eclipse.ve.java.core/overrides/codegenHelpers.ecore" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427968801987">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427968801987" key="org.eclipse.jem.java:JavaClass java:/java.awt#Component">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968801987" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801987" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#ClassDescriptorDecorator_1427968801987"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801988" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#BeanDecorator_1427968801987"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801989" referenceValues="codeGenHelpers:CodeGenHelperClass file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#CodeGenHelperClass_1427968801987"/>
     </value>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156218" featureName="eStructuralFeatures">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156220" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427801156217"/>
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156221" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427801156218"/>
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156222" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427801156219"/>
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156223" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427801156220"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968801988" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801990" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427968801987"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801991" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427968801988"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801992" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427968801989"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968801993" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.awt.Component.override.xmi#EReference_1427968801990"/>
     </value>
   </objectChanges>
-  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427801156217" treeViewClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentTreeEditPart" graphViewClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentGraphicalEditPart" modelAdapterClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentModelAdapter"/>
-  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427801156217" beanProxyClassName="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
-  <objectsToAttach xmi:type="codeGenHelpers:CodeGenHelperClass" xmi:id="CodeGenHelperClass_1427801156217" source="codegen.CodeGenHelperClass" expDecoder="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.codegen.ComponentDecoder" modelled="true"/>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801156217" name="bounds">
-    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427801156217" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.BoundsPropertyDescriptor"/>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427968801987" treeViewClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentTreeEditPart" graphViewClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentGraphicalEditPart" modelAdapterClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentModelAdapter"/>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427968801987" beanProxyClassName="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.ComponentProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
+  <objectsToAttach xmi:type="codeGenHelpers:CodeGenHelperClass" xmi:id="CodeGenHelperClass_1427968801987" source="codegen.CodeGenHelperClass" expDecoder="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.codegen.ComponentDecoder" modelled="true"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968801987" name="bounds">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427968801987" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.BoundsPropertyDescriptor"/>
   </objectsToAttach>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801156218" name="location">
-    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427801156218" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.LocationPropertyDescriptor"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968801988" name="location">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427968801988" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.LocationPropertyDescriptor"/>
   </objectsToAttach>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801156219" name="size">
-    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427801156219" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.SizePropertyDescriptor"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968801989" name="size">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorInformation" xmi:id="PropertyDescriptorInformation_1427968801989" propertyDescriptorClassname="org.eclipse.ve.jfc/org.eclipse.ve.internal.jfc.core.SizePropertyDescriptor"/>
   </objectsToAttach>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801156220" name="componentOrientation">
-    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator" xmi:id="BasePropertyDecorator_1427801156217" nullInvalid="true"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968801990" name="componentOrientation">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:BasePropertyDecorator" xmi:id="BasePropertyDecorator_1427968801988" nullInvalid="true"/>
   </objectsToAttach>
 </change:ChangeDescription>

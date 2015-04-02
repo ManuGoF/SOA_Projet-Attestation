@@ -1,0 +1,152 @@
+package projetAttestationVhc.demandeRetrait;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.components.RButton;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane;
+import com.ulcjava.base.application.util.Font;
+
+/**
+ * <p>demandeRetraitPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class demandeRetraitPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RButton Button = null;
+private RCardPane CardPane = null;
+private RCardPane CardPane1 = null;
+private RGridLayoutPane GridLayoutPane = null;
+private RCardPane CardPane2 = null;
+private RButton Button1 = null;
+private RButton Button2 = null;
+/**
+   * Create a new instance of demandeRetraitPanel
+   */
+  public demandeRetraitPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes demandeRetraitPanel
+   * @return void
+   */
+  private void initialize()
+  {
+        this.setPreferredSize(new com.ulcjava.base.application.util.Dimension(491,288));
+        this.add(getGridLayoutPane(), com.ulcjava.base.application.ULCBorderLayoutPane.WEST);
+        this.add(getCardPane2(), com.ulcjava.base.application.ULCBorderLayoutPane.NORTH);
+        this.add(getButton(), com.ulcjava.base.application.ULCBorderLayoutPane.SOUTH);
+  }
+
+/**
+ * This method initializes Button	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RButton	
+ */
+private RButton getButton() {
+	if (Button == null) {
+		Button = new RButton();
+		Button.setText("Button");
+		Button.setName("Button");
+	}
+	return Button;
+}
+
+/**
+ * This method initializes CardPane	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane	
+ */
+private RCardPane getCardPane() {
+	if (CardPane == null) {
+		CardPane = new RCardPane();
+		CardPane.setName("CardPane");
+		CardPane.addCard("Transmettre", getButton2());
+	}
+	return CardPane;
+}
+
+/**
+ * This method initializes CardPane1	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane	
+ */
+private RCardPane getCardPane1() {
+	if (CardPane1 == null) {
+		CardPane1 = new RCardPane();
+		CardPane1.setName("CardPane1");
+		CardPane1.setFont(new Font("Dialog", 0, 12));
+		CardPane1.setPreferredSize(new com.ulcjava.base.application.util.Dimension(245,20));
+		CardPane1.setEnabled(false);
+		CardPane1.addCard("Annuler", getButton1());
+	}
+	return CardPane1;
+}
+
+/**
+ * This method initializes GridLayoutPane	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getGridLayoutPane() {
+	if (GridLayoutPane == null) {
+		GridLayoutPane = new RGridLayoutPane();
+		GridLayoutPane.setName("GridLayoutPane");
+		GridLayoutPane.add(getCardPane1());
+		GridLayoutPane.add(getCardPane());
+	}
+	return GridLayoutPane;
+}
+
+/**
+ * This method initializes CardPane2	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane	
+ */
+private RCardPane getCardPane2() {
+	if (CardPane2 == null) {
+		CardPane2 = new RCardPane();
+		CardPane2.setName("CardPane2");
+		CardPane2.setPreferredSize(new com.ulcjava.base.application.util.Dimension(20,250));
+	}
+	return CardPane2;
+}
+
+/**
+ * This method initializes Button1	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RButton	
+ */
+private RButton getButton1() {
+	if (Button1 == null) {
+		Button1 = new RButton();
+		Button1.setText("Button1");
+		Button1.setName("Button1");
+	}
+	return Button1;
+}
+
+/**
+ * This method initializes Button2	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RButton	
+ */
+private RButton getButton2() {
+	if (Button2 == null) {
+		Button2 = new RButton();
+		Button2.setText("Button2");
+		Button2.setName("Button2");
+	}
+	return Button2;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

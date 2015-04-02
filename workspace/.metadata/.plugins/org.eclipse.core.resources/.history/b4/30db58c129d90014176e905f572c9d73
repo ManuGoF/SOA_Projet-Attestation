@@ -1,0 +1,73 @@
+[Ivy]
+[>Created: Thu Apr 02 13:15:50 CEST 2015]
+14C79A428EA5C075 3.17 #module
+>Proto >Proto Collection #zClass
+es0 elementsNonCouvertsProcess Big #zClass
+es0 RD #cInfo
+es0 #process
+es0 @TextInP .ui2RdDataAction .ui2RdDataAction #zField
+es0 @TextInP .rdData2UIAction .rdData2UIAction #zField
+es0 @TextInP .resExport .resExport #zField
+es0 @TextInP .type .type #zField
+es0 @TextInP .processKind .processKind #zField
+es0 @AnnotationInP-0n ai ai #zField
+es0 @MessageFlowInP-0n messageIn messageIn #zField
+es0 @MessageFlowOutP-0n messageOut messageOut #zField
+es0 @TextInP .xml .xml #zField
+es0 @TextInP .responsibility .responsibility #zField
+es0 @RichDialogInitStart f0 '' #zField
+es0 @RichDialogProcessEnd f1 '' #zField
+es0 @RichDialogProcessStep f3 '' #zField
+es0 @PushWFArc f4 '' #zField
+es0 @PushWFArc f2 '' #zField
+>Proto es0 es0 elementsNonCouvertsProcess #zField
+es0 f0 guid 14C79A4294029BCB #txt
+es0 f0 type projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData #txt
+es0 f0 method start(ch.comem.ws.CertificateTransport) #txt
+es0 f0 disableUIEvents true #txt
+es0 f0 inParameterDecl 'ch.ivyteam.ivy.richdialog.exec.RdMethodCallEvent methodEvent = event as ch.ivyteam.ivy.richdialog.exec.RdMethodCallEvent;
+<ch.comem.ws.CertificateTransport CertificatInsurance> param = methodEvent.getInputArguments();
+' #txt
+es0 f0 inParameterMapAction 'out.data.certificateInsurrance=param.CertificatInsurance;
+' #txt
+es0 f0 outParameterDecl '<ch.comem.ws.CertificateTransport CertificatTransport,java.lang.Boolean isCovered> result;
+' #txt
+es0 f0 outParameterMapAction 'result.CertificatTransport=in.data.certificateInsurrance;
+result.isCovered=in.data.isDropped;
+' #txt
+es0 f0 embeddedRdInitializations '* ' #txt
+es0 f0 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<elementInfo>
+    <language>
+        <name>start(Data)</name>
+        <nameStyle>11,5,7
+</nameStyle>
+    </language>
+</elementInfo>
+' #txt
+es0 f0 83 51 26 26 -29 15 #rect
+es0 f0 @|RichDialogInitStartIcon #fIcon
+es0 f1 type projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData #txt
+es0 f1 339 51 26 26 0 12 #rect
+es0 f1 @|RichDialogProcessEndIcon #fIcon
+es0 f3 actionDecl 'projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData out;
+' #txt
+es0 f3 actionTable 'out=in;
+' #txt
+es0 f3 panelTable 'panel.List.selectedListEntry=in.data.certificateInsurrance;
+' #txt
+es0 f3 type projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData #txt
+es0 f3 168 42 112 44 0 -8 #rect
+es0 f3 @|RichDialogProcessStepIcon #fIcon
+es0 f4 expr out #txt
+es0 f4 109 64 168 64 #arcP
+es0 f2 expr out #txt
+es0 f2 280 64 339 64 #arcP
+>Proto es0 .type projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsData #txt
+>Proto es0 .processKind RICH_DIALOG #txt
+>Proto es0 -8 -8 16 16 16 26 #rect
+>Proto es0 '' #fIcon
+es0 f0 mainOut f4 tail #connect
+es0 f4 head f3 mainIn #connect
+es0 f3 mainOut f2 tail #connect
+es0 f2 head f1 mainIn #connect

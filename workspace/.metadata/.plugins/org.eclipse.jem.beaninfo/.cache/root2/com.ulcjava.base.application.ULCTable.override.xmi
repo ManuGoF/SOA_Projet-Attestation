@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:codeGenHelpers="platform:/plugin/org.eclipse.ve.java.core/overrides/codegenHelpers.ecore" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427970506392">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970506392" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCTable">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970506392" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970506392" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTable.override.xmi#ClassDescriptorDecorator_1427970506392"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970506393" referenceValues="org.eclipse.ve.internal.jcm:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTable.override.xmi#BeanDecorator_1427970506392"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970506394" referenceValues="codeGenHelpers:CodeGenHelperClass file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTable.override.xmi#CodeGenHelperClass_1427970506392"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970506393" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970506395" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTable.override.xmi#EReference_1427970506392"/>
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970506396" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCTable.override.xmi#EReference_1427970506393"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427970506392" treeViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.tree.TableTreeEditPart" graphViewClassname="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.gef.graphical.TableGraphicalEditPart:true">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427970506393" resourceName="platform:/plugin/org.eclipse.ve.jfc/icons/full/clcl16/table_obj.gif"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.jcm:BeanDecorator" xmi:id="BeanDecorator_1427970506392" beanProxyClassName="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.proxy.ULCTableProxyAdapter" beanLocation="GLOBAL_GLOBAL"/>
+  <objectsToAttach xmi:type="codeGenHelpers:CodeGenHelperClass" xmi:id="CodeGenHelperClass_1427970506392" source="codegen.CodeGenHelperClass" expDecoder="com.canoo.ulc.visualeditor/com.canoo.ulc.visualeditor.codegen.TableDecoder" modelled="true"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970506392" name="autoCreateColumnsFromModel"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970506393" name="columns" upperBound="-1" eType="ecore:EClass java:/com.ulcjava.base.application.table#ULCTableColumn">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorDecorator" xmi:id="PropertyDescriptorDecorator_1427970506393" hidden="true"/>
+    <eAnnotations xmi:type="org.eclipse.ve.internal.jcm:BeanFeatureDecorator" xmi:id="BeanFeatureDecorator_1427970506393" linkType="CHILD"/>
+  </objectsToAttach>
+</change:ChangeDescription>

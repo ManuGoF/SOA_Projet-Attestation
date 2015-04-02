@@ -22,6 +22,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="ch.ivyteam.ivy.designer.user.UserEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="ch.ivyteam.ivy.designer.role.RoleEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="ch.ivyteam.ivy.designer.ws.WSEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" itemType="typePlaceholder" x="307" y="22"/>
 <coolItem id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -36,15 +39,59 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc" partName="AttestationVhc.mod" path="C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" title="AttestationVhc.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" workbook="DefaultEditorWorkbook">
+<editor id="ch.ivyteam.ivy.designer.ws.WSEditor" name="webservice.wsconfig" partName="ProjetAttestationVhc" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/webservice.wsconfig" title="ProjetAttestationVhc" tooltip="ProjetAttestationVhc/webservice.wsconfig" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/webservice.wsconfig"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="Data.ivyClass" partName="Data" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" title="Data" tooltip="ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="GarageCreateClient.rddescriptor" partName="GarageCreateClientInterface" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClient.rddescriptor" title="GarageCreateClientInterface" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClient.rddescriptor" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClient.rddescriptor"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="GarageCreateClientProcess" partName="GarageCreateClientProcess.mod" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientProcess.mod" title="GarageCreateClientProcess.mod" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientProcess.mod" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientProcess.mod"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.role.RoleEditor" name="roles.roleconfig" partName="ProjetAttestationVhc" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/roles.roleconfig" title="ProjetAttestationVhc" tooltip="ProjetAttestationVhc/roles.roleconfig" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/roles.roleconfig"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.user.UserEditor" name="testusers.userconfig" partName="ProjetAttestationVhc" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/testusers.userconfig" title="ProjetAttestationVhc" tooltip="ProjetAttestationVhc/testusers.userconfig" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/testusers.userconfig"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="GarageCreateClientData.ivyClass" partName="GarageCreateClientData" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientData.ivyClass" title="GarageCreateClientData" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientData.ivyClass" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientData.ivyClass"/>
+</editor>
+<editor activePart="true" focus="true" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc" partName="AttestationVhc.mod" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" title="AttestationVhc.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
 </editor>
-<editor id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="Data.ivyClass" partName="Data" path="C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" title="Data" tooltip="ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+<editor id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="demandeRetrait.rddescriptor" partName="demandeRetraitInterface" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetrait.rddescriptor" title="demandeRetraitInterface" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetrait.rddescriptor" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetrait.rddescriptor"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="demandeRetraitProcess" partName="demandeRetraitProcess.mod" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitProcess.mod" title="demandeRetraitProcess.mod" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitProcess.mod" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitProcess.mod"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="demandeRetraitData.ivyClass" partName="demandeRetraitData" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitData.ivyClass" title="demandeRetraitData" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitData.ivyClass" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitData.ivyClass"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="elementsNonCouvertsProcess" partName="elementsNonCouvertsProcess.mod" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsProcess.mod" title="elementsNonCouvertsProcess.mod" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsProcess.mod" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsProcess.mod"/>
+</editor>
+<editor id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="elementsNonCouverts.rddescriptor" partName="elementsNonCouvertsInterface" path="C:/Users/Cedric/Desktop/workspace/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouverts.rddescriptor" title="elementsNonCouvertsInterface" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouverts.rddescriptor" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouverts.rddescriptor"/>
 </editor>
 </editors>
 <views>
@@ -54,20 +101,17 @@
 <view id="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" partName="Java Beans">
 <viewState/>
 </view>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" partName="Axon.ivy Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="ch.ivyteam.ivy.designer.process.ui.ProcessEnginePerformanceView" partName="Process Performance"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" partName="Data Bindings"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" partName="Widget Configuration"/>
 <view id="ch.ivyteam.ivy.designer.engine.ui.engineRuntimeLogView" partName="Runtime Log">
 <viewState scrollLock="false" showLogOnChange="true"/>
 </view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables"/>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -75,14 +119,15 @@
 <view id="ch.ivyteam.ivy.designer.project.ui.ProjectView" partName="Axon.ivy Projects">
 <viewState ch.ivyteam.ivy.designer.project.ui.internal.IvyProjectTreeView.linkedWithEditor="1"/>
 </view>
-<view id="ch.ivyteam.ivy.designer.engine.ui.engineHistoryView" partName="History"/>
+<view id="ch.ivyteam.ivy.designer.engine.ui.engineHistoryView" partName="History">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" partName="Event Mappings"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="225" org.eclipse.ui.ide.severityAndDescriptionField="647"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -210,13 +255,18 @@
 <view id="ch.ivyteam.ivy.designer.project.ui.ProjectView"/>
 <view id="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart"/>
 <view id="org.eclipse.ve.internal.java.codegen.editorpart.BeansList"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView"/>
-<view id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView"/>
-<fastViewBars/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" style="0">&#x0A;<fastViews>&#x0A;<view id="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" ratio="0.3"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" ratio="0.3"/>
+<view id="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" ratio="0.95"/>
+<view id="ch.ivyteam.ivy.reference.ui.ReferenceView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="ch.ivyteam.ivy.designer.project.ui.ProjectView" appearance="2" expanded="2">&#x0A;<page content="ch.ivyteam.ivy.designer.project.ui.ProjectView" label="Axon.ivy Projects"/>
 <page content="ch.ivyteam.ivy.designer.cm.ui.views.cmstree.CmsTreeViewPart" label="CMS"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -229,23 +279,18 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.82857144" ratioLeft="754" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" label="Event Mappings"/>
-<page content="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" label="Data Bindings"/>
-<page content="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" label="Widget Configuration"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<info part="org.eclipse.ui.editorss" ratio="0.113708824" ratioLeft="214" ratioRight="1668" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6230769" ratioLeft="567" ratioRight="343" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.eventmapping.view" label="LabelNotFound"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.databinding.view" label="LabelNotFound"/>
+<page content="ch.ivyteam.ivy.designer.richdialog.ui.configeditors.view.WidgetConfigurationView" label="LabelNotFound"/>
+<page content="ch.ivyteam.ivy.reference.ui.ReferenceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.877451" ratioLeft="1253" ratioRight="175" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" appearance="2" expanded="2">&#x0A;<page content="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" label="Axon.ivy Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
+<info folder="true" part="topRight" ratio="0.877451" ratioLeft="1253" ratioRight="175" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="ch.ivyteam.ivy.designer.richdialog.ui.outline.IvyOutlineView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="bottomLeft" ratio="0.49945235" ratioLeft="456" ratioRight="457" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ve.internal.java.codegen.editorpart.BeansList" label="Java Beans"/>
@@ -338,7 +383,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.7491785" ratioLeft="684" ratioRight="229" relationship="4" relative="topLeft">
+<info folder="true" part="bottomLeft" ratio="0.74945056" ratioLeft="682" ratioRight="228" relationship="4" relative="topLeft">
 <folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
@@ -370,7 +415,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.5998954" ratioLeft="1147" ratioRight="765" relationship="2" relative="topLeft">
+<info folder="true" part="topRight" ratio="0.8239916" ratioLeft="1573" ratioRight="336" relationship="2" relative="topLeft">
 <folder activePageID="ch.ivyteam.ivy.designer.engine.ui.engineWebBrowserView" appearance="2" expanded="2">
 <page content="ch.ivyteam.ivy.designer.engine.ui.engineWebBrowserView" label="Web Browser"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -389,90 +434,7 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" path="/ProjetAttestationVhc/processes/Business Processes/Test.mod"/>
 </editors>
-<item historyLabel="AttestationVhc.mod" index="0"/>
-<item historyLabel="Data" index="1"/>
-<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
-<position info="not_deleted" x="952" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVehiculePanel.java" index="2">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Data" index="1"/>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="Data" index="1"/>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="922" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1339" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="922" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="SaisieAttestationVhcPanel.java" index="3">
-<position info="not_deleted" x="1372" y="0"/>
-</item>
-<item historyLabel="Data" index="1"/>
-<item historyLabel="AttestationVhc.mod" index="0"/>
-<item historyLabel="Test.mod" index="4"/>
 <item active="true" historyLabel="AttestationVhc.mod" index="0"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -491,20 +453,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="Test.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/Test.mod">
-<persistable path="/ProjetAttestationVhc/processes/Business Processes/Test.mod"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="elementsNonCouvertsPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="SaisieAttestationVhcPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java">
-<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVhc/SaisieAttestationVhcPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="GarageCreateClientPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/GarageCreateClient/GarageCreateClientPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="SaisieAttestationVehiculePanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java">
-<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/SaisieAttestationVehicule/SaisieAttestationVehiculePanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="demandeRetraitPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="Data.ivyClass" tooltip="ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass">
-<persistable path="/ProjetAttestationVhc/dataclasses/projetAttestationVhc/Data.ivyClass"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="elementsNonCouverts.rddescriptor" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouverts.rddescriptor">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouverts.rddescriptor"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc.mod" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod">
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="elementsNonCouvertsProcess" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsProcess.mod">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/elementsNonCouverts/elementsNonCouvertsProcess.mod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="demandeRetraitData.ivyClass" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitData.ivyClass">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitData.ivyClass"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="demandeRetraitProcess" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitProcess.mod">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetraitProcess.mod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="demandeRetrait.rddescriptor" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetrait.rddescriptor">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/demandeRetrait/demandeRetrait.rddescriptor"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="AttestationVhc" tooltip="ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod">
 <persistable path="/ProjetAttestationVhc/processes/Business Processes/AttestationVhc.mod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="createCertPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/createCert/createCertPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/createCert/createCertPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="createCertProcess" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/createCert/createCertProcess.mod">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/createCert/createCertProcess.mod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.process.ui.editor.EditorWithPalette" name="CreateAttestationProcess" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationProcess.mod">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationProcess.mod"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.richdialog.ui.RichDialogInterfaceEditor" name="CreateAttestation.rddescriptor" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestation.rddescriptor">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestation.rddescriptor"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ch.ivyteam.ivy.designer.dataClasses.ui.editor.DataClassEditor" name="CreateAttestationData.ivyClass" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationData.ivyClass">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationData.ivyClass"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ve.internal.java.codegen.editorpart.JavaVisualEditor" name="CreateAttestationPanel.java" tooltip="ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationPanel.java">
+<persistable path="/ProjetAttestationVhc/src_rd/projetAttestationVhc/CreateAttestation/CreateAttestationPanel.java"/>
 </file>
 </mruList>
 </workbench>

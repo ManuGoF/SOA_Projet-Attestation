@@ -1,0 +1,17 @@
+GarageCreateClientData #class
+projetAttestationVhc.GarageCreateClient #namespace
+ClientTransport ch.comem.ws.ClientTransport #field
+ListClients List<ch.comem.ws.ClientTransport> #field
+ListClients PERSISTENT #fieldModifier
+ListCars List<ch.comem.ws.CarTransport> #field
+ListCars PERSISTENT #fieldModifier
+ListCertificates List<ch.comem.ws.CertificateTransport> #field
+ListCertificates PERSISTENT #fieldModifier
+ListWorkers List<ch.comem.ws.WorkerTransport> #field
+ListWorkers PERSISTENT #fieldModifier
+CertificateTransport ch.comem.ws.CertificateTransport #field
+CertificateTransport PERSISTENT #fieldModifier
+CarTransport ch.comem.ws.CarTransport #field
+CarTransport PERSISTENT #fieldModifier
+WorkerTransport ch.comem.ws.WorkerTransport #field
+WorkerTransport PERSISTENT #fieldModifier

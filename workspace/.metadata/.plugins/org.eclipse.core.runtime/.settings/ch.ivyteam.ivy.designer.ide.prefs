@@ -1,0 +1,7 @@
+SMTP_ENCRYPTION_METHOD=START_TLS
+SMTP_HOST_NAME=smtp.gmail.com
+SMTP_PASSW=xyshsfjftginersz
+SMTP_TEST_FROM=cliengme@gmail.com
+SMTP_TEST_TO=cliengme@gmail.com
+SMTP_USER=cliengme@gmail.com
+eclipse.preferences.version=1

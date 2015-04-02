@@ -1,0 +1,36 @@
+package projetAttestationVhc.CreateAttestation;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+
+/**
+ * <p>CreateAttestationPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class CreateAttestationPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+  
+  /**
+   * Create a new instance of CreateAttestationPanel
+   */
+  public CreateAttestationPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes CreateAttestationPanel
+   * @return void
+   */
+  private void initialize()
+  {
+  }
+}

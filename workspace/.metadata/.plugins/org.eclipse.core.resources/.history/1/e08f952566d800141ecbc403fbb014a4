@@ -1,0 +1,70 @@
+package projetAttestationVhc.GarageCreateClient;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane;
+import ch.ivyteam.ivy.richdialog.widgets.components.RTextField;
+import ch.ivyteam.ivy.richdialog.widgets.components.RProgressBar;
+
+/**
+ * <p>GarageCreateClientPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class GarageCreateClientPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RGridLayoutPane Form = null;
+private RTextField Lastname = null;
+/**
+   * Create a new instance of GarageCreateClientPanel
+   */
+  public GarageCreateClientPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes GarageCreateClientPanel
+   * @return void
+   */
+  private void initialize()
+  {
+        this.setPreferredSize(new com.ulcjava.base.application.util.Dimension(951,515));
+        this.add(getForm(), com.ulcjava.base.application.ULCBorderLayoutPane.CENTER);
+  }
+
+/**
+ * This method initializes Form	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getForm() {
+	if (Form == null) {
+		Form = new RGridLayoutPane();
+		Form.setName("Form");
+		Form.add(getLastname());
+	}
+	return Form;
+}
+
+/**
+ * This method initializes Lastname	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getLastname() {
+	if (Lastname == null) {
+		Lastname = new RTextField();
+		Lastname.setText("Lastname");
+		Lastname.setName("Lastname");
+	}
+	return Lastname;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

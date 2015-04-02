@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801470099">
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801470099" key="org.eclipse.jem.java:JavaClass java:/java.lang#String">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470099" featureName="eAnnotations">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801470099" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#BeanDecorator_1427801470099"/>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970813917">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813917" key="org.eclipse.jem.java:JavaClass java:/java.lang#String">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813917" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813917" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#BeanDecorator_1427970813917"/>
     </value>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470100" featureName="eStructuralFeatures">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801470100" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#EReference_1427801470099"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813918" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813918" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#EReference_1427970813917"/>
     </value>
   </objectChanges>
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801470100" key="ecore:EReference java:/java.lang#String/bytes">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470101" featureName="eAnnotations">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801470101" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#PropertyDecorator_1427801470099"/>
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813918" key="ecore:EReference java:/java.lang#String/bytes">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813919" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813919" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root1/java.lang.String.xmi#PropertyDecorator_1427970813918"/>
     </value>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470102" featureName="name" dataValue="bytes"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470103" featureName="transient" dataValue="false"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470104" featureName="volatile" dataValue="false"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470105" featureName="changeable" dataValue="true"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470106" featureName="eType" referenceValue="org.eclipse.jem.java:ArrayType java:/#byte[]"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470107" featureName="lowerBound" dataValue="0"/>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801470108" featureName="upperBound" dataValue="1"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813920" featureName="name" dataValue="bytes"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813921" featureName="transient" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813922" featureName="volatile" dataValue="false"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813923" featureName="changeable" dataValue="true"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813924" featureName="eType" referenceValue="org.eclipse.jem.java:ArrayType java:/#byte[]"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813925" featureName="lowerBound" dataValue="0"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813926" featureName="upperBound" dataValue="1"/>
   </objectChanges>
-  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801470099" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
-  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801470099" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR" readMethod="org.eclipse.jem.java:Method java:/java.lang#String.getBytes("/>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801470099" name="empty" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
-    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801470100" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang#String.isEmpty("/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970813917" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813918" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR" readMethod="org.eclipse.jem.java:Method java:/java.lang#String.getBytes("/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813917" name="empty" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813919" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/java.lang#String.isEmpty("/>
   </objectsToAttach>
 </change:ChangeDescription>

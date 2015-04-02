@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427972156914">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427972156914" key="org.eclipse.jem.java:JavaClass java:/projetAttestationVhc.GarageCreateClient#GarageCreateClientPanel">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427972156914" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427972156914" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjetAttestationVhc/org.eclipse.jem.beaninfo/.cache/root1/projetAttestationVhc.GarageCreateClient.GarageCreateClientPanel.xmi#BeanDecorator_1427972156914"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427972156914" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+</change:ChangeDescription>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970567722">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970567722" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCAbstractHeader">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970567722" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970567722" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#BeanDecorator_1427970567722"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970567723" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970567723" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#EReference_1427970567722 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#EReference_1427970567723 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#EReference_1427970567724 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#EReference_1427970567725"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970567724" featureName="events">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970567724" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanEvent file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCAbstractHeader.xmi#BeanEvent_1427970567723"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970567722" implicitlySetBits="2017612633061982222" implicitDecoratorFlag="IMPLICIT_DECORATOR" mergeSuperMethods="false"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970567722" name="actionCommand" eType="org.eclipse.jem.java:JavaClass java:/java.lang#String" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970567723" implicitlySetBits="2017612633061982268" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.getActionCommand(" writeMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.setActionCommand(java.lang.String"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970567723" name="actionListeners" eType="org.eclipse.jem.java:ArrayType java:/com.ulcjava.base.application.event#IActionListener[]" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970567724" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.getActionListeners("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970567724" name="reorderingAllowed" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970567725" implicitlySetBits="2017612633061982268" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.getReorderingAllowed(" writeMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.setReorderingAllowed(boolean"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970567725" name="resizingAllowed" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970567726" implicitlySetBits="2017612633061982268" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.getResizingAllowed(" writeMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.setResizingAllowed(boolean"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanEvent" xmi:id="BeanEvent_1427970567723" name="action">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:EventSetDecorator" xmi:id="EventSetDecorator_1427970567723" displayName="Action" shortDescription="All Action Events" implicitlySetBits="-2594073385365405571" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" inDefaultEventSet="true" addListenerMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.addActionListener(com.ulcjava.base.application.event.IActionListener" listenerType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.event#IActionListener" removeListenerMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCAbstractHeader.removeActionListener(com.ulcjava.base.application.event.IActionListener">
+      <serListMthd xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:MethodProxy" xmi:id="MethodProxy_1427970567723" name="actionPerformed" method="org.eclipse.jem.java:Method java:/com.ulcjava.base.application.event#IActionListener.actionPerformed(com.ulcjava.base.application.event.ActionEvent">
+        <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:MethodDecorator" xmi:id="MethodDecorator_1427970567723" shortDescription="Event fired on clicking the button" preferred="true" implicitlySetBits="6629298651489370112"/>
+      </serListMthd>
+    </eAnnotations>
+  </objectsToAttach>
+</change:ChangeDescription>

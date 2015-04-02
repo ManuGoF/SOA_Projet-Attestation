@@ -12,7 +12,7 @@ car_type String #field
 car_type PERSISTENT #fieldModifier
 car_color String #field
 car_color PERSISTENT #fieldModifier
-car_price String #field
+car_price java.lang.Double #field
 car_price PERSISTENT #fieldModifier
 certificate_state String #field
 certificate_state PERSISTENT #fieldModifier
@@ -30,3 +30,15 @@ client_licence_type String #field
 client_licence_type PERSISTENT #fieldModifier
 client_licence_date Date #field
 client_licence_date PERSISTENT #fieldModifier
+clientInsurrance ch.comem.ws.ClientTransport #field
+clientInsurrance PERSISTENT #fieldModifier
+carInsurrance ch.comem.ws.CarTransport #field
+carInsurrance PERSISTENT #fieldModifier
+certificateInsurrance ch.comem.ws.CertificateTransport #field
+certificateInsurrance PERSISTENT #fieldModifier
+workerInsurrance ch.comem.ws.WorkerTransport #field
+workerInsurrance PERSISTENT #fieldModifier
+certificateSca ws.sca.comem.ws.CertificateTransport #field
+certificateSca PERSISTENT #fieldModifier
+isDropped Boolean #field
+isDropped PERSISTENT #fieldModifier

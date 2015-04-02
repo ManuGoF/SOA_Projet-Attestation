@@ -1,0 +1,237 @@
+package projetAttestationVhc.GarageCreateClient;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane;
+import ch.ivyteam.ivy.richdialog.widgets.components.RTextField;
+import ch.ivyteam.ivy.richdialog.widgets.components.RProgressBar;
+import ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar;
+import ch.ivyteam.ivy.richdialog.widgets.components.RList;
+import com.ulcjava.base.application.util.Color;
+import com.ulcjava.base.application.ULCTextField;
+import com.ulcjava.base.application.util.ComponentOrientation;
+import ch.ivyteam.ivy.richdialog.widgets.components.RButton;
+
+/**
+ * <p>GarageCreateClientPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class GarageCreateClientPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RMenuBar MenuBar = null;
+private RMenuBar Footer = null;
+private RList ListClient = null;
+private RList ListCar = null;
+private RGridLayoutPane Grille = null;
+private RTextField Lastname = null;
+private RTextField Firstname = null;
+private RTextField Email = null;
+private RTextField Birthday = null;
+private RTextField Licence_date = null;
+private RTextField Licence_type = null;
+private RButton Create = null;
+/**
+   * Create a new instance of GarageCreateClientPanel
+   */
+  public GarageCreateClientPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes GarageCreateClientPanel
+   * @return void
+   */
+  private void initialize()
+  {
+        this.setPreferredSize(new com.ulcjava.base.application.util.Dimension(951,515));
+        this.add(getMenuBar(), com.ulcjava.base.application.ULCBorderLayoutPane.NORTH);
+        this.add(getListClient(), com.ulcjava.base.application.ULCBorderLayoutPane.EAST);
+        this.add(getGrille(), com.ulcjava.base.application.ULCBorderLayoutPane.CENTER);
+        this.add(getListCar(), com.ulcjava.base.application.ULCBorderLayoutPane.WEST);
+        this.add(getFooter(), com.ulcjava.base.application.ULCBorderLayoutPane.SOUTH);
+  }
+
+/**
+ * This method initializes MenuBar	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar	
+ */
+private RMenuBar getMenuBar() {
+	if (MenuBar == null) {
+		MenuBar = new RMenuBar();
+		MenuBar.setName("MenuBar");
+		MenuBar.setPreferredSize(new com.ulcjava.base.application.util.Dimension(200,40));
+	}
+	return MenuBar;
+}
+
+/**
+ * This method initializes Footer	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar	
+ */
+private RMenuBar getFooter() {
+	if (Footer == null) {
+		Footer = new RMenuBar();
+		Footer.setName("Footer");
+		Footer.setPreferredSize(new com.ulcjava.base.application.util.Dimension(200,40));
+	}
+	return Footer;
+}
+
+/**
+ * This method initializes ListClient	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RList	
+ */
+private RList getListClient() {
+	if (ListClient == null) {
+		ListClient = new RList();
+		ListClient.setName("ListClient");
+	}
+	return ListClient;
+}
+
+/**
+ * This method initializes ListCar	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RList	
+ */
+private RList getListCar() {
+	if (ListCar == null) {
+		ListCar = new RList();
+		ListCar.setName("ListCar");
+	}
+	return ListCar;
+}
+
+/**
+ * This method initializes Grille	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getGrille() {
+	if (Grille == null) {
+		Grille = new RGridLayoutPane();
+		Grille.setName("Grille");
+		Grille.setColumns(2);
+		Grille.setRows(7);
+		Grille.add(getLastname());
+		Grille.add(getFirstname());
+		Grille.add(getEmail());
+		Grille.add(getBirthday());
+		Grille.add(getLicence_date());
+		Grille.add(getLicence_type());
+		Grille.add(getCreate());
+	}
+	return Grille;
+}
+
+/**
+ * This method initializes Lastname	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getLastname() {
+	if (Lastname == null) {
+		Lastname = new RTextField();
+		Lastname.setText("Lastname");
+		Lastname.setColumns(3);
+		Lastname.setName("Lastname");
+	}
+	return Lastname;
+}
+
+/**
+ * This method initializes Firstname	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getFirstname() {
+	if (Firstname == null) {
+		Firstname = new RTextField();
+		Firstname.setText("Firstname");
+		Firstname.setName("Firstname");
+	}
+	return Firstname;
+}
+
+/**
+ * This method initializes Email	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getEmail() {
+	if (Email == null) {
+		Email = new RTextField();
+		Email.setText("Email");
+		Email.setName("Email");
+	}
+	return Email;
+}
+
+/**
+ * This method initializes Birthday	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getBirthday() {
+	if (Birthday == null) {
+		Birthday = new RTextField();
+		Birthday.setText("Birthday");
+		Birthday.setName("Birthday");
+	}
+	return Birthday;
+}
+
+/**
+ * This method initializes Licence_date	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getLicence_date() {
+	if (Licence_date == null) {
+		Licence_date = new RTextField();
+		Licence_date.setText("Licence_date");
+		Licence_date.setName("Licence_date");
+	}
+	return Licence_date;
+}
+
+/**
+ * This method initializes Licence_type	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RTextField	
+ */
+private RTextField getLicence_type() {
+	if (Licence_type == null) {
+		Licence_type = new RTextField();
+		Licence_type.setText("Licence_type");
+		Licence_type.setName("Licence_type");
+	}
+	return Licence_type;
+}
+
+/**
+ * This method initializes Create	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.components.RButton	
+ */
+private RButton getCreate() {
+	if (Create == null) {
+		Create = new RButton();
+		Create.setText("Create");
+		Create.setName("Create");
+	}
+	return Create;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

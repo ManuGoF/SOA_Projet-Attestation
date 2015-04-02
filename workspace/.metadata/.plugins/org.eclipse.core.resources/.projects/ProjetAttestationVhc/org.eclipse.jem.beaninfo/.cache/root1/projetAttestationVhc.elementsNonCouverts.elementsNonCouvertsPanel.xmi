@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970813897">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813898" key="org.eclipse.jem.java:JavaClass java:/projetAttestationVhc.elementsNonCouverts#elementsNonCouvertsPanel">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813898" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813898" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/ProjetAttestationVhc/org.eclipse.jem.beaninfo/.cache/root1/projetAttestationVhc.elementsNonCouverts.elementsNonCouvertsPanel.xmi#BeanDecorator_1427970813898"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970813898" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+</change:ChangeDescription>

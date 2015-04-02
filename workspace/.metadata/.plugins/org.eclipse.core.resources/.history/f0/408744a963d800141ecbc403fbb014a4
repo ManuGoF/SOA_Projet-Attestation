@@ -1,0 +1,3 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-01 13:33:23 | 5.1.4.48243 | 1.0
+~@RD_METHODCALL[start()]--->ch.ivyteam.ivy.process.ProcessStart:14C74C1D7728F95D/14C74C1D7DFC1B3C

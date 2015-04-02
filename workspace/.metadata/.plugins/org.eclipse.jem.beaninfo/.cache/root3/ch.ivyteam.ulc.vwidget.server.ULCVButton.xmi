@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970813942">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813942" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ulc.vwidget.server#ULCVButton">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813942" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813942" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#BeanDecorator_1427970813942"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813943" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813943" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#EReference_1427970813942 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#EReference_1427970813943 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#EReference_1427970813944 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#EReference_1427970813945 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVButton.xmi#EReference_1427970813946"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970813942" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813942" name="showBadge" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813942" implicitlySetBits="56" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.setShowBadge(boolean"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813943" name="badgeShowing" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813943" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.isBadgeShowing("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813944" name="badgeValue" eType="org.eclipse.jem.java:JavaClass java:/java.lang#Integer" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813944" implicitlySetBits="60" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.getBadgeValue(" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.setBadgeValue(java.lang.Integer"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813945" name="badgeColor" eType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#Color" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813945" implicitlySetBits="60" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.getBadgeColor(" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.setBadgeColor(com.ulcjava.base.application.util.Color"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813946" name="animationDuration" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813946" implicitlySetBits="56" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVButton.setAnimationDuration(int"/>
+  </objectsToAttach>
+</change:ChangeDescription>

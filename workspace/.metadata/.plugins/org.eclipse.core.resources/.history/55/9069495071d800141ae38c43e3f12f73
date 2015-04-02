@@ -1,0 +1,34 @@
+Data #class
+projetAttestationVhc #namespace
+car_serial_number String #field
+car_serial_number PERSISTENT #fieldModifier
+car_registration String #field
+car_registration PERSISTENT #fieldModifier
+car_brand String #field
+car_brand PERSISTENT #fieldModifier
+car_model String #field
+car_model PERSISTENT #fieldModifier
+car_type String #field
+car_type PERSISTENT #fieldModifier
+car_color String #field
+car_color PERSISTENT #fieldModifier
+car_price String #field
+car_price PERSISTENT #fieldModifier
+certificate_state String #field
+certificate_state PERSISTENT #fieldModifier
+certificate_creation_date Date #field
+certificate_creation_date PERSISTENT #fieldModifier
+client_lastname String #field
+client_lastname PERSISTENT #fieldModifier
+client_firstname String #field
+client_firstname PERSISTENT #fieldModifier
+client_email String #field
+client_email PERSISTENT #fieldModifier
+client_birthday Date #field
+client_birthday PERSISTENT #fieldModifier
+client_licence_type String #field
+client_licence_type PERSISTENT #fieldModifier
+client_licence_date Date #field
+client_licence_date PERSISTENT #fieldModifier
+ClientTransport ch.comem.ws.ClientTransport #field
+ClientTransport PERSISTENT #fieldModifier

@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <role>
     <identifier>Everybody</identifier>
+    <role>
+        <identifier>Garagiste</identifier>
+    </role>
+    <role>
+        <identifier>Siege</identifier>
+    </role>
+    <role>
+        <identifier>Agence</identifier>
+    </role>
+    <role>
+        <identifier>Direction</identifier>
+    </role>
+    <role>
+        <identifier>SCA</identifier>
+    </role>
 </role>

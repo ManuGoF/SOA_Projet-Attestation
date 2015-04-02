@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427801156004">
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801156004" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCContainer">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801156004" featureName="eStructuralFeatures">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801156004" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCContainer.override.xmi#EReference_1427801156004"/>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.jcm="http:///org/eclipse/ve/internal/jcm.ecore" xmi:id="ChangeDescription_1427968695379">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427968695379" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCContainer">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968695379" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968695379" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCContainer.override.xmi#EReference_1427968695379"/>
     </value>
   </objectChanges>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801156004" name="components" upperBound="-1" eType="ecore:EClass java:/com.ulcjava.base.application#ULCComponent">
-    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorDecorator" xmi:id="PropertyDescriptorDecorator_1427801156004" hidden="true"/>
-    <eAnnotations xmi:type="org.eclipse.ve.internal.jcm:BeanFeatureDecorator" xmi:id="BeanFeatureDecorator_1427801156004" linkType="CHILD"/>
-    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801156004" mergeIntrospection="false"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968695379" name="components" upperBound="-1" eType="ecore:EClass java:/com.ulcjava.base.application#ULCComponent">
+    <eAnnotations xmi:type="org.eclipse.ve.internal.cde.decorators:PropertyDescriptorDecorator" xmi:id="PropertyDescriptorDecorator_1427968695379" hidden="true"/>
+    <eAnnotations xmi:type="org.eclipse.ve.internal.jcm:BeanFeatureDecorator" xmi:id="BeanFeatureDecorator_1427968695380" linkType="CHILD"/>
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427968695380" mergeIntrospection="false"/>
   </objectsToAttach>
 </change:ChangeDescription>

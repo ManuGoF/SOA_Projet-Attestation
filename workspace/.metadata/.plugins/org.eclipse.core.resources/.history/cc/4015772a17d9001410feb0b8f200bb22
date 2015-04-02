@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webServiceConfigurationNode>
+    <id>14C74E8DCA5FF961</id>
+    <webServiceConfig>
+        <name>InsurranceWS</name>
+        <id>14C74B61A00491FE</id>
+        <description></description>
+        <wsdlUrl>http://localhost:8080/insurranceWebService/insurranceWebService?WSDL</wsdlUrl>
+        <transportSession>false</transportSession>
+        <sessionHandlingMode>0</sessionHandlingMode>
+        <wsdlGeneratedInfo>
+            <axisLocatorClassname></axisLocatorClassname>
+            <axisNamespacesNew>http\://ws.comem.ch/=ch.comem.ws</axisNamespacesNew>
+            <axisOperationsToPort>

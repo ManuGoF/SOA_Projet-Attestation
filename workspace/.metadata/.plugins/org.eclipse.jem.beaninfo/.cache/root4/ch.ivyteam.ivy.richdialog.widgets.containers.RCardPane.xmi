@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970813915">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970813915" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCardPane">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813915" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813915" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane.xmi#BeanDecorator_1427970813915"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970813916" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970813916" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane.xmi#EReference_1427970813915 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane.xmi#EReference_1427970813916 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane.xmi#EReference_1427970813917 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.containers.RCardPane.xmi#EReference_1427970813918"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970813915" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813915" name="panelComponentAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.panel#IPanelComponentAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813915" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCardPane.getPanelComponentAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813916" name="richContainerAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets#IRichContainerAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813916" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCardPane.getRichContainerAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813917" name="richComponentAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets#IRichComponentAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813917" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCardPane.getRichComponentAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970813918" name="containerContext" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.ulc.server#ULCYContainerContext" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970813918" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.widgets.containers#RCardPane.getContainerContext("/>
+  </objectsToAttach>
+</change:ChangeDescription>

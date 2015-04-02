@@ -1,0 +1,125 @@
+package projetAttestationVhc.GarageCreateClient;
+
+import ch.ivyteam.ivy.richdialog.exec.panel.IRichDialogPanel;
+import ch.ivyteam.ivy.richdialog.rdpanels.RichDialogBorderPanel;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane;
+import ch.ivyteam.ivy.richdialog.widgets.components.RTextField;
+import ch.ivyteam.ivy.richdialog.widgets.components.RProgressBar;
+import ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar;
+import ch.ivyteam.ivy.richdialog.widgets.components.RList;
+import com.ulcjava.base.application.util.Color;
+import com.ulcjava.base.application.ULCTextField;
+import com.ulcjava.base.application.util.ComponentOrientation;
+import ch.ivyteam.ivy.richdialog.widgets.components.RButton;
+import ch.ivyteam.ivy.richdialog.widgets.containers.RSplitPane;
+import ch.ivyteam.ivy.richdialog.widgets.menus.RMenu;
+import ch.ivyteam.ivy.richdialog.widgets.components.RHtmlPane;
+
+/**
+ * <p>GarageCreateClientPanel is a rich dialog panel implementation.
+ *
+ * <p>Please note that a rich dialog panel is not an instance of a Swing 
+ * container, but of an ULCContainer. As such it can not be run 
+ * or instantiated outside the ULC framework.
+ */
+@SuppressWarnings("all")
+public class GarageCreateClientPanel extends RichDialogBorderPanel 
+implements IRichDialogPanel 
+{ 
+  /** Serial version id */
+  private static final long serialVersionUID = 1L;
+private RMenuBar MenuBar = null;
+private RMenuBar Footer = null;
+private RGridLayoutPane GrilleLeft = null;
+private RGridLayoutPane GrilleCenter = null;
+private RGridLayoutPane Center = null;
+/**
+   * Create a new instance of GarageCreateClientPanel
+   */
+  public GarageCreateClientPanel()
+  {
+    super();
+    initialize();
+  }
+  
+  /**
+   * This method initializes GarageCreateClientPanel
+   * @return void
+   */
+  private void initialize()
+  {
+        this.setPreferredSize(new com.ulcjava.base.application.util.Dimension(951,515));
+        this.add(getMenuBar(), com.ulcjava.base.application.ULCBorderLayoutPane.NORTH);
+        this.add(getCenter(), com.ulcjava.base.application.ULCBorderLayoutPane.CENTER);
+        this.add(getGrilleCenter(), com.ulcjava.base.application.ULCBorderLayoutPane.WEST);
+        this.add(getGrilleLeft(), com.ulcjava.base.application.ULCBorderLayoutPane.EAST);
+        this.add(getFooter(), com.ulcjava.base.application.ULCBorderLayoutPane.SOUTH);
+  }
+
+/**
+ * This method initializes MenuBar	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar	
+ */
+private RMenuBar getMenuBar() {
+	if (MenuBar == null) {
+		MenuBar = new RMenuBar();
+		MenuBar.setName("MenuBar");
+		MenuBar.setPreferredSize(new com.ulcjava.base.application.util.Dimension(200,40));
+	}
+	return MenuBar;
+}
+
+/**
+ * This method initializes Footer	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.menus.RMenuBar	
+ */
+private RMenuBar getFooter() {
+	if (Footer == null) {
+		Footer = new RMenuBar();
+		Footer.setName("Footer");
+		Footer.setPreferredSize(new com.ulcjava.base.application.util.Dimension(200,40));
+	}
+	return Footer;
+}
+
+/**
+ * This method initializes GrilleLeft	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getGrilleLeft() {
+	if (GrilleLeft == null) {
+		GrilleLeft = new RGridLayoutPane();
+		GrilleLeft.setName("GrilleLeft");
+	}
+	return GrilleLeft;
+}
+
+/**
+ * This method initializes GrilleCenter	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getGrilleCenter() {
+	if (GrilleCenter == null) {
+		GrilleCenter = new RGridLayoutPane();
+		GrilleCenter.setName("GrilleCenter");
+	}
+	return GrilleCenter;
+}
+
+/**
+ * This method initializes Center	
+ * 	
+ * @return ch.ivyteam.ivy.richdialog.widgets.containers.RGridLayoutPane	
+ */
+private RGridLayoutPane getCenter() {
+	if (Center == null) {
+		Center = new RGridLayoutPane();
+		Center.setName("Center");
+	}
+	return Center;
+}
+}  //  @jve:decl-index=0:visual-constraint="10,10"

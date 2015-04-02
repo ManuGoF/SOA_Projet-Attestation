@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427968975862">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427968975862" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968975862" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968975862" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#BeanDecorator_1427968975862"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968975863" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968975863" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#EReference_1427968975862 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#EReference_1427968975863 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#EReference_1427968975864 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#EReference_1427968975865"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968975864" featureName="events">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968975864" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanEvent file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root6/ch.ivyteam.ivy.richdialog.exec.display.impl.CardDisplay.xmi#BeanEvent_1427968975862"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427968975862" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968975862" name="panelCount" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427968975862" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.getPanelCount("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968975863" name="panelDisplayAPI" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.display#IPanelDisplayAPI" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427968975863" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.getPanelDisplayAPI("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968975864" name="panels" eType="org.eclipse.jem.java:JavaClass java:/java.util#List" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427968975864" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.getPanels("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427968975865" name="selectedPanel" eType="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.exec.panel#IRichDialogPanel" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427968975865" implicitlySetBits="52" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.getSelectedPanel("/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanEvent" xmi:id="BeanEvent_1427968975862" name="selectionChanged">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:EventSetDecorator" xmi:id="EventSetDecorator_1427968975863" implicitlySetBits="25" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" addListenerMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.addSelectionChangedListener(com.ulcjava.base.application.event.ISelectionChangedListener" listenerType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.event#ISelectionChangedListener" removeListenerMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ivy.richdialog.exec.display.impl#CardDisplay.removeSelectionChangedListener(com.ulcjava.base.application.event.ISelectionChangedListener"/>
+  </objectsToAttach>
+</change:ChangeDescription>

@@ -1,0 +1,5 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-02 13:10:08 | 5.1.4.48243 | 1.0
+~.Annuler@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C799ADEAF74C6F
+~.Button2@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C799AE75E72FCF
+~@RD_METHODCALL[start(ch.comem.ws.CertificateTransport)]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C797D8FAA8A8AD

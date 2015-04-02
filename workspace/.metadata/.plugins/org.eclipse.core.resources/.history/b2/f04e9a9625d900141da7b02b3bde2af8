@@ -1,0 +1,5 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-02 12:45:24 | 5.1.4.48243 | 1.0
+~.Annuler@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C799ADEAF74C6F # demandeRetraitProcess.mod/Annuler
+~.Button2@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C799AE75E72FCF # demandeRetraitProcess.mod/Transmettre
+~@RD_METHODCALL[start()]--->ch.ivyteam.ivy.process.ProcessStart:14C797D8F5C61B27/14C797D8FAA8A8AD

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427801279254">
-  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427801279254" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea">
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279254" featureName="eAnnotations">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279254" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#BeanDecorator_1427801279254"/>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427970688119">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427970688119" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970688119" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970688119" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#BeanDecorator_1427970688119"/>
     </value>
-    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427801279255" featureName="eStructuralFeatures">
-      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427801279255" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#EReference_1427801279255 ecore:EReference file:/C:/Users/Cedric/Desktop/SOA_Projet-Attestation/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#EReference_1427801279256"/>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427970688120" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427970688120" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#EReference_1427970688119 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root3/ch.ivyteam.ulc.vwidget.server.ULCVTextArea.xmi#EReference_1427970688120"/>
     </value>
   </objectChanges>
-  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427801279254" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279255" name="fade" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
-    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279255" implicitlySetBits="60" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.isFade(" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.setFade(boolean"/>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427970688119" implicitDecoratorFlag="IMPLICIT_DECORATOR"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970688119" name="fade" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970688119" implicitlySetBits="60" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.isFade(" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.setFade(boolean"/>
   </objectsToAttach>
-  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427801279256" name="animationDuration" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
-    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427801279256" implicitlySetBits="56" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.setAnimationDuration(int"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427970688120" name="animationDuration" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427970688120" implicitlySetBits="56" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" writeMethod="org.eclipse.jem.java:Method java:/ch.ivyteam.ulc.vwidget.server#ULCVTextArea.setAnimationDuration(int"/>
   </objectsToAttach>
 </change:ChangeDescription>

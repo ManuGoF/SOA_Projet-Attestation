@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userConfig>
+    <user>
+        <username>John Doe</username>
+        <password>1234</password>
+        <fullName>John Doe</fullName>
+        <emailAddress>cliengme@gmail.ccom</emailAddress>
+        <role>Garagiste</role>
+        <additionalProperty>
+            <name>lastname</name>
+            <value></value>
+        </additionalProperty>
+        <additionalProperty>
+            <name>firstname</name>
+            <value></value>
+        </additionalProperty>
+        <additionalProperty>
+            <name>email</name>
+            <value></value>
+        </additionalProperty>
+        <additionalProperty>
+            <name>position</name>
+            <value></value>
+        </additionalProperty>
+        <additionalProperty>
+            <name>id</name>
+            <value></value>
+        </additionalProperty>
+    </user>
+    <user>
+        <username>Jack Blue</username>
+        <password>1234</password>
+        <fullName>Jack Blue</fullName>
+        <

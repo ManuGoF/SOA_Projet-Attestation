@@ -7,7 +7,7 @@ package projetAttestationVhc;
 public class Data extends ch.ivyteam.ivy.scripting.objects.CompositeObject
 {
   /** SerialVersionUID */
-  private static final long serialVersionUID = 6348075594500408368L;
+  private static final long serialVersionUID = 339382281700712534L;
 
   private java.lang.String car_serial_number;
 
@@ -129,13 +129,13 @@ public class Data extends ch.ivyteam.ivy.scripting.objects.CompositeObject
     car_color = _car_color;
   }
 
-  private java.lang.String car_price;
+  private java.lang.Double car_price;
 
   /**
    * Gets the field car_price.
    * @return the value of the field car_price; may be null.
    */
-  public java.lang.String getCar_price()
+  public java.lang.Double getCar_price()
   {
     return car_price;
   }
@@ -144,7 +144,7 @@ public class Data extends ch.ivyteam.ivy.scripting.objects.CompositeObject
    * Sets the field car_price.
    * @param _car_price the new value of the field car_price.
    */
-  public void setCar_price(java.lang.String _car_price)
+  public void setCar_price(java.lang.Double _car_price)
   {
     car_price = _car_price;
   }
@@ -307,6 +307,126 @@ public class Data extends ch.ivyteam.ivy.scripting.objects.CompositeObject
   public void setClient_licence_date(ch.ivyteam.ivy.scripting.objects.Date _client_licence_date)
   {
     client_licence_date = _client_licence_date;
+  }
+
+  private ch.comem.ws.ClientTransport clientInsurrance;
+
+  /**
+   * Gets the field clientInsurrance.
+   * @return the value of the field clientInsurrance; may be null.
+   */
+  public ch.comem.ws.ClientTransport getClientInsurrance()
+  {
+    return clientInsurrance;
+  }
+
+  /**
+   * Sets the field clientInsurrance.
+   * @param _clientInsurrance the new value of the field clientInsurrance.
+   */
+  public void setClientInsurrance(ch.comem.ws.ClientTransport _clientInsurrance)
+  {
+    clientInsurrance = _clientInsurrance;
+  }
+
+  private ch.comem.ws.CarTransport carInsurrance;
+
+  /**
+   * Gets the field carInsurrance.
+   * @return the value of the field carInsurrance; may be null.
+   */
+  public ch.comem.ws.CarTransport getCarInsurrance()
+  {
+    return carInsurrance;
+  }
+
+  /**
+   * Sets the field carInsurrance.
+   * @param _carInsurrance the new value of the field carInsurrance.
+   */
+  public void setCarInsurrance(ch.comem.ws.CarTransport _carInsurrance)
+  {
+    carInsurrance = _carInsurrance;
+  }
+
+  private ch.comem.ws.CertificateTransport certificateInsurrance;
+
+  /**
+   * Gets the field certificateInsurrance.
+   * @return the value of the field certificateInsurrance; may be null.
+   */
+  public ch.comem.ws.CertificateTransport getCertificateInsurrance()
+  {
+    return certificateInsurrance;
+  }
+
+  /**
+   * Sets the field certificateInsurrance.
+   * @param _certificateInsurrance the new value of the field certificateInsurrance.
+   */
+  public void setCertificateInsurrance(ch.comem.ws.CertificateTransport _certificateInsurrance)
+  {
+    certificateInsurrance = _certificateInsurrance;
+  }
+
+  private ch.comem.ws.WorkerTransport workerInsurrance;
+
+  /**
+   * Gets the field workerInsurrance.
+   * @return the value of the field workerInsurrance; may be null.
+   */
+  public ch.comem.ws.WorkerTransport getWorkerInsurrance()
+  {
+    return workerInsurrance;
+  }
+
+  /**
+   * Sets the field workerInsurrance.
+   * @param _workerInsurrance the new value of the field workerInsurrance.
+   */
+  public void setWorkerInsurrance(ch.comem.ws.WorkerTransport _workerInsurrance)
+  {
+    workerInsurrance = _workerInsurrance;
+  }
+
+  private ws.sca.comem.ws.CertificateTransport certificateSca;
+
+  /**
+   * Gets the field certificateSca.
+   * @return the value of the field certificateSca; may be null.
+   */
+  public ws.sca.comem.ws.CertificateTransport getCertificateSca()
+  {
+    return certificateSca;
+  }
+
+  /**
+   * Sets the field certificateSca.
+   * @param _certificateSca the new value of the field certificateSca.
+   */
+  public void setCertificateSca(ws.sca.comem.ws.CertificateTransport _certificateSca)
+  {
+    certificateSca = _certificateSca;
+  }
+
+  private java.lang.Boolean isDropped;
+
+  /**
+   * Gets the field isDropped.
+   * @return the value of the field isDropped; may be null.
+   */
+  public java.lang.Boolean getIsDropped()
+  {
+    return isDropped;
+  }
+
+  /**
+   * Sets the field isDropped.
+   * @param _isDropped the new value of the field isDropped.
+   */
+  public void setIsDropped(java.lang.Boolean _isDropped)
+  {
+    isDropped = _isDropped;
   }
 
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:org.eclipse.jem.java="java.xmi" xmlns:org.eclipse.ve.internal.cde.decorators="http:///org/eclipse/ve/internal/cde/decorators.ecore" xmlns:org.eclipse.ve.internal.cde.utility="http:///org/eclipse/ve/internal/cde/utility.ecore" xmi:id="ChangeDescription_1427968862300">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427968862301" key="org.eclipse.jem.java:JavaClass java:/ch.ivyteam.ivy.richdialog.widgets.displays#RCardDisplay">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427968862301" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427968862301" referenceValues="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root4/ch.ivyteam.ivy.richdialog.widgets.displays.RCardDisplay.override.xmi#ClassDescriptorDecorator_1427968862301"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.ve.internal.cde.decorators:ClassDescriptorDecorator" xmi:id="ClassDescriptorDecorator_1427968862301" treeViewClassname="ch.ivyteam.ivy.richdialog.visualeditor/ch.ivyteam.ivy.richdialog.visualeditor.gef.tree.RDisplayTreeEditPart" graphViewClassname="ch.ivyteam.ivy.richdialog.visualeditor/ch.ivyteam.ivy.richdialog.visualeditor.gef.graphical.RDisplayGraphicalEditPart:true">
+    <graphic xmi:type="org.eclipse.ve.internal.cde.utility:GIFFileGraphic" xmi:id="GIFFileGraphic_1427968862301" resourceName="platform:/plugin/ch.ivyteam.ivy.richdialog.visualeditor/icons/carddisplay_obj.gif"/>
+  </objectsToAttach>
+</change:ChangeDescription>

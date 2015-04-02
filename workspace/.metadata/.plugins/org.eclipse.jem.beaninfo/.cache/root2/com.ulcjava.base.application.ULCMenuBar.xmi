@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:ChangeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:ecore="ecore.xmi" xmlns:org.eclipse.jem.internal.beaninfo.beaninfo="http:///org/eclipse/jem/internal/beaninfo/beaninfo.ecore" xmlns:org.eclipse.jem.java="java.xmi" xmi:id="ChangeDescription_1427972156897">
+  <objectChanges xmi:type="change:EObjectToChangesMapEntry" xmi:id="EObjectToChangesMapEntry_1427972156897" key="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application#ULCMenuBar">
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427972156897" featureName="eAnnotations">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427972156897" referenceValues="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCMenuBar.xmi#BeanDecorator_1427972156897"/>
+    </value>
+    <value xmi:type="change:FeatureChange" xmi:id="FeatureChange_1427972156898" featureName="eStructuralFeatures">
+      <listChanges xmi:type="change:ListChange" xmi:id="ListChange_1427972156898" referenceValues="ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCMenuBar.xmi#EReference_1427972156897 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCMenuBar.xmi#EReference_1427972156898 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCMenuBar.xmi#EReference_1427972156899 ecore:EReference file:/C:/Users/Cedric/Desktop/workspace/.metadata/.plugins/org.eclipse.jem.beaninfo/.cache/root2/com.ulcjava.base.application.ULCMenuBar.xmi#EReference_1427972156900"/>
+    </value>
+  </objectChanges>
+  <objectsToAttach xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:BeanDecorator" xmi:id="BeanDecorator_1427972156897" implicitlySetBits="2017612633061982222" implicitDecoratorFlag="IMPLICIT_DECORATOR" mergeSuperMethods="false"/>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427972156897" name="borderPainted" eType="org.eclipse.jem.java:JavaDataType java:/#boolean" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427972156897" expert="true" implicitlySetBits="2017612633061982268" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.isBorderPainted(" writeMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.setBorderPainted(boolean"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427972156898" name="margin" eType="org.eclipse.jem.java:JavaClass java:/com.ulcjava.base.application.util#Insets" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427972156898" implicitlySetBits="2017612633061982268" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.getMargin(" writeMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.setMargin(com.ulcjava.base.application.util.Insets"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427972156899" name="menu" upperBound="-1" eType="org.eclipse.jem.java:ArrayType java:/com.ulcjava.base.application#ULCMenu[]" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:IndexedPropertyDecorator" xmi:id="IndexedPropertyDecorator_1427972156897" hidden="true" implicitlySetBits="2017612633063030832" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" indexedReadMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.getMenu(int"/>
+  </objectsToAttach>
+  <objectsToAttach xmi:type="ecore:EReference" xmi:id="EReference_1427972156900" name="menuCount" eType="org.eclipse.jem.java:JavaDataType java:/#int" unsettable="true">
+    <eAnnotations xmi:type="org.eclipse.jem.internal.beaninfo.beaninfo:PropertyDecorator" xmi:id="PropertyDecorator_1427972156899" implicitlySetBits="2017612633061982260" implicitDecoratorFlag="IMPLICIT_DECORATOR_AND_FEATURE" readMethod="org.eclipse.jem.java:Method java:/com.ulcjava.base.application#ULCMenuBar.getMenuCount("/>
+  </objectsToAttach>
+</change:ChangeDescription>

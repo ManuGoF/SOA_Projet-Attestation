@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webServiceConfigurationNode>
+    <id>14C74E8DCA5FF961</id>
+    <webServiceConfig>
+        <name>InsurranceWS</name>
+        <id>14C74B61A00491FE</id>
+        <description></description>
+        <wsdlUrl>http://localhost:8080/insurranceWebService/insurranceWebService?WSDL</wsdlUrl>
+        <transportSession>false</transportSession>
+        <sessionHandlingMode>0</sessionHandlingMode>
+        <wsdlGeneratedInfo>
+            <axisLocatorClassname></axisLocatorClassname>
+            <axisNamespacesNew>http\://ws.comem.ch/=ch.comem.ws</axisNamespacesNew>
+            <axisOperationsToPort>insurranceWebServicePort=&quot;readAllClients&quot;,&quot;createCertificate&quot;,&quot;readAllCertificates&quot;,&quot;updateCertificateStatus&quot;,&quot;readAllWorkers&quot;,&quot;createClient&quot;,&quot;readAllCars&quot;,&quot;readCertificate&quot;,&quot;updateCertificateWorker&quot;,&quot;deleteClient&quot;,&quot;createCar&quot;,&quot;readCar&quot;,&quot;deleteCar&quot;,&quot;createWorker&quot;,&quot;readWorker&quot;,&quot;readClient&quot;</axisOperationsToPort>
+            <axisEndPointForPortType>insurranceWebServicePort=http\://localhost\:8080/insurranceWebService/insurranceWebService</axisEndPointForPortType>
+            <axisParameterProperties>insurranceWebServicePortupdateCertificateStatus=&quot;arg0__@@__ch.comem.ws.UpdateCertificateStatusE__@@__&quot;
+insurranceWebServicePortreadAllWorkers=&quot;arg0__@@__ch.comem.ws.ReadAllWorkersE__@@__&quot;
+insurranceWebServicePortdeleteClient=&quot;arg0__@@__ch.comem.ws.DeleteClientE__@@__&quot;
+insurranceWebServicePortreadAllCertificates=&quot;arg0__@@__ch.comem.ws.ReadAllCertificatesE__@@__&quot;
+insurranceWebServicePortcreateClient=&quot;arg0__@@__ch.comem.ws.CreateClientE__@@__&quot;
+insurranceWebServicePortcreateWorker=&quot;arg0__@@__ch.comem.ws.CreateWorkerE__@@__&quot;
+insurranceWebServicePortreadCertificate=&quot;arg0__@@__ch.comem.ws.ReadCertificateE__@@__&quot;
+insurranceWebServicePortreadAllCars=&quot;arg0__@@__ch.comem.ws.ReadAllCarsE__@@__&quot;
+insurranceWebServicePortdeleteCar=&quot;arg0__@@__ch.comem.ws.DeleteCarE__@@__&quot;
+insurranceWebServicePorthello=&quot;arg0__@@__ch.comem.ws.HelloE__@@__&quot;
+insurranceWebServicePortcreateCar=&quot;arg0__@@__ch.comem.ws.CreateCarE__@@__&quot;
+insurranceWebServicePortcreateCertificate=&quot;arg0__@@__ch.comem.ws.CreateCertificateE__@@__&quot;
+insurranceWebServicePortupdateCertificateWorker=&quot;arg0__@@__ch.comem.ws.UpdateCertificateWorkerE__@@__&quot;
+insurranceWebServicePortreadCar=&quot;arg0__@@__ch.comem.ws.ReadCarE__@@__&quot;
+insurranceWebServicePortreadClient=&quot;arg0__@@__ch.comem.ws.ReadClientE__@@__&quot;
+insurranceWebServicePortreadAllClients=&quot;arg0__@@__ch.comem.ws.ReadAllClientsE__@@__&quot;
+insurranceWebServicePortreadWorker=&quot;arg0__@@__ch.comem.ws.ReadWorkerE__@@__&quot;

@@ -1,0 +1,5 @@
+# Ivy RichDialog Event-Mapping Data
+# 2015-04-02 13:22:20 | 5.1.4.48243 | 1.0
+~.Button1@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C79A428EA5C075/14C79D845E1A3720 # elementsNonCouvertsProcess.mod/couvert
+~.Button@ACTION[]--->ch.ivyteam.ivy.process.ProcessStart:14C79A428EA5C075/14C79D84E4D2A7FD # elementsNonCouvertsProcess.mod/non couvert
+~@RD_METHODCALL[start(ch.comem.ws.CertificateTransport)]--->ch.ivyteam.ivy.process.ProcessStart:14C79A428EA5C075/14C79A4294029BCB

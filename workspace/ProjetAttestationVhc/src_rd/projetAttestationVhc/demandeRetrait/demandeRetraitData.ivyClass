@@ -1,0 +1,5 @@
+demandeRetraitData #class
+projetAttestationVhc.demandeRetrait #namespace
+data projetAttestationVhc.Data #field
+isDropped Boolean #field
+isDropped PERSISTENT #fieldModifier
