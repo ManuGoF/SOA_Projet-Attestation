@@ -65,7 +65,7 @@ public class CertificateController {
             if (!exist.next()) {
                 ResultSet carExist = requete.executeQuery("SELECT * FROM cars WHERE serial_number='" + certificate.car.serial_number.replace("'", "''") + "'");
                 if (carExist.next()) {
-                    int carId = carExist.getInt(1);
+                    String carId = carExist.getString(1);
                     ResultSet workerExist = requete.executeQuery("SELECT * FROM workers WHERE email='" + certificate.worker.email.replace("'", "''") + "'");
                     if (workerExist.next()) {
                         int workerId = workerExist.getInt(1);

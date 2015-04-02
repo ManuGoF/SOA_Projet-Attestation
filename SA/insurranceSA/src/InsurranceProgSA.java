@@ -1,8 +1,10 @@
 
-import ch.comem.controller.CarController;
 import ch.comem.controller.CertificateController;
 import ch.comem.controller.WorkerController;
-import ch.comem.model.Response;
+import ch.comem.model.CarModel;
+import ch.comem.model.CertificateModel;
+import ch.comem.model.ClientModel;
+import ch.comem.model.WorkerModel;
 
 
 
@@ -22,11 +24,12 @@ public class InsurranceProgSA {
      */
     public static void main(String[] args) {
        
-        /*WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
+        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
+        WorkerController.createWorker(worker);
         System.out.println(worker);
         ClientModel client = new ClientModel("Liengme", "Cedric", "cliengme@gmail.com", "1988-02-22", "B", "2015-03-31");
         System.out.println(client);
-        CarModel car = new CarModel("VF7 X2R FVF 7200 5199", "Opel", "Agila", "Break", "BLACK", 89890.0, client);
+        CarModel car = new CarModel("VF7 X2R FVF 7200 1110", "Opel", "Agila", "Break", "BLACK", 89890.0, client);
         CertificateModel certificat = new CertificateModel("ASS10 5000 5006", "en attente", "2015-03-31", car, worker);
         
         System.out.println(CertificateController.createCertificate(certificat).message);
@@ -34,9 +37,9 @@ public class InsurranceProgSA {
 
         System.out.println(CertificateController.readAllCertificates().get(1).car.client.lastname);
         System.out.println(CertificateController.updateState("ASS10 5000 1001", "acceptée").message);
-        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
-        System.out.println(worker);
-        CarModel car = new CarModel("VF7 X2R FVF 7200 5199", "Opel", "Agila", "Break", "BLACK", 89890.0, 2006);*/
+//        WorkerModel worker = new WorkerModel("Liengme", "Cedric", "clie@ail.com", "garage");
+//        System.out.println(worker);
+//        CarModel car = new CarModel("VF7 X2R FVF 7200 5199", "Opel", "Agila", "Break", "BLACK", 89890.0, 2006);
         
         /*ClientModel client1 = new ClientModel("Bezencon", "emmanuel", "emmanuel.bezencon@heig-vd.ch", "1990-02-01", "B", "2008-08-21");
         Response response1 = null;

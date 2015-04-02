@@ -250,7 +250,6 @@ public class insurranceWebService {
      */
     @WebMethod(operationName = "createCertificate")
     public ResponseTransport createCertificate(@WebParam(name = "certificate") CertificateTransport certificateTransport) {
-        System.out.println("TEST WS");
         //ResponseTransport responseTEST = new ResponseTransport();
         ResponseTransport wsResponse = null;
         if (certificateTransport != null) {
