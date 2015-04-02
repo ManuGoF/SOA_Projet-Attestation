@@ -37,3 +37,7 @@ hs_err_pid*
 
 /WS/insurranceWS/build/
 /WS/scaWS/build/
+/Client/InsurranceWSClient/nbproject/private/
+/Client/InsurranceWSClient/build/
+/WS/insurranceWS/dist/
+/Client/InsurranceWSClient/dist/

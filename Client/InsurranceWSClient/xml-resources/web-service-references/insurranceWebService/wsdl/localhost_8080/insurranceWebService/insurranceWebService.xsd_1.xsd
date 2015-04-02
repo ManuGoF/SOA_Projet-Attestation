@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://ws.comem.ch/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.comem.ch/">
+
+<xs:element name="createCar" type="tns:createCar"/>
+
+<xs:element name="createCarResponse" type="tns:createCarResponse"/>
+
+<xs:element name="createCertificate" type="tns:createCertificate"/>
+
+<xs:element name="createCertificateResponse" type="tns:createCertificateResponse"/>
+
+<xs:element name="createClient" type="tns:createClient"/>
+
+<xs:element name="createClientResponse" type="tns:createClientResponse"/>
+
+<xs:element name="createWorker" type="tns:createWorker"/>
+
+<xs:element name="createWorkerResponse" type="tns:createWorkerResponse"/>
+
+<xs:element name="deleteCar" type="tns:deleteCar"/>
+
+<xs:element name="deleteCarResponse" type="tns:deleteCarResponse"/>
+
+<xs:element name="deleteClient" type="tns:deleteClient"/>
+
+<xs:element name="deleteClientResponse" type="tns:deleteClientResponse"/>
+
+<xs:element name="readAllCars" type="tns:readAllCars"/>
+
+<xs:element name="readAllCarsResponse" type="tns:readAllCarsResponse"/>
+
+<xs:element name="readAllCertificates" type="tns:readAllCertificates"/>
+
+<xs:element name="readAllCertificatesResponse" type="tns:readAllCertificatesResponse"/>
+
+<xs:element name="readAllClients" type="tns:readAllClients"/>
+
+<xs:element name="readAllClientsResponse" type="tns:readAllClientsResponse"/>
+
+<xs:element name="readAllWorkers" type="tns:readAllWorkers"/>
+
+<xs:element name="readAllWorkersResponse" type="tns:readAllWorkersResponse"/>
+
+<xs:element name="readCar" type="tns:readCar"/>
+
+<xs:element name="readCarResponse" type="tns:readCarResponse"/>
+
+<xs:element name="readCertificate" type="tns:readCertificate"/>
+
+<xs:element name="readCertificateResponse" type="tns:readCertificateResponse"/>
+
+<xs:element name="readClient" type="tns:readClient"/>
+
+<xs:element name="readClientResponse" type="tns:readClientResponse"/>
+
+<xs:element name="readWorker" type="tns:readWorker"/>
+
+<xs:element name="readWorkerResponse" type="tns:readWorkerResponse"/>
+
+<xs:element name="updateCertificateStatus" type="tns:updateCertificateStatus"/>
+
+<xs:element name="updateCertificateStatusResponse" type="tns:updateCertificateStatusResponse"/>
+
+<xs:element name="updateCertificateWorker" type="tns:updateCertificateWorker"/>
+
+<xs:element name="updateCertificateWorkerResponse" type="tns:updateCertificateWorkerResponse"/>
+
+<xs:complexType name="readAllCertificates">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="readAllCertificatesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:certificateTransport" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="certificateTransport">
+<xs:sequence>
+<xs:element name="car_transport" type="tns:carTransport" minOccurs="0"/>
+<xs:element name="creation_date" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:string" minOccurs="0"/>
+<xs:element name="state" type="xs:string" minOccurs="0"/>
+<xs:element name="worker_transport" type="tns:workerTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="carTransport">
+<xs:sequence>
+<xs:element name="brand" type="xs:string" minOccurs="0"/>
+<xs:element name="client" type="tns:clientTransport" minOccurs="0"/>
+<xs:element name="color" type="xs:string" minOccurs="0"/>
+<xs:element name="model" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:double" minOccurs="0"/>
+<xs:element name="serial_number" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="clientTransport">
+<xs:sequence>
+<xs:element name="birthday" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="firstname" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="lastname" type="xs:string" minOccurs="0"/>
+<xs:element name="licence_date" type="xs:string" minOccurs="0"/>
+<xs:element name="licence_type" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="workerTransport">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="firstname" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="lastname" type="xs:string" minOccurs="0"/>
+<xs:element name="position" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createClient">
+<xs:sequence>
+<xs:element name="client" type="tns:clientTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createClientResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="responseTransport">
+<xs:sequence>
+<xs:element name="code" type="xs:int"/>
+<xs:element name="generatedKey" type="xs:int"/>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readClient">
+<xs:sequence>
+<xs:element name="client_id" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readClientResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:clientTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCar">
+<xs:sequence>
+<xs:element name="car" type="tns:carTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCarResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCertificateStatus">
+<xs:sequence>
+<xs:element name="certificate" type="xs:string" minOccurs="0"/>
+<xs:element name="status" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCertificateStatusResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteClient">
+<xs:sequence>
+<xs:element name="client_id" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteClientResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readCar">
+<xs:sequence>
+<xs:element name="serial_number" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readCarResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readAllCars">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="readAllCarsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carTransport" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readCertificate">
+<xs:sequence>
+<xs:element name="certificate_id" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readCertificateResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:certificateTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readAllWorkers">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="readAllWorkersResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:workerTransport" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createWorker">
+<xs:sequence>
+<xs:element name="worker" type="tns:workerTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createWorkerResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readAllClients">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="readAllClientsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:clientTransport" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCertificate">
+<xs:sequence>
+<xs:element name="certificate" type="tns:certificateTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCertificateResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readWorker">
+<xs:sequence>
+<xs:element name="worker" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="readWorkerResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:workerTransport" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCertificateWorker">
+<xs:sequence>
+<xs:element name="certificate" type="xs:string" minOccurs="0"/>
+<xs:element name="worker" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCertificateWorkerResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCar">
+<xs:sequence>
+<xs:element name="serial_number" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCarResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:responseTransport" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
